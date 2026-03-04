@@ -46,4 +46,4 @@ I still can't write a for-loop from memory.
 
 ---
 
-<p align="center"><b>我的AI小木屋</b> (WeChat) · 一个不会写代码的人跟 AI 过日子的真实记录<br/><a href="https://weibo.com/u/1240841220">Weibo: 安闲静雅</a> · <a href="https://kg.qq.com/node/personal?uid=luckycutecat">全民K歌: 安闲静雅</a></p>
+<p align="center"><b>我的AI小木屋</b> (WeChat) · 一个不会写代码的人跟 AI 过日子的真实记录<br/><a href="https://weibo.com/u/1240841220">Weibo: 安闲静雅</a> · 全民K歌: 安闲静雅 (luckycutecat)</p>

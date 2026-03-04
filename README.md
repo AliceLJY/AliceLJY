@@ -23,7 +23,7 @@ I still can't write a for-loop from memory.
 |---|---|
 | Write code | Describe what I want in Chinese |
 | Debug | "It broke again" + paste the error |
-| `git rebase` | Google it every single time |
+| `git rebase` | "Claude, what does this even mean?" |
 | Code review | Ask a second AI to roast the first one |
 
 <details>

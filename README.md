@@ -1,0 +1,49 @@
+<h3 align="center">Every repo here was built by chatting with AI in plain Chinese.</h3>
+<p align="center">Medical bg → cultural sector day job → AI self-taught rebel<br/>Can't write a for-loop. 10 public repos anyway.</p>
+
+---
+
+**Jan 2026**: "Hey Claude, help me write a WeChat article."
+
+**Now**: 4 AI bots running 24/7 · 185+ articles published · a digital clone of myself · and whatever this is:
+
+```
+            ┌──────────┐  ┌────────┐  ┌──────────┐  ┌──────────┐
+            │ AntiBot  │  │  睿智  │  │ AWS-bot  │  │ 小试AI   │
+            │  Opus 4  │  │MiniMax │  │ MiniMax  │  │ clone me │
+            └──────────┘  └────────┘  └──────────┘  └──────────┘
+                    4 bots · 10 repos · 0 coding skills
+```
+
+I still can't write a for-loop from memory.
+
+### The "tech stack" of someone who can't code
+
+| What devs do | What I do |
+|---|---|
+| Write code | Describe what I want in Chinese |
+| Debug | "It broke again" + paste the error |
+| `git rebase` | Google it every single time |
+| Code review | Ask a second AI to roast the first one |
+
+<details>
+<summary><b>Projects</b> (all chatted into existence)</summary>
+
+| | |
+|---|---|
+| [content-alchemy](https://github.com/AliceLJY/content-alchemy) | 5-stage writing pipeline: idea → published article |
+| [content-publisher](https://github.com/AliceLJY/content-publisher) | Auto image gen + layout + WeChat publishing |
+| [openclaw-worker](https://github.com/AliceLJY/openclaw-worker) | Task API that lets Discord bots run Claude on my Mac |
+| [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | Built a digital clone of myself. It writes like me. Sometimes better. |
+| [local-memory](https://github.com/AliceLJY/local-memory) | Semantic search across 1000+ AI conversations |
+| [openclaw-cli-pipeline](https://github.com/AliceLJY/openclaw-cli-pipeline) | Multi-turn AI CLI orchestration |
+| [openclaw-cli-bridge](https://github.com/AliceLJY/openclaw-cli-bridge) | Three-way bridge: Claude / Codex / Gemini |
+| [openclaw-content-alchemy](https://github.com/AliceLJY/openclaw-content-alchemy) | Bot-native content pipeline |
+| [cc-shell](https://github.com/AliceLJY/cc-shell) | Lightweight Claude Code chat UI |
+| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram ↔ AI bridge |
+
+</details>
+
+---
+
+<p align="center"><b>我的AI小木屋</b> (WeChat) · 一个不会写代码的人跟 AI 过日子的真实记录<br/><a href="https://weibo.com/u/安闲静雅">Weibo</a> · 全民K歌: 安闲静雅</p>

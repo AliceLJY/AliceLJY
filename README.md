@@ -10,7 +10,7 @@
 ```
             ┌──────────┐  ┌────────┐  ┌──────────┐  ┌──────────┐
             │ AntiBot  │  │  睿智  │  │ AWS-bot  │  │ 小试AI   │
-            │  Opus 4  │  │MiniMax │  │ MiniMax  │  │ clone me │
+            │  Opus 4  │  │Gemini3│  │ MiniMax  │  │ Codex 5.2│
             └──────────┘  └────────┘  └──────────┘  └──────────┘
                     4 bots · 10 repos · 0 coding skills
 ```

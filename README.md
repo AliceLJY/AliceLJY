@@ -26,6 +26,13 @@ I still can't write a for-loop from memory.
 | `git rebase` | "Claude, what does this even mean?" |
 | Code review | Ask a second AI to roast the first one |
 
+> | 正经程序员 | 我 |
+> |---|---|
+> | 写代码 | 用中文跟 AI 扯需求 |
+> | 调试 | "又双叒叕坏了" + 甩截图 |
+> | `git rebase` | "Claude 这啥玩意儿？" |
+> | 代码审查 | 让第二个 AI 去怼第一个 |
+
 <details>
 <summary><b>Projects</b> (all chatted into existence)</summary>
 

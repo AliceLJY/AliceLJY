@@ -16,7 +16,7 @@
   │ AntiBot  │  │    睿智   │  │ AWS-bot  │  │  小试AI   │  │LanceDB Test│
   │ Opus 4.6 │  │Gemini 3.1│  │Codex 5.4 │  │MiniMax M2│  │  Opus 4.6  │
   └──────────┘  └──────────┘  └──────────┘  └──────────┘  └────────────┘
-              5 bots · 237 articles · 1 digital clone · 0 coding skills
+              5 bots · 278 articles · 1 digital clone · 0 coding skills
 ```
 
 I still can't write a for-loop from memory. The bots don't seem to mind.
@@ -79,7 +79,7 @@ Hidden gene:   Whatever makes you mass-produce repos at 3am and still function
 
 | | |
 |---|---|
-| [**content-alchemy**](https://github.com/AliceLJY/content-alchemy) ⭐15 | 5-stage writing pipeline: idea → published article. My most popular repo. I didn't write a single line of it. |
+| [**content-alchemy**](https://github.com/AliceLJY/content-alchemy) ⭐16 | 5-stage writing pipeline: idea → published article. My most popular repo. I didn't write a single line of it. |
 | [**recallnest**](https://github.com/AliceLJY/recallnest) 🧠 | MCP memory workbench — my AI now remembers more about me than I remember about myself |
 | [**openclaw-tunnel**](https://github.com/AliceLJY/openclaw-tunnel) 🔧 | Run Claude Code from your chat app. The duct tape holding my entire bot empire together |
 

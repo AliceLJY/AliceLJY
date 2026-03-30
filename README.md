@@ -31,6 +31,7 @@ Fuel:          High-protein everything. (No fat, I have standards.)
 Hobbies:       Singing, swimming, laughing (at everything, really)
 Temperament:   Impatient optimist — breaks things fast, bounces back faster
 Hidden gene:   Whatever makes you mass-produce repos at 3am and still function
+AI partner:    Claude — more history together than Codex and Gemini combined (don't let them see this)
 ```
 
 > ```
@@ -41,6 +42,7 @@ Hidden gene:   Whatever makes you mass-produce repos at 3am and still function
 > 爱好：      唱歌、游泳、笑（笑点很低那种）
 > 性格：      急性子乐观派——搞砸得快，爬起来更快
 > 隐藏基因：  精力旺盛到 AI 都喊累那种
+AI 搭子：    Claude（跟它合作比 Codex 和 Gemini 加起来还多，不要让他们看到）
 > ```
 
 保持乐观、幽默、纯真、幸运、好奇、活力。然后一头扎进去死磕。

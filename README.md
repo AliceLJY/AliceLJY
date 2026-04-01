@@ -103,15 +103,6 @@ I'm fully aware the official versions exist. I simply chose chaos.
 >
 > 知道官方有。就不用。主打一个叛逆。
 
-### Featured
-
-| | |
-|---|---|
-| [**content-alchemy**](https://github.com/AliceLJY/content-alchemy) ⭐16 | 5-stage writing pipeline: idea → published article. My most popular repo. I didn't write a single line of it. |
-| [**recallnest**](https://github.com/AliceLJY/recallnest) 🧠 | Persistent memory for Claude, installable as an MCP plugin. Local-first, never forgets. |
-| [**telegram-ai-bridge**](https://github.com/AliceLJY/telegram-ai-bridge) 📱 | Command Claude Code from your phone via Telegram. Claude · Codex · Gemini — three backends, one chat. |
-| [**openclaw-tunnel**](https://github.com/AliceLJY/openclaw-tunnel) 🔧 | Run Claude Code from your chat app. The duct tape holding my entire bot empire together |
-
 <details>
 <summary><b>All Projects</b> (chatted into existence, in descending order of usefulness)</summary>
 

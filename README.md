@@ -87,23 +87,23 @@ Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed
 
 | Official product | Mine | My defense |
 |---|---|---|
-| Codex CLI plugin | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | MCP just hits different. I will die on this hill. |
 | Claude Code remote | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | I wanted Claude on my phone, not in another browser tab. |
-| Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Because one wasn't chaotic enough. |
 | Claude built-in memory | [RecallNest](https://github.com/AliceLJY/recallnest) | It forgot my name. I took that personally. |
+| Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Because one wasn't chaotic enough. |
 | Claude can write | [content-alchemy](https://github.com/AliceLJY/content-alchemy) | One-shot articles? Amateur hour. I need a 5-stage pipeline. |
 | Claude has a personality | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | But not MY personality. Fixed. |
+| SSH + terminal | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | Why open a terminal when you can just type in Discord? |
 
 I'm fully aware the official versions exist. I simply chose chaos.
 
 > | 官方产品 | 我的版本 | 我的理由 |
 > |---|---|---|
-> | Codex CLI 插件 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | MCP 它不香吗。这个山头我死守。|
 > | Claude Code 远程 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | 我要在手机上用，不是再开个浏览器标签页。|
-> | Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。因为一个还不够乱。|
 > | Claude 自带记忆 | [RecallNest](https://github.com/AliceLJY/recallnest) | 它忘了我叫什么。我记仇的。|
+> | Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。因为一个还不够乱。|
 > | Claude 会写文章 | [content-alchemy](https://github.com/AliceLJY/content-alchemy) | 一把梭写文章？五步流水线了解一下。|
 > | Claude 有人格 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 但不是我的人格。已修复。|
+> | SSH + 终端 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | 开终端？不如 Discord 聊一句。|
 >
 > 知道官方有。就不用。主打一个叛逆。
 

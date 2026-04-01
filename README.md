@@ -32,6 +32,7 @@ Hobbies:       Singing, swimming, laughing (at everything, really)
 Temperament:   Impatient optimist — breaks things fast, bounces back faster
 Hidden gene:   Whatever makes you mass-produce repos at 3am and still function
 AI partner:    Claude — more history together than Codex and Gemini combined (don't let them see this)
+Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed out.)
 ```
 
 > ```
@@ -43,6 +44,7 @@ AI partner:    Claude — more history together than Codex and Gemini combined (
 > 性格：      急性子乐观派——搞砸得快，爬起来更快
 > 隐藏基因：  精力旺盛到 AI 都喊累那种
 AI 搭子：    Claude（跟它合作比 Codex 和 Gemini 加起来还多，不要让他们看到）
+> 终端技能：  claude → ^C^C → claude（没了。技能树点满了。）
 > ```
 
 保持乐观、幽默、纯真、幸运、好奇、活力。然后一头扎进去死磕。
@@ -51,10 +53,12 @@ AI 搭子：    Claude（跟它合作比 Codex 和 Gemini 加起来还多，不�
 
 | What devs do | What I do |
 |---|---|
+| Open terminal | Type `claude`. That's also my IDE, my shell, and my entire dev environment. |
 | Write code | Describe what I want in Chinese |
 | Debug | "It broke again" + paste the error |
 | `git rebase` | "Claude, what does this even mean?" |
 | Code review | Ask a second AI to roast the first one |
+| Ask Codex | Tell Claude "帮我喊一下 Codex" via MCP. Never met Codex. We communicate through a mutual friend. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |
 | Deploy | "It was JUST working! Did you lose your memory?!" |
@@ -65,10 +69,12 @@ AI 搭子：    Claude（跟它合作比 Codex 和 Gemini 加起来还多，不�
 
 > | 正经程序员 | 我 |
 > |---|---|
+> | 打开终端 | 输入 `claude`。这就是我的 IDE、Shell 和全部开发环境。|
 > | 写代码 | 用中文跟 AI 扯需求 |
 > | 调试 | "又双叒叕坏了" + 甩截图 |
 > | `git rebase` | "Claude 这啥玩意儿？" |
 > | 代码审查 | 让第二个 AI 去怼第一个 |
+> | 叫 Codex | 跟 Claude 说"帮我喊一下 Codex"（MCP 传话）。从未谋面。靠共同好友。|
 > | 读报错日志 | "你的逻辑呢？？？" |
 > | 版本回滚 | "你自己写的你不认识？？" |
 > | 上线部署 | "上次明明好好的！你失忆了吗！！" |
@@ -76,6 +82,30 @@ AI 搭子：    Claude（跟它合作比 Codex 和 Gemini 加起来还多，不�
 > | 赶进度 | "急什么，用旧版本的人还没跟上呢" |
 > | 写 commit message | "谢谢你陪我熬夜" |
 > | 写文档 | 哈哈哈哈哈哈哈哈哈（不写的） |
+
+### Things that already existed before I built them
+
+| Official product | Mine | My defense |
+|---|---|---|
+| Codex CLI plugin | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | MCP just hits different. I will die on this hill. |
+| Claude Code remote | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | I wanted Claude on my phone, not in another browser tab. |
+| Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Because one wasn't chaotic enough. |
+| Claude built-in memory | [RecallNest](https://github.com/AliceLJY/recallnest) | It forgot my name. I took that personally. |
+| Claude can write | [content-alchemy](https://github.com/AliceLJY/content-alchemy) | One-shot articles? Amateur hour. I need a 5-stage pipeline. |
+| Claude has a personality | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | But not MY personality. Fixed. |
+
+I'm fully aware the official versions exist. I simply chose chaos.
+
+> | 官方产品 | 我的版本 | 我的理由 |
+> |---|---|---|
+> | Codex CLI 插件 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | MCP 它不香吗。这个山头我死守。|
+> | Claude Code 远程 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | 我要在手机上用，不是再开个浏览器标签页。|
+> | Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。因为一个还不够乱。|
+> | Claude 自带记忆 | [RecallNest](https://github.com/AliceLJY/recallnest) | 它忘了我叫什么。我记仇的。|
+> | Claude 会写文章 | [content-alchemy](https://github.com/AliceLJY/content-alchemy) | 一把梭写文章？五步流水线了解一下。|
+> | Claude 有人格 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 但不是我的人格。已修复。|
+>
+> 知道官方有。就不用。主打一个叛逆。
 
 ### Featured
 

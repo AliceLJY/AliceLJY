@@ -43,7 +43,7 @@ Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed
 > 爱好：      唱歌、游泳、笑（笑点很低那种）
 > 性格：      急性子乐观派——搞砸得快，爬起来更快
 > 隐藏基因：  精力旺盛到 AI 都喊累那种
-AI 搭子：    Claude（跟它合作比 Codex 和 Gemini 加起来还多，不要让他们看到）
+> AI 搭子：    Claude（跟它合作比 Codex 和 Gemini 加起来还多，不要让他们看到）
 > 终端技能：  claude → ^C^C → claude（没了。技能树点满了。）
 > ```
 

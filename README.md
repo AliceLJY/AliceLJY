@@ -89,7 +89,7 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 
 | Official product | Mine | Why I built it anyway |
 |---|---|---|
-| Claude Code remote | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | I wanted Claude on my phone, not in another browser tab. |
+| Claude Code remote | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | CC everywhere, everytime. Subway, bed, lunch break — no excuse not to build. |
 | Claude built-in memory | [RecallNest](https://github.com/AliceLJY/recallnest) | It forgot my name. I took that personally. |
 | Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Because one wasn't chaotic enough. |
 | Claude has a personality | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | But not MY personality. Fixed. |

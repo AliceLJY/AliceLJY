@@ -47,7 +47,9 @@ Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed
 > 终端技能：  claude → ^C^C → claude（没了。技能树点满了。）
 > ```
 
-保持乐观、幽默、纯真、幸运、好奇、活力。然后一头扎进去死磕。
+Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't stop.
+
+> 保持乐观、幽默、纯真、幸运、好奇、活力。然后一头扎进去死磕。
 
 ### The "tech stack" of someone who can't code
 

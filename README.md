@@ -98,7 +98,7 @@ I'm fully aware the official versions exist. I just wanted to see what would hap
 
 > | 官方产品 | 我的版本 | 我的理由 |
 > |---|---|---|
-> | Claude Code 远程 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | 我要在手机上用，不是再开个浏览器标签页。|
+> | Claude Code 远程 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | CC everywhere everytime。地铁上、床上、午饭间隙——没有理由不在 build。|
 > | Claude 自带记忆 | [RecallNest](https://github.com/AliceLJY/recallnest) | 它忘了我叫什么。我记仇的。|
 > | Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。因为一个还不够乱。|
 > | Claude 有人格 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 但不是我的人格。已修复。|

@@ -1,5 +1,5 @@
 <h3 align="center">Every repo here was built by chatting with AI in plain Chinese.</h3>
-<p align="center">Medical bg → cultural sector day job → AI self-taught rebel<br/>Can't write a for-loop. 20+ repos anyway. No one has called the police yet.</p>
+<p align="center">Medical bg → cultural sector day job → AI self-taught outsider<br/>Can't write a for-loop. 20+ repos anyway. Claude hasn't quit on me yet.</p>
 
 ---
 
@@ -51,7 +51,7 @@ Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed
 
 ### The "tech stack" of someone who can't code
 
-| What devs do | What I do |
+| The sensible approach | What I actually did |
 |---|---|
 | Open terminal | Type `claude`. That's also my IDE, my shell, and my entire dev environment. |
 | Write code | Describe what I want in Chinese |
@@ -85,14 +85,14 @@ Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed
 
 ### Things that already existed before I built them
 
-| Official product | Mine | My defense |
+| Official product | Mine | Why I built it anyway |
 |---|---|---|
 | Claude Code remote | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | I wanted Claude on my phone, not in another browser tab. |
 | Claude built-in memory | [RecallNest](https://github.com/AliceLJY/recallnest) | It forgot my name. I took that personally. |
 | Claude Teams | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Because one wasn't chaotic enough. |
 | Claude has a personality | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | But not MY personality. Fixed. |
 
-I'm fully aware the official versions exist. I simply chose chaos.
+I'm fully aware the official versions exist. I just wanted to see what would happen.
 
 > | 官方产品 | 我的版本 | 我的理由 |
 > |---|---|---|

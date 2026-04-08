@@ -1,5 +1,5 @@
 <h3 align="center">Every repo here was chatted into existence with Claude.</h3>
-<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 16 repos anyway. All born from conversations.</p>
+<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 15 repos anyway. All born from conversations.</p>
 <p align="center"><a href="README_CN.md">🇨🇳 中文版</a></p>
 
 ---
@@ -68,7 +68,7 @@ Half of these solve problems that official products now address too. I built the
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 INTERFACE              ║
-                          ║  cc-genius · cc-shell · studio ║
+                          ║    cc-genius · studio           ║
                           ╠═══════════════════════════════╣
                           ║     🏕️ ENVIRONMENT             ║
                           ║          cc-cabin               ║
@@ -88,7 +88,7 @@ Half of these solve problems that official products now address too. I built the
                           ║     📚 KNOWLEDGE               ║
                           ║  hooks-gallery · rules-cookbook  ║
                           ╚═══════════════════════════════╝
-                            16 repos · 7 layers · 0 for-loops
+                            15 repos · 7 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
@@ -96,7 +96,6 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA client. Works from iPad. No API key needed. |
-| [cc-shell](https://github.com/AliceLJY/cc-shell) | Lightweight chat UI with rotating themes |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
 
 **🏕️ Environment** — the living space
@@ -150,6 +149,7 @@ Half of these solve problems that official products now address too. I built the
 | `openclaw-cli-pipeline` | Retired with honors |
 | `openclaw-config` | Config outgrew its own repo |
 | `openclaw-mas-guide` | The guide outlived the thing it was guiding |
+| `cc-shell` | Archived — cc-genius covers the iPad use case better. |
 | `telegram-cli-bridge` | Succeeded by **telegram-ai-bridge**. The prototype era. |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | The early days. We don't talk about the early days. |
 

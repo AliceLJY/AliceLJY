@@ -70,7 +70,7 @@
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 界面层                  ║
-                          ║  cc-genius · cc-shell · studio ║
+                          ║    cc-genius · studio           ║
                           ╠═══════════════════════════════╣
                           ║     🏕️ 环境层                   ║
                           ║          cc-cabin               ║
@@ -90,7 +90,7 @@
                           ║     📚 知识层                   ║
                           ║  hooks-gallery · rules-cookbook  ║
                           ╚═══════════════════════════════╝
-                            16 个仓库 · 7 层架构 · 0 个 for 循环
+                            15 个仓库 · 7 层架构 · 0 个 for 循环
 ```
 
 **🎨 界面层** — 点按的地方
@@ -98,7 +98,6 @@
 | | |
 |---|---|
 | [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA 客户端，iPad 可用，不需要 API key |
-| [cc-shell](https://github.com/AliceLJY/cc-shell) | 轻量聊天界面，主题自动轮换 |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
 
 **🏕️ 环境层** — 生活空间
@@ -152,6 +151,7 @@
 | `openclaw-cli-pipeline` | 光荣退役 |
 | `openclaw-config` | 配置文件比仓库本身还大了 |
 | `openclaw-mas-guide` | 指南比它指导的东西活得还久 |
+| `cc-shell` | 归档——cc-genius 更好地覆盖了 iPad 使用场景。 |
 | `telegram-cli-bridge` | 被 **telegram-ai-bridge** 接班。原型时代的产物。 |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | 早期作品。我们不谈早期。 |
 

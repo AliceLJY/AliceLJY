@@ -105,16 +105,146 @@ I'm fully aware the official versions exist. I just wanted to see what would hap
 >
 > 知道官方有。就不用。主打一个叛逆。
 
-<details>
-<summary><b>All Projects</b> (chatted into existence, in descending order of usefulness)</summary>
+### 🏰 The CC Empire
+
+Started with "hey Claude, write me an article." Ended up building an empire.
+
+> 起初只是"Claude 帮我写篇文章"。然后就一发不可收拾了。
+
+```
+                          ╔═══════════════════════════════╗
+                          ║     🎨 INTERFACE LAYER        ║
+                          ║  cc-genius · cc-shell · studio ║
+                          ╠═══════════════════════════════╣
+                          ║     🏕️ ENVIRONMENT LAYER       ║
+                          ║          cc-cabin               ║
+                          ╠═══════════════════════════════╣
+                          ║     🌉 BRIDGE LAYER            ║
+                          ║  telegram · wechat · tunnel     ║
+                          ╠═══════════════════════════════╣
+                          ║     🧠 MEMORY LAYER            ║
+                          ║        recallnest               ║
+                          ╠═══════════════════════════════╣
+                          ║     ✍️ CONTENT LAYER            ║
+                          ║  alchemy · publisher · clone    ║
+                          ╠═══════════════════════════════╣
+                          ║     🎯 ORCHESTRATION LAYER     ║
+                          ║       agent-nexus               ║
+                          ╠═══════════════════════════════╣
+                          ║     📚 KNOWLEDGE LAYER         ║
+                          ║  hooks-gallery · rules-cookbook  ║
+                          ╚═══════════════════════════════╝
+                            16 repos · 7 layers · 0 for-loops
+```
+
+**Interface** — where humans click things
 
 | | |
 |---|---|
-| [content-publisher](https://github.com/AliceLJY/content-publisher) | Auto image gen + layout + WeChat publishing. The factory floor. |
-| [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | Built a digital clone of myself. It writes like me. Sometimes better. I try not to think about it. |
-| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram ↔ AI bridge (Claude + Codex + Gemini, three backends one chat) |
-| [telegram-cli-bridge](https://github.com/AliceLJY/telegram-cli-bridge) | Telegram → local AI CLI async bridge. For when Discord isn't enough. |
-| [cc-shell](https://github.com/AliceLJY/cc-shell) | Lightweight Claude Code chat UI with rotating themes |
+| [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA client, works from iPad |
+| [cc-shell](https://github.com/AliceLJY/cc-shell) | Lightweight chat UI, rotating themes |
+| [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multi-session collaboration platform |
+
+**Environment** — the living space
+
+| | |
+|---|---|
+| [cc-cabin](https://github.com/AliceLJY/cc-cabin) | Complete workflow scaffold (hooks, rules, memory, skills) |
+
+**Bridge** — the roads between worlds
+
+| | |
+|---|---|
+| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram multi-session bridge (main) |
+| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | WeChat bridge via iLink API |
+| [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge |
+
+**Memory** — because "it forgot my name" was the origin story
+
+| | |
+|---|---|
+| [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP for all AI agents |
+
+**Content** — the article factory
+
+| | |
+|---|---|
+| [content-alchemy](https://github.com/AliceLJY/content-alchemy) | 5-stage AI writing pipeline |
+| [content-publisher](https://github.com/AliceLJY/content-publisher) | Image gen + layout + WeChat publishing |
+| [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | Build your digital clone |
+
+**Orchestration** — one command to rule them all
+
+| | |
+|---|---|
+| [agent-nexus](https://github.com/AliceLJY/agent-nexus) | Unite CC + Codex + Gemini in one command |
+
+**Knowledge** — so others don't have to bang their heads as hard
+
+| | |
+|---|---|
+| [cc-hooks-gallery](https://github.com/AliceLJY/cc-hooks-gallery) | 12 production-grade hooks covering all 6 lifecycle events |
+| [cc-rules-cookbook](https://github.com/AliceLJY/cc-rules-cookbook) | Battle-tested rules & methodology from 500+ sessions |
+
+> **界面层** — cc-genius (iPad PWA) · cc-shell (轻量聊天) · claude-code-studio (多会话协作)
+> **环境层** — cc-cabin (完整工作流脚手架)
+> **桥接层** — telegram-ai-bridge · wechat-ai-bridge · openclaw-tunnel
+> **记忆层** — recallnest (所有 AI agent 共享记忆)
+> **内容层** — content-alchemy (五阶段写作) · content-publisher (排版发布) · digital-clone-skill (数字分身)
+> **编排层** — agent-nexus (CC + Codex + Gemini 一键调度)
+> **知识层** — cc-hooks-gallery (12 个生产级 Hook) · cc-rules-cookbook (500+ 场实战规则)
+>
+> 16 个仓库，7 层架构，0 个 for 循环。
+
+<details>
+<summary><b>All Projects</b> (chatted into existence, organized by layer)</summary>
+
+**Interface**
+| | |
+|---|---|
+| [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA client, works from iPad |
+| [cc-shell](https://github.com/AliceLJY/cc-shell) | Lightweight chat UI, rotating themes |
+| [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multi-session collaboration platform |
+
+**Environment**
+| | |
+|---|---|
+| [cc-cabin](https://github.com/AliceLJY/cc-cabin) | Complete workflow scaffold (hooks, rules, memory, skills) |
+
+**Bridge**
+| | |
+|---|---|
+| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram multi-session bridge (Claude + Codex + Gemini) |
+| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | WeChat bridge via iLink API |
+| [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge |
+
+**Memory**
+| | |
+|---|---|
+| [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP for all AI agents |
+
+**Content**
+| | |
+|---|---|
+| [content-alchemy](https://github.com/AliceLJY/content-alchemy) | 5-stage AI writing pipeline |
+| [content-publisher](https://github.com/AliceLJY/content-publisher) | Image gen + layout + WeChat publishing |
+| [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | Build your digital clone |
+
+**Orchestration**
+| | |
+|---|---|
+| [agent-nexus](https://github.com/AliceLJY/agent-nexus) | Unite CC + Codex + Gemini in one command |
+
+**Knowledge**
+| | |
+|---|---|
+| [cc-hooks-gallery](https://github.com/AliceLJY/cc-hooks-gallery) | 12 production-grade hooks covering all 6 lifecycle events |
+| [cc-rules-cookbook](https://github.com/AliceLJY/cc-rules-cookbook) | Battle-tested rules & methodology from 500+ sessions |
+
+**Standalone**
+| | |
+|---|---|
+| [telegram-cli-bridge](https://github.com/AliceLJY/telegram-cli-bridge) | Telegram → local AI CLI async bridge |
 
 </details>
 
@@ -126,7 +256,9 @@ I'm fully aware the official versions exist. I just wanted to see what would hap
 | `openclaw-worker` + `openclaw-cli-bridge` | Merged into **openclaw-tunnel**. Two became one. Romantic, really. |
 | `openclaw-content-alchemy` + `content-alchemy-new` | Evolved into **content-alchemy** + **content-publisher** |
 | `openclaw-cli-pipeline` | Retired with honors |
+| `openclaw-config` | Config outgrew its own repo |
 | `openclaw-mas-guide` | The guide outlived the thing it was guiding |
+| `claude-memory-pro` | Not original — RecallNest is the real one |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | The early days. We don't talk about the early days. |
 
 </details>

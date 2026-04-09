@@ -158,4 +158,8 @@ Half of these solve problems that official products now address too. I built the
 
 ---
 
-<p align="center"><b>我的AI小木屋</b> (WeChat) · A non-coder's real journey building with Claude<br/><a href="https://weibo.com/u/1240841220">Weibo: 安闲静雅</a></p>
+<p align="center">
+  <img src="wechat-qrcode.jpg" alt="我的AI小木屋 WeChat QR Code" width="200" /><br/>
+  <b>我的AI小木屋</b> (WeChat) · A non-coder's real journey building with Claude<br/>
+  <a href="https://weibo.com/u/1240841220">Weibo: 安闲静雅</a>
+</p>

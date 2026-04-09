@@ -160,4 +160,8 @@
 
 ---
 
-<p align="center"><b>我的AI小木屋</b>（微信公众号）· 一个不会写代码的人跟 Claude 过日子的真实记录<br/><a href="https://weibo.com/u/1240841220">微博: 安闲静雅</a></p>
+<p align="center">
+  <img src="wechat-qrcode.jpg" alt="我的AI小木屋 微信公众号二维码" width="200" /><br/>
+  <b>我的AI小木屋</b>（微信公众号）· 一个不会写代码的人跟 Claude 过日子的真实记录<br/>
+  <a href="https://weibo.com/u/1240841220">微博: 安闲静雅</a>
+</p>

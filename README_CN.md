@@ -1,5 +1,5 @@
 <h3 align="center">这里每一个仓库，都是跟 Claude 聊出来的。</h3>
-<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。但仓库比很多程序员还多。全部诞生于对话。</p>
+<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。20 个仓库全部诞生于中文对话。</p>
 <p align="center"><a href="README.md">🇬🇧 English</a></p>
 
 ---
@@ -79,7 +79,7 @@
                           ║  telegram · wechat · tunnel     ║
                           ╠═══════════════════════════════╣
                           ║     🧠 记忆层                   ║
-                          ║        recallnest               ║
+                          ║   recallnest · babel-memory      ║
                           ╠═══════════════════════════════╣
                           ║     ✍️ 内容层                    ║
                           ║  alchemy · publisher · clone    ║
@@ -90,7 +90,7 @@
                           ║     📚 知识层                   ║
                           ║  hooks-gallery · rules-cookbook  ║
                           ╚═══════════════════════════════╝
-                            15 个仓库 · 7 层架构 · 0 个 for 循环
+                            20 个仓库 · 7 层架构 · 0 个 for 循环
 ```
 
 **🎨 界面层** — 点按的地方
@@ -119,6 +119,7 @@
 | | |
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Gemini——现在谁都不会忘了。 |
+| [babel-memory](https://github.com/AliceLJY/babel-memory) | 27+ 语言 BM25 预处理。RecallNest + UltraMemory 都在用。 |
 
 **✍️ 内容层** — 文章工厂
 

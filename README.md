@@ -1,5 +1,5 @@
 <h3 align="center">Every repo here was chatted into existence with Claude.</h3>
-<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 15 repos anyway. All born from conversations.</p>
+<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 20 repos anyway. All born from conversations in Chinese.</p>
 <p align="center"><a href="README_CN.md">🇨🇳 中文版</a></p>
 
 ---
@@ -77,7 +77,7 @@ Half of these solve problems that official products now address too. I built the
                           ║  telegram · wechat · tunnel     ║
                           ╠═══════════════════════════════╣
                           ║     🧠 MEMORY                  ║
-                          ║        recallnest               ║
+                          ║   recallnest · babel-memory      ║
                           ╠═══════════════════════════════╣
                           ║     ✍️ CONTENT                  ║
                           ║  alchemy · publisher · clone    ║
@@ -88,7 +88,7 @@ Half of these solve problems that official products now address too. I built the
                           ║     📚 KNOWLEDGE               ║
                           ║  hooks-gallery · rules-cookbook  ║
                           ╚═══════════════════════════════╝
-                            15 repos · 7 layers · 0 for-loops
+                            20 repos · 7 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
@@ -117,6 +117,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP. Claude, Codex, Gemini — everyone remembers now. |
+| [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 27+ languages, zero deps. Used by RecallNest + UltraMemory. |
 
 **✍️ Content** — the article factory
 

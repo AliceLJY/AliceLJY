@@ -70,8 +70,9 @@ Half of these solve problems that official products now address too. I built the
                           ║     🎨 INTERFACE              ║
                           ║    cc-genius · studio           ║
                           ╠═══════════════════════════════╣
-                          ║     🏕️ ENVIRONMENT             ║
-                          ║          cc-cabin               ║
+                          ║     🏰 ENVIRONMENT             ║
+                          ║        cc-empire                ║
+                          ║  hooks · rules · methodology    ║
                           ╠═══════════════════════════════╣
                           ║     🌉 BRIDGE                  ║
                           ║  telegram · wechat · tunnel     ║
@@ -83,12 +84,9 @@ Half of these solve problems that official products now address too. I built the
                           ║  alchemy · publisher · clone    ║
                           ╠═══════════════════════════════╣
                           ║     🎯 ORCHESTRATION           ║
-                          ║       agent-nexus               ║
-                          ╠═══════════════════════════════╣
-                          ║     📚 KNOWLEDGE               ║
-                          ║  hooks-gallery · rules-cookbook  ║
+                          ║   workflow-orchestrator          ║
                           ╚═══════════════════════════════╝
-                            20 repos · 7 layers · 0 for-loops
+                            13 repos · 6 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
@@ -98,11 +96,11 @@ Half of these solve problems that official products now address too. I built the
 | [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA client. Works from iPad. No API key needed. |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
 
-**🏕️ Environment** — the living space
+**🏰 Environment** — the command center
 
 | | |
 |---|---|
-| [cc-cabin](https://github.com/AliceLJY/cc-cabin) | Complete workflow scaffold — hooks, rules, memory, skills, everything |
+| [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks, rules, methodology, frameworks — the connective tissue of the whole ecosystem |
 
 **🌉 Bridge** — Claude in your pocket
 
@@ -127,18 +125,11 @@ Half of these solve problems that official products now address too. I built the
 | [content-publisher](https://github.com/AliceLJY/content-publisher) | Image gen + layout + WeChat publishing |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | My personality, replicated. Sometimes it writes better than me. |
 
-**🎯 Orchestration** — one command to unite them all
+**🎯 Orchestration** — speak naturally, pipeline flows automatically
 
 | | |
 |---|---|
-| [agent-nexus](https://github.com/AliceLJY/agent-nexus) | Claude + Codex + Gemini, shared memory, one command setup |
-
-**📚 Knowledge** — so others don't have to bang their heads as hard
-
-| | |
-|---|---|
-| [cc-hooks-gallery](https://github.com/AliceLJY/cc-hooks-gallery) | 12 production-grade hooks covering all 6 lifecycle events |
-| [cc-rules-cookbook](https://github.com/AliceLJY/cc-rules-cookbook) | Battle-tested rules & methodology from 500+ sessions |
+| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
 
 <details>
 <summary>🪦 <b>Archive</b> (repos that gave their lives so others could merge)</summary>
@@ -152,6 +143,8 @@ Half of these solve problems that official products now address too. I built the
 | `openclaw-mas-guide` | The guide outlived the thing it was guiding |
 | `cc-shell` | Archived — cc-genius covers the iPad use case better. |
 | `telegram-cli-bridge` | Succeeded by **telegram-ai-bridge**. The prototype era. |
+| `agent-nexus` | Absorbed into **cc-empire**. The quick-start became the empire. |
+| `cc-rules-cookbook` + `cc-hooks-gallery` | Merged into **cc-empire**. Rules + hooks now live under one roof. |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | The early days. We don't talk about the early days. |
 
 </details>

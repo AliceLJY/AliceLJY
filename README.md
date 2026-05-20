@@ -1,5 +1,5 @@
 <h3 align="center">Every repo here was chatted into existence with Claude.</h3>
-<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 30+ repos anyway. All born from conversations in Chinese.</p>
+<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 40+ repos anyway. All born from conversations in Chinese.</p>
 <p align="center"><a href="README_CN.md">🇨🇳 中文版</a></p>
 
 ---
@@ -12,18 +12,26 @@
 
 **Mar 2026**: Typed `claude` in terminal. Claude Code era begins. No turning back.
 
-**Apr 2026**: Codex shows up. Now there are two of them. They review each other's code while I watch.
-
-**May 2026**: An "E-twin" — a digital me on Telegram that talks like me. Eerie but useful.
-
-**Now**:
+**Apr 2026**: Codex shows up. Now there are two of them. They review each other's code while I watch. By month-end the roster peaked at five:
 
 ```
   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────────────┐
   │ AntiBot  │  │    睿智   │  │ AWS-bot  │  │  小试AI   │  │LanceDB Test│
   │ Opus 4.7 │  │Gemini 3.1│  │Codex 5.5 │  │MiniMax M2│  │  Opus 4.7  │
   └──────────┘  └──────────┘  └──────────┘  └──────────┘  └────────────┘
-              5 bots · 1 E-twin · 30+ repos · 0 coding skills
+                       Peak roster — Apr 2026
+```
+
+**May 2026**: An "E-twin" — a digital me on Telegram that talks like me. Eerie but useful. Also: Hermes consolidation. 睿智 and 小试AI merged into Anti. Five bots collapse into three. Same throughput, half the moving parts. (小试AI stays on as a pen name — it'll outlive us all anyway.)
+
+**Now**:
+
+```
+            ┌──────────┐  ┌──────────┐  ┌────────────┐
+            │   Anti   │  │ AWS-bot  │  │LanceDB Test│
+            │ gpt-5.5  │  │ gpt-5.5  │  │  fixture   │
+            └──────────┘  └──────────┘  └────────────┘
+              3 bots · 1 E-twin · 40+ repos · 0 for-loops
 ```
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
@@ -72,35 +80,41 @@ Half of these solve problems that official products now address too. I built the
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 INTERFACE              ║
-                          ║  cc-genius · studio · remote    ║
+                          ║     studio · remote-term        ║
                           ╠═══════════════════════════════╣
                           ║     🏰 ENVIRONMENT             ║
-                          ║        cc-empire                ║
+                          ║    cc-empire · repo-insight     ║
                           ║  hooks · rules · methodology    ║
                           ╠═══════════════════════════════╣
                           ║     🌉 BRIDGE                  ║
                           ║  telegram · wechat · tunnel     ║
+                          ║       iphone-sensor             ║
                           ╠═══════════════════════════════╣
                           ║     🧠 MEMORY                  ║
-                          ║   recallnest · babel-memory      ║
+                          ║   recallnest · babel-memory     ║
                           ╠═══════════════════════════════╣
                           ║     ✍️ CONTENT                  ║
-                          ║  alchemy · publisher · clone    ║
+                          ║    publisher · digital-clone    ║
                           ╠═══════════════════════════════╣
                           ║     🪞 MIRROR                  ║
                           ║          etwin-bot              ║
                           ╠═══════════════════════════════╣
                           ║     🎯 ORCHESTRATION           ║
-                          ║  workflow-orch · relay-cli      ║
+                          ║  workflow · relay · agent-room  ║
+                          ╠═══════════════════════════════╣
+                          ║     🔧 TOOLS                   ║
+                          ║          slidesmith             ║
+                          ╠═══════════════════════════════╣
+                          ║     🎭 WHIMSY                  ║
+                          ║           copium                ║
                           ╚═══════════════════════════════╝
-                          30+ repos · 7 layers · 0 for-loops
+                          40+ repos · 9 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
 
 | | |
 |---|---|
-| [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA client. Works from iPad. No API key needed. |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
 | [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | Web-based remote terminal for the CLI. xterm.js + node-pty. iPad-friendly. |
 
@@ -109,6 +123,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks, rules, methodology, frameworks — the connective tissue of the whole ecosystem |
+| [repo-insight](https://github.com/AliceLJY/repo-insight) | Skill for deep architectural analysis of open-source projects. Why > What philosophy. |
 
 **🌉 Bridge** — Claude in your pocket
 
@@ -117,6 +132,7 @@ Half of these solve problems that official products now address too. I built the
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | CC on Telegram. Subway, bed, lunch break — no excuse not to build. |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | CC on WeChat via iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge for Docker containers |
+| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | iPhone browser → Mac inbox. PoC, lives on the mini. |
 
 **🧠 Memory** — it forgot my name. I took that personally.
 
@@ -129,7 +145,6 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| [content-alchemy](https://github.com/AliceLJY/content-alchemy) | 5-stage writing pipeline. Topic → source → analysis → cross-ref → polished article. |
 | [content-publisher](https://github.com/AliceLJY/content-publisher) | Image gen + layout + WeChat publishing |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | My personality, replicated. Sometimes it writes better than me. |
 
@@ -145,21 +160,35 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
 | [relay-cli](https://github.com/AliceLJY/relay-cli) | duo — Claude ↔ Codex relay. Both can talk, both can be braked. The 三角制衡 layer. |
+| [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Local CLI room. Humans, Claude Code, Codex — mention-based routing. |
+
+**🔧 Tools** — single-purpose, sharp
+
+| | |
+|---|---|
+| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → editable PowerPoint. Local-first, no upload, no limits. |
+
+**🎭 Whimsy** — built because I wanted to
+
+| | |
+|---|---|
+| [copium](https://github.com/AliceLJY/copium) | COPIUM Anxiety ER — a cyberpunk emergency room for anxiety. Walk in panicked, walk out laughing. |
 
 <details>
 <summary>🪦 <b>Archive</b> (repos that gave their lives so others could merge)</summary>
 
 | Repo | Cause of death |
 |---|---|
+| `cc-genius` | Succeeded by **cc-remote-term**. The Web client era closed. |
+| `content-alchemy` | Migrated into skill form (`~/.claude/skills/content-alchemy/`). Repo retired with honors. |
 | `openclaw-worker` + `openclaw-cli-bridge` | Merged into **openclaw-tunnel**. Two became one. Romantic, really. |
 | `openclaw-content-alchemy` + `content-alchemy-new` | Evolved into **content-alchemy** + **content-publisher** |
-| `openclaw-cli-pipeline` | Retired with honors |
-| `openclaw-config` | Config outgrew its own repo |
-| `openclaw-mas-guide` | The guide outlived the thing it was guiding |
-| `cc-shell` | Archived — cc-genius covers the iPad use case better. |
+| `openclaw-cli-pipeline` · `openclaw-mas-guide` | Retired with honors |
+| `cc-shell` | Archived — cc-genius covered the iPad use case better. Then cc-genius itself bowed out. Layered exits. |
 | `telegram-cli-bridge` | Succeeded by **telegram-ai-bridge**. The prototype era. |
 | `agent-nexus` | Absorbed into **cc-empire**. The quick-start became the empire. |
 | `cc-rules-cookbook` + `cc-hooks-gallery` | Merged into **cc-empire**. Rules + hooks now live under one roof. |
+| `a2a-js` · `wechat-decrypt` | One-time forks/mirrors — did the job, stepped off stage. |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | The early days. We don't talk about the early days. |
 
 </details>

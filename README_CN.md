@@ -1,5 +1,5 @@
 <h3 align="center">这里每一个仓库，都是跟 Claude 聊出来的。</h3>
-<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。30+ 个仓库全部诞生于中文对话。</p>
+<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。40+ 个仓库全部诞生于中文对话。</p>
 <p align="center"><a href="README.md">🇬🇧 English</a></p>
 
 ---
@@ -12,18 +12,26 @@
 
 **2026年3月**：在终端输了 `claude`。Claude Code 时代开始。回不去了。
 
-**2026年4月**：Codex 入场。现在有两个了。它俩互相 review 代码，我在旁边围观。
-
-**2026年5月**：搞了个「E-twin」——Telegram 上一个数字版的我，说话像我。有点诡异但很好用。
-
-**现在**：
+**2026年4月**：Codex 入场。现在有两个了。它俩互相 review 代码，我在旁边围观。月底阵容达到巅峰，5 个 Bot 同时在跑：
 
 ```
   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────────────┐
   │ AntiBot  │  │    睿智   │  │ AWS-bot  │  │  小试AI   │  │LanceDB Test│
   │ Opus 4.7 │  │Gemini 3.1│  │Codex 5.5 │  │MiniMax M2│  │  Opus 4.7  │
   └──────────┘  └──────────┘  └──────────┘  └──────────┘  └────────────┘
-              5 个 Bot · 1 个 E-twin · 30+ 仓库 · 0 行手写代码
+                      巅峰阵容 — 2026年4月
+```
+
+**2026年5月**：搞了个「E-twin」——Telegram 上一个数字版的我，说话像我。有点诡异但很好用。同月还干了一件事：Hermes 大整合，睿智和小试AI 合并进 Anti。5 个 Bot 收成 3 个，吞吐没掉，零件少了一半。（小试AI 留着当公众号笔名，反正它能活到最后。）
+
+**现在**：
+
+```
+            ┌──────────┐  ┌──────────┐  ┌────────────┐
+            │   Anti   │  │ AWS-bot  │  │LanceDB Test│
+            │ gpt-5.5  │  │ gpt-5.5  │  │  测试夹具  │
+            └──────────┘  └──────────┘  └────────────┘
+              3 个 Bot · 1 个 E-twin · 40+ 仓库 · 0 个 for 循环
 ```
 
 至今不会手写 for 循环。Claude 表示无所谓。
@@ -74,35 +82,41 @@
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 界面层                  ║
-                          ║  cc-genius · studio · remote    ║
+                          ║    studio · remote-term         ║
                           ╠═══════════════════════════════╣
                           ║     🏰 环境层                   ║
-                          ║        cc-empire                ║
+                          ║    cc-empire · repo-insight     ║
                           ║  hooks · rules · methodology    ║
                           ╠═══════════════════════════════╣
                           ║     🌉 桥接层                   ║
                           ║  telegram · wechat · tunnel     ║
+                          ║       iphone-sensor             ║
                           ╠═══════════════════════════════╣
                           ║     🧠 记忆层                   ║
-                          ║   recallnest · babel-memory      ║
+                          ║   recallnest · babel-memory     ║
                           ╠═══════════════════════════════╣
                           ║     ✍️ 内容层                    ║
-                          ║  alchemy · publisher · clone    ║
+                          ║    publisher · digital-clone    ║
                           ╠═══════════════════════════════╣
                           ║     🪞 镜像层                   ║
                           ║          etwin-bot              ║
                           ╠═══════════════════════════════╣
                           ║     🎯 编排层                   ║
-                          ║  workflow-orch · relay-cli      ║
+                          ║  workflow · relay · agent-room  ║
+                          ╠═══════════════════════════════╣
+                          ║     🔧 工具层                   ║
+                          ║          slidesmith             ║
+                          ╠═══════════════════════════════╣
+                          ║     🎭 玩票层                   ║
+                          ║           copium                ║
                           ╚═══════════════════════════════╝
-                          30+ 个仓库 · 7 层架构 · 0 个 for 循环
+                          40+ 个仓库 · 9 层架构 · 0 个 for 循环
 ```
 
 **🎨 界面层** — 点按的地方
 
 | | |
 |---|---|
-| [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA 客户端，iPad 可用，不需要 API key |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
 | [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | CLI 的 Web 远程终端。xterm.js + node-pty。iPad 友好。 |
 
@@ -111,6 +125,7 @@
 | | |
 |---|---|
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks、rules、方法论、框架——整个生态的连接组织 |
+| [repo-insight](https://github.com/AliceLJY/repo-insight) | 开源项目深度架构分析 skill，Why > What 哲学 |
 
 **🌉 桥接层** — 把 Claude 装进口袋
 
@@ -119,6 +134,7 @@
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 CC。地铁上、床上、午饭间隙——没有理由不在 build。 |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 CC，iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | Docker 容器的 HTTP 任务队列桥 |
+| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | iPhone 浏览器 → Mac inbox 传图。PoC，跑在 mini 上。 |
 
 **🧠 记忆层** — 它忘了我叫什么。我记仇的。
 
@@ -146,6 +162,19 @@
 |---|---|
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 自然语言流水线：构思 → 多角色审查 → 执行 → 上线。不需要记命令。 |
 | [relay-cli](https://github.com/AliceLJY/relay-cli) | duo —— Claude ↔ Codex 互通 relay。都能说话，都能被人类急刹车。三角制衡那层。 |
+| [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 本地 CLI 聊天室。人类、Claude Code、Codex —— @ 谁谁就回。 |
+
+**🔧 工具层** — 单一目的，刀刀见血
+
+| | |
+|---|---|
+| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑 PowerPoint。本地优先，零上传，没有限制。 |
+
+**🎭 玩票层** — 纯粹因为想做
+
+| | |
+|---|---|
+| [copium](https://github.com/AliceLJY/copium) | COPIUM 焦虑急诊室——披着赛博朋克皮的焦虑释放 App。慌张进，大笑出。 |
 
 <details>
 <summary>🪦 <b>归档</b>（为了后人牺牲的仓库）</summary>
@@ -155,8 +184,8 @@
 | `openclaw-worker` + `openclaw-cli-bridge` | 合并进了 **openclaw-tunnel**。二合一，挺浪漫的。 |
 | `openclaw-content-alchemy` + `content-alchemy-new` | 进化成了 **content-alchemy** + **content-publisher** |
 | `openclaw-cli-pipeline` · `openclaw-mas-guide` | 光荣退役 |
-| `cc-shell` | cc-genius 更好覆盖 iPad 使用场景 |
-| `cc-genius` | 被 cc-remote-term 接班。Web 客户端时代结束。 |
+| `cc-genius` | 被 **cc-remote-term** 接班。Web 客户端时代结束。 |
+| `cc-shell` | cc-genius 更好覆盖 iPad 场景。后来 cc-genius 自己也鞠躬退场。层层告别。 |
 | `cc-hooks-gallery` + `cc-rules-cookbook` | 合并进了 **cc-empire**。规则和 hooks 现在同住一个屋檐下。 |
 | `agent-nexus` | 被 **cc-empire** 吸收。快速启动器变成了帝国本体。 |
 | `content-alchemy` | 已迁成 skill 形式（`~/.claude/skills/content-alchemy/`），独立仓退役。 |

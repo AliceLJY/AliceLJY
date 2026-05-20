@@ -1,5 +1,5 @@
 <h3 align="center">这里每一个仓库，都是跟 Claude 聊出来的。</h3>
-<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。20 个仓库全部诞生于中文对话。</p>
+<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。30+ 个仓库全部诞生于中文对话。</p>
 <p align="center"><a href="README.md">🇬🇧 English</a></p>
 
 ---
@@ -12,14 +12,18 @@
 
 **2026年3月**：在终端输了 `claude`。Claude Code 时代开始。回不去了。
 
+**2026年4月**：Codex 入场。现在有两个了。它俩互相 review 代码，我在旁边围观。
+
+**2026年5月**：搞了个「E-twin」——Telegram 上一个数字版的我，说话像我。有点诡异但很好用。
+
 **现在**：
 
 ```
   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────────────┐
   │ AntiBot  │  │    睿智   │  │ AWS-bot  │  │  小试AI   │  │LanceDB Test│
-  │ Opus 4.6 │  │Gemini 3.1│  │Codex 5.4 │  │MiniMax M2│  │  Opus 4.6  │
+  │ Opus 4.7 │  │Gemini 3.1│  │Codex 5.5 │  │MiniMax M2│  │  Opus 4.7  │
   └──────────┘  └──────────┘  └──────────┘  └──────────┘  └────────────┘
-              5 个 Bot · 278 篇文章 · 1 个数字分身 · 0 行手写代码
+              5 个 Bot · 1 个 E-twin · 30+ 仓库 · 0 行手写代码
 ```
 
 至今不会手写 for 循环。Claude 表示无所谓。
@@ -50,7 +54,7 @@
 | `git rebase` | 「Claude 这啥玩意儿？」 |
 | 代码审查 | 开第二个 Claude 去怼第一个 |
 | 需要图片 | 叫 Gemini。Gemini 基本只干这个。 |
-| 需要第二意见 | 跟 Claude 说「帮我喊一下 Codex」。不常发生。 |
+| 需要第二意见 | 「帮我 duo 一下 Codex」——Claude 通过 relay-cli 喊出 Codex。现在是常态，不再罕见。 |
 | 读报错日志 | 「你的逻辑呢？？？」 |
 | 版本回滚 | 「你自己写的你不认识？？」 |
 | 上线部署 | 「上次明明好好的！你失忆了吗！！」 |
@@ -70,10 +74,11 @@
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 界面层                  ║
-                          ║    cc-genius · studio           ║
+                          ║  cc-genius · studio · remote    ║
                           ╠═══════════════════════════════╣
-                          ║     🏕️ 环境层                   ║
-                          ║          cc-cabin               ║
+                          ║     🏰 环境层                   ║
+                          ║        cc-empire                ║
+                          ║  hooks · rules · methodology    ║
                           ╠═══════════════════════════════╣
                           ║     🌉 桥接层                   ║
                           ║  telegram · wechat · tunnel     ║
@@ -84,13 +89,13 @@
                           ║     ✍️ 内容层                    ║
                           ║  alchemy · publisher · clone    ║
                           ╠═══════════════════════════════╣
-                          ║     🎯 编排层                   ║
-                          ║       agent-nexus               ║
+                          ║     🪞 镜像层                   ║
+                          ║          etwin-bot              ║
                           ╠═══════════════════════════════╣
-                          ║     📚 知识层                   ║
-                          ║  hooks-gallery · rules-cookbook  ║
+                          ║     🎯 编排层                   ║
+                          ║  workflow-orch · relay-cli      ║
                           ╚═══════════════════════════════╝
-                            20 个仓库 · 7 层架构 · 0 个 for 循环
+                          30+ 个仓库 · 7 层架构 · 0 个 for 循环
 ```
 
 **🎨 界面层** — 点按的地方
@@ -99,12 +104,13 @@
 |---|---|
 | [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA 客户端，iPad 可用，不需要 API key |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
+| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | CLI 的 Web 远程终端。xterm.js + node-pty。iPad 友好。 |
 
-**🏕️ 环境层** — 生活空间
+**🏰 环境层** — 指挥中心
 
 | | |
 |---|---|
-| [cc-cabin](https://github.com/AliceLJY/cc-cabin) | 完整工作流脚手架——hooks、rules、memory、skills 全套 |
+| [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks、rules、方法论、框架——整个生态的连接组织 |
 
 **🌉 桥接层** — 把 Claude 装进口袋
 
@@ -125,22 +131,21 @@
 
 | | |
 |---|---|
-| [content-alchemy](https://github.com/AliceLJY/content-alchemy) | 五阶段写作流水线：选题→素材→分析→交叉验证→成稿 |
 | [content-publisher](https://github.com/AliceLJY/content-publisher) | 图片生成 + 排版 + 微信公众号发布 |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 我的人格，复制了一份。有时候写得比我还好。尽量不去想。 |
 
-**🎯 编排层** — 一个命令调度所有
+**🪞 镜像层** — Telegram 上的我
 
 | | |
 |---|---|
-| [agent-nexus](https://github.com/AliceLJY/agent-nexus) | Claude + Codex + Gemini，共享记忆，一键部署 |
+| [etwin-bot](https://github.com/AliceLJY/etwin-bot) | E-Twin。Telegram 上一个数字版的我，说话像我。偶尔抓到我会漏掉的事。PoC，跑在 Mac mini 上。 |
 
-**📚 知识层** — 让别人少撞点墙
+**🎯 编排层** — 说人话，流水线自己跑
 
 | | |
 |---|---|
-| [cc-hooks-gallery](https://github.com/AliceLJY/cc-hooks-gallery) | 12 个生产级 Hook，覆盖全部 6 种生命周期事件 |
-| [cc-rules-cookbook](https://github.com/AliceLJY/cc-rules-cookbook) | 500+ 场实战沉淀的规则和方法论 |
+| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 自然语言流水线：构思 → 多角色审查 → 执行 → 上线。不需要记命令。 |
+| [relay-cli](https://github.com/AliceLJY/relay-cli) | duo —— Claude ↔ Codex 互通 relay。都能说话，都能被人类急刹车。三角制衡那层。 |
 
 <details>
 <summary>🪦 <b>归档</b>（为了后人牺牲的仓库）</summary>
@@ -149,11 +154,14 @@
 |---|---|
 | `openclaw-worker` + `openclaw-cli-bridge` | 合并进了 **openclaw-tunnel**。二合一，挺浪漫的。 |
 | `openclaw-content-alchemy` + `content-alchemy-new` | 进化成了 **content-alchemy** + **content-publisher** |
-| `openclaw-cli-pipeline` | 光荣退役 |
-| `openclaw-config` | 配置文件比仓库本身还大了 |
-| `openclaw-mas-guide` | 指南比它指导的东西活得还久 |
-| `cc-shell` | 归档——cc-genius 更好地覆盖了 iPad 使用场景。 |
+| `openclaw-cli-pipeline` · `openclaw-mas-guide` | 光荣退役 |
+| `cc-shell` | cc-genius 更好覆盖 iPad 使用场景 |
+| `cc-genius` | 被 cc-remote-term 接班。Web 客户端时代结束。 |
+| `cc-hooks-gallery` + `cc-rules-cookbook` | 合并进了 **cc-empire**。规则和 hooks 现在同住一个屋檐下。 |
+| `agent-nexus` | 被 **cc-empire** 吸收。快速启动器变成了帝国本体。 |
+| `content-alchemy` | 已迁成 skill 形式（`~/.claude/skills/content-alchemy/`），独立仓退役。 |
 | `telegram-cli-bridge` | 被 **telegram-ai-bridge** 接班。原型时代的产物。 |
+| `a2a-js` · `wechat-decrypt` | 一次性 fork/镜像，活完任务退场。 |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | 早期作品。我们不谈早期。 |
 
 </details>

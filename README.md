@@ -1,5 +1,5 @@
 <h3 align="center">Every repo here was chatted into existence with Claude.</h3>
-<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 20 repos anyway. All born from conversations in Chinese.</p>
+<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 30+ repos anyway. All born from conversations in Chinese.</p>
 <p align="center"><a href="README_CN.md">🇨🇳 中文版</a></p>
 
 ---
@@ -12,14 +12,18 @@
 
 **Mar 2026**: Typed `claude` in terminal. Claude Code era begins. No turning back.
 
+**Apr 2026**: Codex shows up. Now there are two of them. They review each other's code while I watch.
+
+**May 2026**: An "E-twin" — a digital me on Telegram that talks like me. Eerie but useful.
+
 **Now**:
 
 ```
   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────────────┐
   │ AntiBot  │  │    睿智   │  │ AWS-bot  │  │  小试AI   │  │LanceDB Test│
-  │ Opus 4.6 │  │Gemini 3.1│  │Codex 5.4 │  │MiniMax M2│  │  Opus 4.6  │
+  │ Opus 4.7 │  │Gemini 3.1│  │Codex 5.5 │  │MiniMax M2│  │  Opus 4.7  │
   └──────────┘  └──────────┘  └──────────┘  └──────────┘  └────────────┘
-              5 bots · 278 articles · 1 digital clone · 0 coding skills
+              5 bots · 1 E-twin · 30+ repos · 0 coding skills
 ```
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
@@ -50,7 +54,7 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | `git rebase` | "Claude, what does this even mean?" |
 | Code review | Ask a second Claude to roast the first one |
 | Need an image | Ask Gemini. That's about all Gemini does around here. |
-| Need a second opinion | Tell Claude "帮我喊一下 Codex" via MCP. Happens rarely. |
+| Need a second opinion | "帮我 duo 一下 Codex" — Claude spawns Codex via relay-cli. Now standard, not rare. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |
 | Deploy | "It was JUST working! Did you lose your memory?!" |
@@ -68,7 +72,7 @@ Half of these solve problems that official products now address too. I built the
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 INTERFACE              ║
-                          ║    cc-genius · studio           ║
+                          ║  cc-genius · studio · remote    ║
                           ╠═══════════════════════════════╣
                           ║     🏰 ENVIRONMENT             ║
                           ║        cc-empire                ║
@@ -83,10 +87,13 @@ Half of these solve problems that official products now address too. I built the
                           ║     ✍️ CONTENT                  ║
                           ║  alchemy · publisher · clone    ║
                           ╠═══════════════════════════════╣
+                          ║     🪞 MIRROR                  ║
+                          ║          etwin-bot              ║
+                          ╠═══════════════════════════════╣
                           ║     🎯 ORCHESTRATION           ║
-                          ║   workflow-orchestrator          ║
+                          ║  workflow-orch · relay-cli      ║
                           ╚═══════════════════════════════╝
-                            13 repos · 6 layers · 0 for-loops
+                          30+ repos · 7 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
@@ -95,6 +102,7 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [cc-genius](https://github.com/AliceLJY/cc-genius) | Web PWA client. Works from iPad. No API key needed. |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
+| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | Web-based remote terminal for the CLI. xterm.js + node-pty. iPad-friendly. |
 
 **🏰 Environment** — the command center
 
@@ -125,11 +133,18 @@ Half of these solve problems that official products now address too. I built the
 | [content-publisher](https://github.com/AliceLJY/content-publisher) | Image gen + layout + WeChat publishing |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | My personality, replicated. Sometimes it writes better than me. |
 
+**🪞 Mirror** — me but on Telegram
+
+| | |
+|---|---|
+| [etwin-bot](https://github.com/AliceLJY/etwin-bot) | E-Twin. A digital me on Telegram. Talks in my voice. Sometimes catches things I'd miss. PoC, runs on Mac mini. |
+
 **🎯 Orchestration** — speak naturally, pipeline flows automatically
 
 | | |
 |---|---|
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
+| [relay-cli](https://github.com/AliceLJY/relay-cli) | duo — Claude ↔ Codex relay. Both can talk, both can be braked. The 三角制衡 layer. |
 
 <details>
 <summary>🪦 <b>Archive</b> (repos that gave their lives so others could merge)</summary>

@@ -61,7 +61,7 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | Debug | "It broke again" + paste the error |
 | `git rebase` | "Claude, what does this even mean?" |
 | Code review | Ask a second Claude to roast the first one |
-| Need an image | Ask Gemini. That's about all Gemini does around here. |
+| Need an image | Ask `gpt-image-2` (since April 2026). Gemini got quietly laid off. |
 | Need a second opinion | "帮我 duo 一下 Codex" — Claude spawns Codex via relay-cli. Now standard, not rare. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |

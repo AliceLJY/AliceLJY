@@ -134,7 +134,7 @@ Half of these solve problems that official products now address too. I built the
 | [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | Sister bridge built on Claude Agent View background sessions. Where my 6 claude bots actually live now. |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | CC on WeChat via iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge for Docker containers |
-| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | iPhone browser → Mac inbox. PoC, lives on the mini. |
+| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | Phone browser → Mac desktop over LAN/Tailscale. Fills AirDrop's gaps: non-Apple phones, or when the target Mac (mine's at home — the mini) isn't physically nearby. PoC on the mini. |
 
 **🧠 Memory** — it forgot my name. I took that personally.
 

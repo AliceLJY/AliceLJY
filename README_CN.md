@@ -119,7 +119,7 @@
 | | |
 |---|---|
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
-| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | CLI 的 Web 远程终端。xterm.js + node-pty。iPad 友好。 |
+| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | CLI 的 Web 远程终端。xterm.js + node-pty。iPhone + iPad 都友好（浏览器跑）。 |
 
 **🏰 环境层** — 指挥中心
 

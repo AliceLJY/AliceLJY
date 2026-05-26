@@ -117,7 +117,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
-| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | Web-based remote terminal for the CLI. xterm.js + node-pty. iPad-friendly. |
+| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | Web-based remote terminal for the CLI. xterm.js + node-pty. iPhone + iPad friendly (any browser). |
 
 **🏰 Environment** — the command center
 

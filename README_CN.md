@@ -143,7 +143,7 @@
 | | |
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Gemini——现在谁都不会忘了。 |
-| [babel-memory](https://github.com/AliceLJY/babel-memory) | 27+ 语言 BM25 预处理。RecallNest + UltraMemory 都在用。 |
+| [babel-memory](https://github.com/AliceLJY/babel-memory) | 27+ 语言 BM25 预处理。RecallNest 在用。 |
 
 **✍️ 内容层** — 文章工厂
 

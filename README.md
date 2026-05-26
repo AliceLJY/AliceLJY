@@ -141,7 +141,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP. Claude, Codex, Gemini — everyone remembers now. |
-| [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 27+ languages, zero deps. Used by RecallNest + UltraMemory. |
+| [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 27+ languages, zero deps. Used by RecallNest. |
 
 **✍️ Content** — the article factory
 

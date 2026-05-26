@@ -87,8 +87,8 @@ Half of these solve problems that official products now address too. I built the
                           ║  hooks · rules · methodology    ║
                           ╠═══════════════════════════════╣
                           ║     🌉 BRIDGE                  ║
-                          ║  telegram · wechat · tunnel     ║
-                          ║       iphone-sensor             ║
+                          ║   telegram · channel · wechat   ║
+                          ║     tunnel · iphone-sensor      ║
                           ╠═══════════════════════════════╣
                           ║     🧠 MEMORY                  ║
                           ║   recallnest · babel-memory     ║
@@ -101,9 +101,10 @@ Half of these solve problems that official products now address too. I built the
                           ╠═══════════════════════════════╣
                           ║     🎯 ORCHESTRATION           ║
                           ║  workflow · relay · agent-room  ║
+                          ║         trio-handoff            ║
                           ╠═══════════════════════════════╣
                           ║     🔧 TOOLS                   ║
-                          ║          slidesmith             ║
+                          ║      slidesmith · vision        ║
                           ╠═══════════════════════════════╣
                           ║     🎭 WHIMSY                  ║
                           ║           copium                ║
@@ -130,6 +131,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | CC on Telegram. Subway, bed, lunch break — no excuse not to build. |
+| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | Sister bridge built on Claude Agent View background sessions. Where my 6 claude bots actually live now. |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | CC on WeChat via iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge for Docker containers |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | iPhone browser → Mac inbox. PoC, lives on the mini. |
@@ -145,7 +147,7 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| [content-publisher](https://github.com/AliceLJY/content-publisher) | Image gen + layout + WeChat publishing |
+| content-publisher | Image gen + layout + WeChat publishing (private — has API keys baked in) |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | My personality, replicated. Sometimes it writes better than me. |
 
 **🪞 Mirror** — me but on Telegram
@@ -160,6 +162,7 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
 | [relay-cli](https://github.com/AliceLJY/relay-cli) | duo — Claude ↔ Codex relay. Both can talk, both can be braked. The 三角制衡 layer. |
+| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Bidirectional handoff bundles for two coding agents reviewing each other's work. The handoff format behind the trio protocol. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Local CLI room. Humans, Claude Code, Codex — mention-based routing. |
 
 **🔧 Tools** — single-purpose, sharp
@@ -167,6 +170,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → editable PowerPoint. Local-first, no upload, no limits. |
+| [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision-to-deck companion: turns visual slide specs into SlideSmith HTML + PPTX. |
 
 **🎭 Whimsy** — built because I wanted to
 

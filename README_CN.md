@@ -89,8 +89,8 @@
                           ║  hooks · rules · methodology    ║
                           ╠═══════════════════════════════╣
                           ║     🌉 桥接层                   ║
-                          ║  telegram · wechat · tunnel     ║
-                          ║       iphone-sensor             ║
+                          ║   telegram · channel · wechat   ║
+                          ║     tunnel · iphone-sensor      ║
                           ╠═══════════════════════════════╣
                           ║     🧠 记忆层                   ║
                           ║   recallnest · babel-memory     ║
@@ -103,9 +103,10 @@
                           ╠═══════════════════════════════╣
                           ║     🎯 编排层                   ║
                           ║  workflow · relay · agent-room  ║
+                          ║         trio-handoff            ║
                           ╠═══════════════════════════════╣
                           ║     🔧 工具层                   ║
-                          ║          slidesmith             ║
+                          ║      slidesmith · vision        ║
                           ╠═══════════════════════════════╣
                           ║     🎭 玩票层                   ║
                           ║           copium                ║
@@ -132,6 +133,7 @@
 | | |
 |---|---|
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 CC。地铁上、床上、午饭间隙——没有理由不在 build。 |
+| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。现在我的 6 个 claude bot 实际跑在这。 |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 CC，iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | Docker 容器的 HTTP 任务队列桥 |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | iPhone 浏览器 → Mac inbox 传图。PoC，跑在 mini 上。 |
@@ -147,7 +149,7 @@
 
 | | |
 |---|---|
-| [content-publisher](https://github.com/AliceLJY/content-publisher) | 图片生成 + 排版 + 微信公众号发布 |
+| content-publisher | 图片生成 + 排版 + 微信公众号发布（私有仓——里面焊死了 API key）|
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 我的人格，复制了一份。有时候写得比我还好。尽量不去想。 |
 
 **🪞 镜像层** — Telegram 上的我
@@ -162,6 +164,7 @@
 |---|---|
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 自然语言流水线：构思 → 多角色审查 → 执行 → 上线。不需要记命令。 |
 | [relay-cli](https://github.com/AliceLJY/relay-cli) | duo —— Claude ↔ Codex 互通 relay。都能说话，都能被人类急刹车。三角制衡那层。 |
+| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | 两个 coding agent 互审代码的双向 handoff 包，trio 协议的交接格式。 |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 本地 CLI 聊天室。人类、Claude Code、Codex —— @ 谁谁就回。 |
 
 **🔧 工具层** — 单一目的，刀刀见血
@@ -169,6 +172,7 @@
 | | |
 |---|---|
 | [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑 PowerPoint。本地优先，零上传，没有限制。 |
+| [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision 配套：把视觉化的 slide 规范转成 SlideSmith HTML + PPTX。 |
 
 **🎭 玩票层** — 纯粹因为想做
 

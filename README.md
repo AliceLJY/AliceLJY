@@ -192,7 +192,6 @@ Half of these solve problems that official products now address too. I built the
 | `telegram-cli-bridge` | Succeeded by **telegram-ai-bridge**. The prototype era. |
 | `agent-nexus` | Absorbed into **cc-empire**. The quick-start became the empire. |
 | `cc-rules-cookbook` + `cc-hooks-gallery` | Merged into **cc-empire**. Rules + hooks now live under one roof. |
-| `a2a-js` · `wechat-decrypt` | One-time forks/mirrors — did the job, stepped off stage. |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | The early days. We don't talk about the early days. |
 
 </details>

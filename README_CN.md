@@ -194,7 +194,6 @@
 | `agent-nexus` | 被 **cc-empire** 吸收。快速启动器变成了帝国本体。 |
 | `content-alchemy` | 已迁成 skill 形式（`~/.claude/skills/content-alchemy/`），独立仓退役。 |
 | `telegram-cli-bridge` | 被 **telegram-ai-bridge** 接班。原型时代的产物。 |
-| `a2a-js` · `wechat-decrypt` | 一次性 fork/镜像，活完任务退场。 |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | 早期作品。我们不谈早期。 |
 
 </details>

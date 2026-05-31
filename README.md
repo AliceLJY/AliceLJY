@@ -147,7 +147,7 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| content-publisher | Image gen + layout + WeChat publishing (private — has API keys baked in) |
+| Publishing pipeline *(private)* | Image gen + layout + one-click WeChat publishing. Kept private — not open-sourced. |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | My personality, replicated. Sometimes it writes better than me. |
 
 **🪞 Mirror** — me but on Telegram
@@ -184,9 +184,9 @@ Half of these solve problems that official products now address too. I built the
 | Repo | Cause of death |
 |---|---|
 | `cc-genius` | Succeeded by **cc-remote-term**. The Web client era closed. |
-| `content-alchemy` | Migrated into skill form (`~/.claude/skills/content-alchemy/`). Repo retired with honors. |
+| Content pipeline | Migrated into a private Claude skill. Repo retired with honors. |
 | `openclaw-worker` + `openclaw-cli-bridge` | Merged into **openclaw-tunnel**. Two became one. Romantic, really. |
-| `openclaw-content-alchemy` + `content-alchemy-new` | Evolved into **content-alchemy** + **content-publisher** |
+| *(early content experiments)* | Evolved into my current — now private — content + publishing pipeline. |
 | `openclaw-cli-pipeline` · `openclaw-mas-guide` | Retired with honors |
 | `cc-shell` | Archived — cc-genius covered the iPad use case better. Then cc-genius itself bowed out. Layered exits. |
 | `telegram-cli-bridge` | Succeeded by **telegram-ai-bridge**. The prototype era. |

@@ -149,7 +149,7 @@
 
 | | |
 |---|---|
-| content-publisher | 图片生成 + 排版 + 微信公众号发布（私有仓——里面焊死了 API key）|
+| 发布管线 *(私有)* | 图片生成 + 排版 + 微信公众号一键发布。私有，未开源。 |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 我的人格，复制了一份。有时候写得比我还好。尽量不去想。 |
 
 **🪞 镜像层** — Telegram 上的我
@@ -186,13 +186,13 @@
 | 仓库 | 死因 |
 |---|---|
 | `openclaw-worker` + `openclaw-cli-bridge` | 合并进了 **openclaw-tunnel**。二合一，挺浪漫的。 |
-| `openclaw-content-alchemy` + `content-alchemy-new` | 进化成了 **content-alchemy** + **content-publisher** |
+| 早期内容实验 | 进化成了现在私有的内容 + 发布管线。 |
 | `openclaw-cli-pipeline` · `openclaw-mas-guide` | 光荣退役 |
 | `cc-genius` | 被 **cc-remote-term** 接班。Web 客户端时代结束。 |
 | `cc-shell` | cc-genius 更好覆盖 iPad 场景。后来 cc-genius 自己也鞠躬退场。层层告别。 |
 | `cc-hooks-gallery` + `cc-rules-cookbook` | 合并进了 **cc-empire**。规则和 hooks 现在同住一个屋檐下。 |
 | `agent-nexus` | 被 **cc-empire** 吸收。快速启动器变成了帝国本体。 |
-| `content-alchemy` | 已迁成 skill 形式（`~/.claude/skills/content-alchemy/`），独立仓退役。 |
+| 内容创作管线 | 已迁成私有 Claude skill，独立仓退役。 |
 | `telegram-cli-bridge` | 被 **telegram-ai-bridge** 接班。原型时代的产物。 |
 | `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | 早期作品。我们不谈早期。 |
 

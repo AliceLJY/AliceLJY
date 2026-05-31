@@ -181,20 +181,24 @@
 | [copium](https://github.com/AliceLJY/copium) | COPIUM 焦虑急诊室——披着赛博朋克皮的焦虑释放 App。慌张进，大笑出。 |
 
 <details>
-<summary>🪦 <b>归档</b>（为了后人牺牲的仓库）</summary>
+<summary>📜 <b>起点与演进</b>（一个非程序员的 14 个月 · 归档 ≠ 遗忘）</summary>
 
-| 仓库 | 死因 |
-|---|---|
-| `openclaw-worker` + `openclaw-cli-bridge` | 合并进了 **openclaw-tunnel**。二合一，挺浪漫的。 |
-| 早期内容实验 | 进化成了现在私有的内容 + 发布管线。 |
-| `openclaw-cli-pipeline` · `openclaw-mas-guide` | 光荣退役 |
-| `cc-genius` | 被 **cc-remote-term** 接班。Web 客户端时代结束。 |
-| `cc-shell` | cc-genius 更好覆盖 iPad 场景。后来 cc-genius 自己也鞠躬退场。层层告别。 |
-| `cc-hooks-gallery` + `cc-rules-cookbook` | 合并进了 **cc-empire**。规则和 hooks 现在同住一个屋檐下。 |
-| `agent-nexus` | 被 **cc-empire** 吸收。快速启动器变成了帝国本体。 |
-| 内容创作管线 | 已迁成私有 Claude skill，独立仓退役。 |
-| `telegram-cli-bridge` | 被 **telegram-ai-bridge** 接班。原型时代的产物。 |
-| `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | 早期作品。我们不谈早期。 |
+这里没有谁"死了"。下面每个起点，都长成了今天还在跑的东西。
+
+**2025-03 · 第 0 天** —— `grokbot` · `DS-V3-info` · `OpenAI-Autogen-Comparison` · `BlazorGeminiChat`
+比其余一切早整整一年。一个不会写代码的人，第一次"我做了个东西"。我们不谈代码——谈的是动手开始的那股劲儿。
+
+**然后它一条线一条线长起来：**
+
+| 线 | 起点 | 变成了 |
+|---|---|---|
+| 🧠 记忆 | `claude-memory-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo |
+| 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
+| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` → **duo** → 群聊 |
+| 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |
+| ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
+| 📦 快速启动 | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |
+| ✍️ 内容 | 早期实验 | 私有的内容 + 发布管线 |
 
 </details>
 

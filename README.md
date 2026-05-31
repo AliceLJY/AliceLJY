@@ -179,20 +179,24 @@ Half of these solve problems that official products now address too. I built the
 | [copium](https://github.com/AliceLJY/copium) | COPIUM Anxiety ER — a cyberpunk emergency room for anxiety. Walk in panicked, walk out laughing. |
 
 <details>
-<summary>🪦 <b>Archive</b> (repos that gave their lives so others could merge)</summary>
+<summary>📜 <b>Origins & Evolution</b> — a non-coder's 14-month trail (archived ≠ forgotten)</summary>
 
-| Repo | Cause of death |
-|---|---|
-| `cc-genius` | Succeeded by **cc-remote-term**. The Web client era closed. |
-| Content pipeline | Migrated into a private Claude skill. Repo retired with honors. |
-| `openclaw-worker` + `openclaw-cli-bridge` | Merged into **openclaw-tunnel**. Two became one. Romantic, really. |
-| *(early content experiments)* | Evolved into my current — now private — content + publishing pipeline. |
-| `openclaw-cli-pipeline` · `openclaw-mas-guide` | Retired with honors |
-| `cc-shell` | Archived — cc-genius covered the iPad use case better. Then cc-genius itself bowed out. Layered exits. |
-| `telegram-cli-bridge` | Succeeded by **telegram-ai-bridge**. The prototype era. |
-| `agent-nexus` | Absorbed into **cc-empire**. The quick-start became the empire. |
-| `cc-rules-cookbook` + `cc-hooks-gallery` | Merged into **cc-empire**. Rules + hooks now live under one roof. |
-| `DS-V3-info` · `BlazorGeminiChat` · `grokbot` | The early days. We don't talk about the early days. |
+Nothing here "died." Every starting point below grew into something still running today.
+
+**2025-03 · Day zero** — `grokbot` · `DS-V3-info` · `OpenAI-Autogen-Comparison` · `BlazorGeminiChat`
+A full year before the rest. A non-coder's first "I made a thing." We don't talk about the code — we talk about the nerve it took to start.
+
+**Then it grew, line by line:**
+
+| Line | Started as | Became |
+|---|---|---|
+| 🧠 Memory | `claude-memory-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo |
+| 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
+| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` → **duo** → group chat |
+| 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** |
+| ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
+| 📦 Quick-start | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |
+| ✍️ Content | early experiments | a private content + publishing pipeline |
 
 </details>
 

@@ -62,7 +62,7 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | `git rebase` | "Claude, what does this even mean?" |
 | Code review | Ask a second Claude to roast the first one |
 | Need an image | Ask `gpt-image-2` (since April 2026). Gemini got quietly laid off. |
-| Need a second opinion | "帮我 duo 一下 Codex" — Claude spawns Codex via relay-cli. Now standard, not rare. |
+| Need a second opinion | "帮我喊 Codex 来看看" — Claude pulls Codex in via agent-room-cli. Now standard, not rare. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |
 | Deploy | "It was JUST working! Did you lose your memory?!" |
@@ -100,11 +100,11 @@ Half of these solve problems that official products now address too. I built the
                           ║          etwin-bot              ║
                           ╠═══════════════════════════════╣
                           ║     🎯 ORCHESTRATION           ║
-                          ║  workflow · relay · agent-room  ║
+                          ║      workflow · agent-room      ║
                           ║         trio-handoff            ║
                           ╠═══════════════════════════════╣
                           ║     🔧 TOOLS                   ║
-                          ║      slidesmith · vision        ║
+                          ║ slidesmith · vision · scenecast ║
                           ╠═══════════════════════════════╣
                           ║     🎭 WHIMSY                  ║
                           ║           copium                ║
@@ -162,7 +162,6 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
-| [relay-cli](https://github.com/AliceLJY/relay-cli) | duo — Claude ↔ Codex relay. Both can talk, both can be braked. The 三角制衡 layer. |
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Bidirectional handoff bundles for two coding agents reviewing each other's work. The handoff format behind the trio protocol. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Local CLI room. Humans, Claude Code, Codex — mention-based routing. |
 
@@ -172,6 +171,7 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → editable PowerPoint. Local-first, no upload, no limits. |
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision-to-deck companion: turns visual slide specs into SlideSmith HTML + PPTX. |
+| [scenecast](https://github.com/AliceLJY/scenecast) | Render a paginated HTML deck into an element-level motion video. The HTML stays the only visual source. |
 
 **🎭 Whimsy** — built because I wanted to
 

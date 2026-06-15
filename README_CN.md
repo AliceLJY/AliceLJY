@@ -62,7 +62,7 @@
 | `git rebase` | 「Claude 这啥玩意儿？」 |
 | 代码审查 | 开第二个 Claude 去怼第一个 |
 | 需要图片 | 叫 `gpt-image-2`（2026 年 4 月起）。Gemini 悄悄下岗了。 |
-| 需要第二意见 | 「帮我 duo 一下 Codex」——Claude 通过 relay-cli 喊出 Codex。现在是常态，不再罕见。 |
+| 需要第二意见 | 「帮我喊 Codex 来看看」——Claude 通过 agent-room-cli 把 Codex 拉进来。现在是常态，不再罕见。 |
 | 读报错日志 | 「你的逻辑呢？？？」 |
 | 版本回滚 | 「你自己写的你不认识？？」 |
 | 上线部署 | 「上次明明好好的！你失忆了吗！！」 |
@@ -102,11 +102,11 @@
                           ║          etwin-bot              ║
                           ╠═══════════════════════════════╣
                           ║     🎯 编排层                   ║
-                          ║  workflow · relay · agent-room  ║
+                          ║      workflow · agent-room      ║
                           ║         trio-handoff            ║
                           ╠═══════════════════════════════╣
                           ║     🔧 工具层                   ║
-                          ║      slidesmith · vision        ║
+                          ║ slidesmith · vision · scenecast ║
                           ╠═══════════════════════════════╣
                           ║     🎭 玩票层                   ║
                           ║           copium                ║
@@ -164,7 +164,6 @@
 | | |
 |---|---|
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 自然语言流水线：构思 → 多角色审查 → 执行 → 上线。不需要记命令。 |
-| [relay-cli](https://github.com/AliceLJY/relay-cli) | duo —— Claude ↔ Codex 互通 relay。都能说话，都能被人类急刹车。三角制衡那层。 |
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | 两个 coding agent 互审代码的双向 handoff 包，trio 协议的交接格式。 |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 本地 CLI 聊天室。人类、Claude Code、Codex —— @ 谁谁就回。 |
 
@@ -174,6 +173,7 @@
 |---|---|
 | [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑 PowerPoint。本地优先，零上传，没有限制。 |
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision 配套：把视觉化的 slide 规范转成 SlideSmith HTML + PPTX。 |
+| [scenecast](https://github.com/AliceLJY/scenecast) | 把分页 HTML deck 渲染成元素级动效视频。HTML 始终是唯一视觉来源。 |
 
 **🎭 玩票层** — 纯粹因为想做
 

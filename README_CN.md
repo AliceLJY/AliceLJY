@@ -82,7 +82,7 @@
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 界面层                  ║
-                          ║    studio · remote-term         ║
+                          ║ studio · remote-term · docshell ║
                           ╠═══════════════════════════════╣
                           ║     🏰 环境层                   ║
                           ║    cc-empire · repo-insight     ║
@@ -120,6 +120,7 @@
 |---|---|
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
 | [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | CLI 的 Web 远程终端。xterm.js + node-pty。iPhone + iPad 都友好（浏览器跑）。 |
+| [docshell](https://github.com/AliceLJY/docshell) | CLI 的文档式界面。输入和回复都是文档段落，工具调用变成页边批注。没有聊天气泡、没有终端。 |
 
 **🏰 环境层** — 指挥中心
 

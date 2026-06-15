@@ -80,7 +80,7 @@ Half of these solve problems that official products now address too. I built the
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 INTERFACE              ║
-                          ║     studio · remote-term        ║
+                          ║ studio · remote-term · docshell ║
                           ╠═══════════════════════════════╣
                           ║     🏰 ENVIRONMENT             ║
                           ║    cc-empire · repo-insight     ║
@@ -118,6 +118,7 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
 | [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | Web-based remote terminal for the CLI. xterm.js + node-pty. iPhone + iPad friendly (any browser). |
+| [docshell](https://github.com/AliceLJY/docshell) | Document-style interface for the CLI. Input and replies are document paragraphs; tool calls become margin comments. No chat bubbles, no terminal. |
 
 **🏰 Environment** — the command center
 

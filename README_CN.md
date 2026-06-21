@@ -128,6 +128,7 @@
 |---|---|
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks、rules、方法论、框架——整个生态的连接组织 |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | 开源项目深度架构分析 skill，Why > What 哲学 |
+| zhaojian 照见 *(私有)* | 验真 skill：看穿话术、识别逻辑漏洞，把"说不出哪里不对劲"翻译成"说得出的一二三"。源自医学的鉴别诊断思维。 |
 
 **🌉 桥接层** — 把 Claude 装进口袋
 
@@ -145,12 +146,14 @@
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Gemini——现在谁都不会忘了。 |
 | [babel-memory](https://github.com/AliceLJY/babel-memory) | 27+ 语言 BM25 预处理。RecallNest 在用。 |
+| hippo *(私有)* | 研究知识库 wiki + MCP。沉淀冷门参考知识（概念 / 论文 / 信源），与 RecallNest 的热记忆互补。 |
 
 **✍️ 内容层** — 文章工厂
 
 | | |
 |---|---|
-| 发布管线 *(私有)* | 图片生成 + 排版 + 微信公众号一键发布。私有，未开源。 |
+| content-alchemy 写作炼金 *(私有)* | 5 阶段 AI 写作流水线：选题挖掘 → 信源核查 → 成稿 → 精炼，支撑公众号「我的AI小木屋」。 |
+| content-publisher 配图发布 *(私有)* | 图片生成 + 排版 + 微信公众号一键发布，content-alchemy 的下游。 |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 我的人格，复制了一份。有时候写得比我还好。尽量不去想。 |
 
 **🪞 镜像层** — Telegram 上的我
@@ -188,6 +191,8 @@
 
 **2025-03 · 第 0 天** —— `grokbot` · `DS-V3-info` · `OpenAI-Autogen-Comparison` · `BlazorGeminiChat`
 比其余一切早整整一年。一个不会写代码的人，第一次"我做了个东西"。我们不谈代码——谈的是动手开始的那股劲儿。
+
+**更早 · Windows 时代** —— 在这一切上 GitHub 之前：.NET MAUI 多 AI 移动客户端（通义千问 / DeepSeek 版 + Claude·Gemini·Grok·GPT-4o 四合一对比，安卓/iOS/Win/mac）、Blazor 聊天应用、OpenAI Agents **可视化工作流设计器**、AutoGen / Magentic-One **多智能体编排实验**（通义千问、Grok 驱动）。多是本地快照——早在这些火起来之前，我就在搭跨平台、多模型、多 agent 的东西了。
 
 **然后它一条线一条线长起来：**
 

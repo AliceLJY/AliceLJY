@@ -126,6 +126,7 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks, rules, methodology, frameworks — the connective tissue of the whole ecosystem |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | Skill for deep architectural analysis of open-source projects. Why > What philosophy. |
+| zhaojian *(private)* | "Verify-truth" skill: see through rhetoric, spot logic holes, turn gut-feel "something's off" into articulable reasons. Born from medical differential-diagnosis thinking. |
 
 **🌉 Bridge** — Claude in your pocket
 
@@ -143,12 +144,14 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP. Claude, Codex, Gemini — everyone remembers now. |
 | [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 27+ languages, zero deps. Used by RecallNest. |
+| hippo *(private)* | Researched-knowledge wiki + MCP. Cold reference knowledge (concepts / papers / sources), complementing RecallNest's hot session memory. |
 
 **✍️ Content** — the article factory
 
 | | |
 |---|---|
-| Publishing pipeline *(private)* | Image gen + layout + one-click WeChat publishing. Kept private — not open-sourced. |
+| content-alchemy *(private)* | 5-stage AI writing pipeline: topic mining → source-check → draft → refine. Powers the "我的AI小木屋" WeChat account. |
+| content-publisher *(private)* | Image generation + layout + one-click WeChat publishing. The downstream of content-alchemy. |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | My personality, replicated. Sometimes it writes better than me. |
 
 **🪞 Mirror** — me but on Telegram
@@ -186,6 +189,8 @@ Nothing here "died." Every starting point below grew into something still runnin
 
 **2025-03 · Day zero** — `grokbot` · `DS-V3-info` · `OpenAI-Autogen-Comparison` · `BlazorGeminiChat`
 A full year before the rest. A non-coder's first "I made a thing." We don't talk about the code — we talk about the nerve it took to start.
+
+**Even earlier · the Windows era** — before any of this reached GitHub: .NET MAUI multi-AI mobile clients (Qwen / DeepSeek editions + a 4-in-1 Claude·Gemini·Grok·GPT-4o compare app, Android/iOS/Win/mac), Blazor chat apps, an OpenAI-Agents **visual workflow designer**, and AutoGen / Magentic-One **multi-agent experiments** (Qwen- & Grok-driven). Mostly local snapshots — proof I was wiring up cross-platform, multi-model, multi-agent stuff well before it was cool.
 
 **Then it grew, line by line:**
 

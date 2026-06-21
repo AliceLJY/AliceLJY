@@ -126,7 +126,7 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks, rules, methodology, frameworks — the connective tissue of the whole ecosystem |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | Skill for deep architectural analysis of open-source projects. Why > What philosophy. |
-| zhaojian *(private)* | "Verify-truth" skill: see through rhetoric, spot logic holes, turn gut-feel "something's off" into articulable reasons. Born from medical differential-diagnosis thinking. |
+| Prism *(private)* | "Verify-truth" skill: see through rhetoric, spot logic holes, turn gut-feel "something's off" into articulable reasons. Born from medical differential-diagnosis thinking. |
 
 **🌉 Bridge** — Claude in your pocket
 

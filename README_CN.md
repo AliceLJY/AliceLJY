@@ -198,7 +198,7 @@
 
 | 线 | 起点 | 变成了 |
 |---|---|---|
-| 🧠 记忆 | `claude-memory-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo |
+| 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo |
 | 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
 | 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` → **duo** → 群聊 |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |

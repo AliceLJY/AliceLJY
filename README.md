@@ -196,7 +196,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 
 | Line | Started as | Became |
 |---|---|---|
-| 🧠 Memory | `claude-memory-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo |
+| 🧠 Memory | `memory-lancedb-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo |
 | 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
 | 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` → **duo** → group chat |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** |

@@ -1,6 +1,6 @@
 <h3 align="center">Every repo here was chatted into existence with Claude.</h3>
 <p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 40+ repos anyway. All born from conversations in Chinese.</p>
-<p align="center"><a href="README_CN.md">🇨🇳 中文版</a></p>
+<p align="center"><a href="README_CN.md">🇨🇳 中文版</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
 
@@ -107,7 +107,7 @@ Half of these solve problems that official products now address too. I built the
                           ║ slidesmith · vision · scenecast ║
                           ╠═══════════════════════════════╣
                           ║     🎭 WHIMSY                  ║
-                          ║           copium                ║
+                          ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
                           40+ repos · 9 layers · 0 for-loops
 ```
@@ -181,6 +181,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [copium](https://github.com/AliceLJY/copium) | COPIUM Anxiety ER — a cyberpunk emergency room for anxiety. Walk in panicked, walk out laughing. |
+| [cobbler](https://github.com/AliceLJY/cobbler) | My old CC Buddy robot that "died" when the feature was sunset — reborn as an Android virtual pet. Its nest runs on the mini and sends me an "on this day" card every morning. |
 
 <details>
 <summary>📜 <b>Origins & Evolution</b> — a non-coder's 14-month trail (archived ≠ forgotten)</summary>

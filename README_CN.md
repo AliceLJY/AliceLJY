@@ -1,6 +1,6 @@
 <h3 align="center">这里每一个仓库，都是跟 Claude 聊出来的。</h3>
 <p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。40+ 个仓库全部诞生于中文对话。</p>
-<p align="center"><a href="README.md">🇬🇧 English</a></p>
+<p align="center"><a href="README.md">🇬🇧 English</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
 
@@ -109,7 +109,7 @@
                           ║ slidesmith · vision · scenecast ║
                           ╠═══════════════════════════════╣
                           ║     🎭 玩票层                   ║
-                          ║           copium                ║
+                          ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
                           40+ 个仓库 · 9 层架构 · 0 个 for 循环
 ```
@@ -183,6 +183,7 @@
 | | |
 |---|---|
 | [copium](https://github.com/AliceLJY/copium) | COPIUM 焦虑急诊室——披着赛博朋克皮的焦虑释放 App。慌张进，大笑出。 |
+| [cobbler](https://github.com/AliceLJY/cobbler) | 曾陪我写代码的 Buddy 小机器人，随官方下架"死"过一次，如今复活成 Android 电子宠物。巢跑在 mini，每天发一张「那年今日」卡。 |
 
 <details>
 <summary>📜 <b>起点与演进</b>（一个非程序员的 14 个月 · 归档 ≠ 遗忘）</summary>

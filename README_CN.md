@@ -135,7 +135,7 @@
 | | |
 |---|---|
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 CC。地铁上、床上、午饭间隙——没有理由不在 build。 |
-| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。现在我的 6 个 claude bot 实际跑在这。 |
+| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。这套 bot 的桥接身份实际跑在这里。 |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 CC，iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | Docker 容器的 HTTP 任务队列桥 |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机浏览器 → Mac 桌面，走 LAN/Tailscale。补 AirDrop 的盲区：非 Apple 手机，或目标 Mac（我家 mini）不在身边时。PoC，跑在 mini 上。 |

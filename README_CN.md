@@ -128,7 +128,7 @@
 |---|---|
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks、rules、方法论、框架——整个生态的连接组织 |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | 开源项目深度架构分析 skill，Why > What 哲学 |
-| Prism 照见 *(私有)* | 验真 skill：看穿话术、识别逻辑漏洞，把"说不出哪里不对劲"翻译成"说得出的一二三"。源自医学的鉴别诊断思维。 |
+| 照见 / Prism *(私有)* | 验真 skill：看穿话术、识别逻辑漏洞，把"说不出哪里不对劲"翻译成"说得出的一二三"。源自医学的鉴别诊断思维。 |
 
 **🌉 桥接层** — 把 Claude 装进口袋
 

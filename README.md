@@ -1,5 +1,5 @@
 <h3 align="center">Every repo here was chatted into existence with Claude.</h3>
-<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 40+ repos anyway. All born from conversations in Chinese.</p>
+<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 60+ repos anyway. All born from conversations in Chinese.</p>
 <p align="center"><a href="README_CN.md">🇨🇳 中文版</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
@@ -31,7 +31,7 @@
             │   Anti   │  │ AWS-bot  │  │LanceDB Test│
             │ gpt-5.5  │  │ gpt-5.5  │  │  fixture   │
             └──────────┘  └──────────┘  └────────────┘
-              3 bots · 1 E-twin · 40+ repos · 0 for-loops
+              3 bots · 1 E-twin · 60+ repos · 0 for-loops
 ```
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
@@ -60,9 +60,9 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | Write code | Describe what I want in Chinese. Claude writes it. |
 | Debug | "It broke again" + paste the error |
 | `git rebase` | "Claude, what does this even mean?" |
-| Code review | Ask a second Claude to roast the first one |
+| Code review | Claude and Codex roast each other now. I just read the transcript and pick a side. |
 | Need an image | Ask `gpt-image-2` (since April 2026). Gemini got quietly laid off. |
-| Need a second opinion | "帮我喊 Codex 来看看" — Claude pulls Codex in via agent-room-cli. Now standard, not rare. |
+| Need a second opinion | "帮我喊 Codex 来看看" — Claude calls Codex headless, reads the verdict back, and tells me where they disagree. Now standard, not rare. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |
 | Deploy | "It was JUST working! Did you lose your memory?!" |
@@ -85,31 +85,36 @@ Half of these solve problems that official products now address too. I built the
                           ║     🏰 ENVIRONMENT             ║
                           ║    cc-empire · repo-insight     ║
                           ║  hooks · rules · methodology    ║
+                          ║   vault · prism · tinkering     ║
                           ╠═══════════════════════════════╣
                           ║     🌉 BRIDGE                  ║
                           ║   telegram · channel · wechat   ║
                           ║     tunnel · iphone-sensor      ║
                           ╠═══════════════════════════════╣
                           ║     🧠 MEMORY                  ║
-                          ║   recallnest · babel-memory     ║
+                          ║ recallnest · babel · hippo-wiki ║
                           ╠═══════════════════════════════╣
                           ║     ✍️ CONTENT                  ║
                           ║    publisher · digital-clone    ║
+                          ╠═══════════════════════════════╣
+                          ║     🎬 VIDEO                   ║
+                          ║   story-video · cut-studio      ║
+                          ║     scenecast · radar           ║
                           ╠═══════════════════════════════╣
                           ║     🪞 MIRROR                  ║
                           ║          etwin-bot              ║
                           ╠═══════════════════════════════╣
                           ║     🎯 ORCHESTRATION           ║
                           ║      workflow · agent-room      ║
-                          ║         trio-handoff            ║
+                          ║   trio-handoff · codex-plugin   ║
                           ╠═══════════════════════════════╣
                           ║     🔧 TOOLS                   ║
-                          ║ slidesmith · vision · scenecast ║
+                          ║ slidesmith · vision · sogou-wx  ║
                           ╠═══════════════════════════════╣
                           ║     🎭 WHIMSY                  ║
                           ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
-                          40+ repos · 9 layers · 0 for-loops
+                          60+ repos · 10 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
@@ -127,6 +132,8 @@ Half of these solve problems that official products now address too. I built the
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks, rules, methodology, frameworks — the connective tissue of the whole ecosystem |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | Skill for deep architectural analysis of open-source projects. Why > What philosophy. |
 | Zhaojian / Prism *(private)* | "Verify-truth" skill: see through rhetoric, spot logic holes, turn gut-feel "something's off" into articulable reasons. Born from medical differential-diagnosis thinking. |
+| sync-bridge-vault *(private)* | Disaster-recovery vault for the two-machine sync layer — history and a third copy of rules, memory, skills and research. Mirroring isn't backup. |
+| tinkering-lab *(private)* | Prompt lab: reusable experiments plus lightweight trackers that watch upstream repos for me. |
 
 **🌉 Bridge** — Claude in your pocket
 
@@ -144,7 +151,8 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP. Claude, Codex, Gemini — everyone remembers now. |
 | [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 27+ languages, zero deps. Used by RecallNest. |
-| hippo *(private)* | Researched-knowledge wiki + MCP. Cold reference knowledge (concepts / papers / sources), complementing RecallNest's hot session memory. |
+| hippo-wiki *(private)* | Researched-knowledge vault (Obsidian). Cold reference knowledge — concepts, papers, sources — complementing RecallNest's hot session memory. |
+| hippo-mcp *(private)* | Read-only retrieval server over that vault. The wiki is useless if nobody can call it. |
 
 **✍️ Content** — the article factory
 
@@ -153,6 +161,15 @@ Half of these solve problems that official products now address too. I built the
 | content-alchemy *(private)* | 5-stage AI writing pipeline: topic mining → source-check → draft → refine. Powers the "我的AI小木屋" WeChat account. |
 | content-publisher *(private)* | Image generation + layout + one-click WeChat publishing. The downstream of content-alchemy. |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | My personality, replicated. Sometimes it writes better than me. |
+
+**🎬 Video** — the newest wing
+
+| | |
+|---|---|
+| story-video-skill *(private)* | Story or repertoire → a layered animation short. Remotion + generated art layers + local TTS, style picked per subject. |
+| cut-studio-skill *(private)* | The other leg: post-production on footage I already have. Local ASR, edit-by-transcript, ships MP4 or a Jianying draft. |
+| [scenecast](https://github.com/AliceLJY/scenecast) | Render a paginated HTML deck into an element-level motion video. The HTML stays the only visual source. |
+| video-skill-radar *(private)* | Radar for this space — tool map, watchlist, and style PoCs for hand-drawn / whiteboard / collage video. |
 
 **🪞 Mirror** — me but on Telegram
 
@@ -167,6 +184,7 @@ Half of these solve problems that official products now address too. I built the
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Bidirectional handoff bundles for two coding agents reviewing each other's work. The handoff format behind the trio protocol. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Local CLI room. Humans, Claude Code, Codex — mention-based routing. |
+| [codex-plugin-cc](https://github.com/AliceLJY/codex-plugin-cc) | Call Codex from inside Claude Code — review a diff or hand off a task without leaving the session. |
 
 **🔧 Tools** — single-purpose, sharp
 
@@ -174,7 +192,8 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → editable PowerPoint. Local-first, no upload, no limits. |
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision-to-deck companion: turns visual slide specs into SlideSmith HTML + PPTX. |
-| [scenecast](https://github.com/AliceLJY/scenecast) | Render a paginated HTML deck into an element-level motion video. The HTML stays the only visual source. |
+| sogou-wechat-skill *(private)* | Search WeChat public accounts via Sogou, with bounded comment aggregation — paging limits, dedup, and honest completeness labels. |
+| cc-ebook-fetcher *(private)* | Book-wishlist fetcher for macOS. Fail-closed on attribution, delivers into a shared inbox. |
 
 **🎭 Whimsy** — built because I wanted to
 
@@ -199,7 +218,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 |---|---|---|
 | 🧠 Memory | `memory-lancedb-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo |
 | 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` → **duo** → group chat |
+| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* → **owner-model handoff** + mutual review |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** |
 | ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
 | 📦 Quick-start | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |

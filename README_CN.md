@@ -1,5 +1,5 @@
 <h3 align="center">这里每一个仓库，都是跟 Claude 聊出来的。</h3>
-<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。40+ 个仓库全部诞生于中文对话。</p>
+<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。60+ 个仓库全部诞生于中文对话。</p>
 <p align="center"><a href="README.md">🇬🇧 English</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
@@ -31,7 +31,7 @@
             │   Anti   │  │ AWS-bot  │  │LanceDB Test│
             │ gpt-5.5  │  │ gpt-5.5  │  │  测试夹具  │
             └──────────┘  └──────────┘  └────────────┘
-              3 个 Bot · 1 个 E-twin · 40+ 仓库 · 0 个 for 循环
+              3 个 Bot · 1 个 E-twin · 60+ 仓库 · 0 个 for 循环
 ```
 
 至今不会手写 for 循环。Claude 表示无所谓。
@@ -60,9 +60,9 @@
 | 写代码 | 用中文跟 Claude 描述需求。代码它来写。|
 | 调试 | 「又双叒叕坏了」+ 甩截图 |
 | `git rebase` | 「Claude 这啥玩意儿？」 |
-| 代码审查 | 开第二个 Claude 去怼第一个 |
+| 代码审查 | 让 Claude 和 Codex 互相怼。我读它们的对话记录，然后选边站。 |
 | 需要图片 | 叫 `gpt-image-2`（2026 年 4 月起）。Gemini 悄悄下岗了。 |
-| 需要第二意见 | 「帮我喊 Codex 来看看」——Claude 通过 agent-room-cli 把 Codex 拉进来。现在是常态，不再罕见。 |
+| 需要第二意见 | 「帮我喊 Codex 来看看」——Claude 直接 headless 调 Codex，读回结论，还得告诉我它俩哪里意见不合。现在是常态，不再罕见。 |
 | 读报错日志 | 「你的逻辑呢？？？」 |
 | 版本回滚 | 「你自己写的你不认识？？」 |
 | 上线部署 | 「上次明明好好的！你失忆了吗！！」 |
@@ -87,31 +87,36 @@
                           ║     🏰 环境层                   ║
                           ║    cc-empire · repo-insight     ║
                           ║  hooks · rules · methodology    ║
+                          ║   vault · prism · tinkering     ║
                           ╠═══════════════════════════════╣
                           ║     🌉 桥接层                   ║
                           ║   telegram · channel · wechat   ║
                           ║     tunnel · iphone-sensor      ║
                           ╠═══════════════════════════════╣
                           ║     🧠 记忆层                   ║
-                          ║   recallnest · babel-memory     ║
+                          ║ recallnest · babel · hippo-wiki ║
                           ╠═══════════════════════════════╣
                           ║     ✍️ 内容层                    ║
                           ║    publisher · digital-clone    ║
+                          ╠═══════════════════════════════╣
+                          ║     🎬 视频层                   ║
+                          ║   story-video · cut-studio      ║
+                          ║     scenecast · radar           ║
                           ╠═══════════════════════════════╣
                           ║     🪞 镜像层                   ║
                           ║          etwin-bot              ║
                           ╠═══════════════════════════════╣
                           ║     🎯 编排层                   ║
                           ║      workflow · agent-room      ║
-                          ║         trio-handoff            ║
+                          ║   trio-handoff · codex-plugin   ║
                           ╠═══════════════════════════════╣
                           ║     🔧 工具层                   ║
-                          ║ slidesmith · vision · scenecast ║
+                          ║ slidesmith · vision · sogou-wx  ║
                           ╠═══════════════════════════════╣
                           ║     🎭 玩票层                   ║
                           ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
-                          40+ 个仓库 · 9 层架构 · 0 个 for 循环
+                          60+ 个仓库 · 10 层架构 · 0 个 for 循环
 ```
 
 **🎨 界面层** — 点按的地方
@@ -129,6 +134,8 @@
 | [cc-empire](https://github.com/AliceLJY/cc-empire) | Hooks、rules、方法论、框架——整个生态的连接组织 |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | 开源项目深度架构分析 skill，Why > What 哲学 |
 | 照见 / Prism *(私有)* | 验真 skill：看穿话术、识别逻辑漏洞，把"说不出哪里不对劲"翻译成"说得出的一二三"。源自医学的鉴别诊断思维。 |
+| sync-bridge-vault *(私有)* | 双机同步层的容灾仓——规则 / 记忆 / skill / 研究成果的历史与第三副本。镜像不等于备份。 |
+| tinkering-lab *(私有)* | prompt 实验室：可复用的实验，外加几个盯着上游仓库自动追更的轻量追踪器。 |
 
 **🌉 桥接层** — 把 Claude 装进口袋
 
@@ -146,7 +153,8 @@
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Gemini——现在谁都不会忘了。 |
 | [babel-memory](https://github.com/AliceLJY/babel-memory) | 27+ 语言 BM25 预处理。RecallNest 在用。 |
-| hippo *(私有)* | 研究知识库 wiki + MCP。沉淀冷门参考知识（概念 / 论文 / 信源），与 RecallNest 的热记忆互补。 |
+| hippo-wiki *(私有)* | 研究知识库（Obsidian）。沉淀冷门参考知识——概念 / 论文 / 信源，与 RecallNest 的热记忆互补。 |
+| hippo-mcp *(私有)* | 架在这个库上的只读检索服务。库再全，召不回来也等于没有。 |
 
 **✍️ 内容层** — 文章工厂
 
@@ -155,6 +163,15 @@
 | content-alchemy 写作炼金 *(私有)* | 5 阶段 AI 写作流水线：选题挖掘 → 信源核查 → 成稿 → 精炼，支撑公众号「我的AI小木屋」。 |
 | content-publisher 配图发布 *(私有)* | 图片生成 + 排版 + 微信公众号一键发布，content-alchemy 的下游。 |
 | [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 我的人格，复制了一份。有时候写得比我还好。尽量不去想。 |
+
+**🎬 视频层** — 最新长出来的一条线
+
+| | |
+|---|---|
+| story-video-skill *(私有)* | 故事 / 剧目 → 多风格分层动画短片。Remotion + AI 生图分层素材 + 本地 TTS，按题材选风格。 |
+| cut-studio-skill *(私有)* | 另一条腿：加工已有素材。本地 ASR、按文字剪，出 MP4 或剪映草稿。 |
+| [scenecast](https://github.com/AliceLJY/scenecast) | 把分页 HTML deck 渲染成元素级动效视频。HTML 始终是唯一视觉来源。 |
+| video-skill-radar *(私有)* | 这条赛道的雷达：工具地图、蹲守清单、手绘 / 白板 / 拼贴风格的 POC。 |
 
 **🪞 镜像层** — Telegram 上的我
 
@@ -169,6 +186,7 @@
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 自然语言流水线：构思 → 多角色审查 → 执行 → 上线。不需要记命令。 |
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | 两个 coding agent 互审代码的双向 handoff 包，trio 协议的交接格式。 |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 本地 CLI 聊天室。人类、Claude Code、Codex —— @ 谁谁就回。 |
+| [codex-plugin-cc](https://github.com/AliceLJY/codex-plugin-cc) | 在 Claude Code 里直接喊 Codex——审 diff 或派活，不用切出去。 |
 
 **🔧 工具层** — 单一目的，刀刀见血
 
@@ -176,7 +194,8 @@
 |---|---|
 | [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑 PowerPoint。本地优先，零上传，没有限制。 |
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision 配套：把视觉化的 slide 规范转成 SlideSmith HTML + PPTX。 |
-| [scenecast](https://github.com/AliceLJY/scenecast) | 把分页 HTML deck 渲染成元素级动效视频。HTML 始终是唯一视觉来源。 |
+| sogou-wechat-skill *(私有)* | 走搜狗检索公众号文章，评论有界聚合——分页限额、去重，完整还是部分如实标注。 |
+| cc-ebook-fetcher *(私有)* | macOS 上的书单抓取器。来源存疑就不下载，抓到了投进共享收件箱。 |
 
 **🎭 玩票层** — 纯粹因为想做
 
@@ -201,7 +220,7 @@
 |---|---|---|
 | 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo |
 | 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` → **duo** → 群聊 |
+| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* → **owner 模型交接** + 互审 |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |
 | ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
 | 📦 快速启动 | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |

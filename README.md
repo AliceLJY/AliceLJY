@@ -24,14 +24,16 @@
 
 **May 2026**: An "E-twin" — a digital me on Telegram that talks like me. Eerie but useful. Also: Hermes consolidation. 睿智 and 小试AI merged into Anti. Five bots collapse into three. Same throughput, half the moving parts. (小试AI stays on as a pen name — it'll outlive us all anyway.)
 
+**Jul 2026**: The EC2 goes. Keeping a server alive just to run cron stopped making sense. Three become two.
+
 **Now**:
 
 ```
-            ┌──────────┐  ┌──────────┐  ┌────────────┐
-            │   Anti   │  │ AWS-bot  │  │LanceDB Test│
-            │ gpt-5.5  │  │ gpt-5.5  │  │  fixture   │
-            └──────────┘  └──────────┘  └────────────┘
-              3 bots · 1 E-twin · 60+ repos · 0 for-loops
+                   ┌──────────┐  ┌────────────┐
+                   │   Anti   │  │LanceDB Test│
+                   │ gpt-5.5  │  │  fixture   │
+                   └──────────┘  └────────────┘
+              2 bots · 1 E-twin · 60+ repos · 0 for-loops
 ```
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
@@ -114,7 +116,7 @@ Half of these solve problems that official products now address too. I built the
                           ║     🎭 WHIMSY                  ║
                           ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
-                          60+ repos · 10 layers · 0 for-loops
+                          60+ repos · 9 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things

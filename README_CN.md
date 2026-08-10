@@ -153,7 +153,7 @@
 
 | | |
 |---|---|
-| [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Gemini——现在谁都不会忘了。 |
+| [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Kimi、AGY——四个端现在谁都不会忘了。 |
 | [babel-memory](https://github.com/AliceLJY/babel-memory) | 27+ 语言 BM25 预处理。RecallNest 在用。 |
 | hippo-wiki *(私有)* | 研究知识库（Obsidian）。沉淀冷门参考知识——概念 / 论文 / 信源，与 RecallNest 的热记忆互补。 |
 | hippo-mcp *(私有)* | 架在这个库上的只读检索服务。库再全，召不回来也等于没有。 |

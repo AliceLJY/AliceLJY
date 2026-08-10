@@ -151,7 +151,7 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP. Claude, Codex, Gemini — everyone remembers now. |
+| [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP. Claude, Codex, Kimi, AGY — all four remember now. |
 | [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 27+ languages, zero deps. Used by RecallNest. |
 | hippo-wiki *(private)* | Researched-knowledge vault (Obsidian). Cold reference knowledge — concepts, papers, sources — complementing RecallNest's hot session memory. |
 | hippo-mcp *(private)* | Read-only retrieval server over that vault. The wiki is useless if nobody can call it. |

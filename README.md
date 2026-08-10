@@ -116,7 +116,7 @@ Half of these solve problems that official products now address too. I built the
                           ║     🎭 WHIMSY                  ║
                           ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
-                          60+ repos · 9 layers · 0 for-loops
+                          60+ repos · 10 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things

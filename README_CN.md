@@ -1,5 +1,5 @@
-<h3 align="center">这里每一个仓库，都是跟 Claude 聊出来的。</h3>
-<p align="center">医学出身 → 文化口工作 → Claude 重度用户<br/>不会写 for 循环。60+ 个仓库全部诞生于中文对话。</p>
+<h3 align="center">这里每一个仓库，都从对话开始——最早是 Claude，现在是多 AI 协作。</h3>
+<p align="center">医学出身 → 文化口工作 → AI 协作重度用户<br/>不会写 for 循环。60+ 个仓库全部诞生于中文对话。</p>
 <p align="center"><a href="README.md">🇬🇧 English</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
@@ -31,7 +31,7 @@
 ```
                    ┌──────────┐  ┌────────────┐
                    │   Anti   │  │LanceDB Test│
-                   │ gpt-5.5  │  │  测试夹具  │
+                   │ 5.6-sol  │  │  测试夹具  │
                    └──────────┘  └────────────┘
               2 个 Bot · 1 个 E-twin · 60+ 仓库 · 0 个 for 循环
 ```
@@ -62,9 +62,9 @@
 | 写代码 | 用中文跟 Claude 描述需求。代码它来写。|
 | 调试 | 「又双叒叕坏了」+ 甩截图 |
 | `git rebase` | 「Claude 这啥玩意儿？」 |
-| 代码审查 | 让 Claude 和 Codex 互相怼。我读它们的对话记录，然后选边站。 |
+| 代码审查 | 当前跟我对话的 AI 当 owner，其他几家隔离冷读。我看它们的分歧，最后做决定。 |
 | 需要图片 | 叫 `gpt-image-2`（2026 年 4 月起）。Gemini 悄悄下岗了。 |
-| 需要第二意见 | 「帮我喊 Codex 来看看」——Claude 直接 headless 调 Codex，读回结论，还得告诉我它俩哪里意见不合。现在是常态，不再罕见。 |
+| 需要第二意见 | 「帮我喊另一家来看看」——当前 owner 把另一家 AI 当独立 reviewer 叫来，自己读回结果，最后把分歧交给我。现在是常态，不再罕见。 |
 | 读报错日志 | 「你的逻辑呢？？？」 |
 | 版本回滚 | 「你自己写的你不认识？？」 |
 | 上线部署 | 「上次明明好好的！你失忆了吗！！」 |
@@ -84,7 +84,7 @@
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 界面层                  ║
-                          ║ studio · remote-term · docshell ║
+                          ║ studio · AgentDeck · docshell   ║
                           ╠═══════════════════════════════╣
                           ║     🏰 环境层                   ║
                           ║    cc-empire · repo-insight     ║
@@ -126,7 +126,7 @@
 | | |
 |---|---|
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
-| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | CLI 的 Web 远程终端。xterm.js + node-pty。iPhone + iPad 都友好（浏览器跑）。 |
+| [AgentDeck](https://github.com/AliceLJY/agentdeck) | Claude Code、Codex、Kimi、AGY 共用的 Web 终端。每个 CLI 一个标签页，tmux 保活，手机、平板和电脑浏览器都能访问。 |
 | [docshell](https://github.com/AliceLJY/docshell) | CLI 的文档式界面。输入和回复都是文档段落，工具调用变成页边批注。没有聊天气泡、没有终端。 |
 
 **🏰 环境层** — 指挥中心
@@ -221,7 +221,7 @@
 | 线 | 起点 | 变成了 |
 |---|---|---|
 | 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo |
-| 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
+| 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
 | 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* → **owner 模型交接** + 互审 |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |
 | ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |

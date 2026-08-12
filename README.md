@@ -1,5 +1,5 @@
-<h3 align="center">Every repo here was chatted into existence with Claude.</h3>
-<p align="center">Medical bg → cultural sector day job → self-taught Claude power user<br/>Can't write a for-loop. 60+ repos anyway. All born from conversations in Chinese.</p>
+<h3 align="center">Every repo here began as a conversation — first with Claude, now through AI collaboration.</h3>
+<p align="center">Medical bg → cultural sector day job → self-taught AI workflow power user<br/>Can't write a for-loop. 60+ repos anyway. All born from conversations in Chinese.</p>
 <p align="center"><a href="README_CN.md">🇨🇳 中文版</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
@@ -31,7 +31,7 @@
 ```
                    ┌──────────┐  ┌────────────┐
                    │   Anti   │  │LanceDB Test│
-                   │ gpt-5.5  │  │  fixture   │
+                   │ 5.6-sol  │  │  fixture   │
                    └──────────┘  └────────────┘
               2 bots · 1 E-twin · 60+ repos · 0 for-loops
 ```
@@ -62,9 +62,9 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | Write code | Describe what I want in Chinese. Claude writes it. |
 | Debug | "It broke again" + paste the error |
 | `git rebase` | "Claude, what does this even mean?" |
-| Code review | Claude and Codex roast each other now. I just read the transcript and pick a side. |
+| Code review | Whichever AI I am talking to owns the task; the others review it in isolation. I read the disagreements and decide. |
 | Need an image | Ask `gpt-image-2` (since April 2026). Gemini got quietly laid off. |
-| Need a second opinion | "帮我喊 Codex 来看看" — Claude calls Codex headless, reads the verdict back, and tells me where they disagree. Now standard, not rare. |
+| Need a second opinion | "帮我喊另一家来看看" — the current owner brings in another AI as an independent reviewer, reads the result, and tells me where they disagree. Now standard, not rare. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |
 | Deploy | "It was JUST working! Did you lose your memory?!" |
@@ -82,7 +82,7 @@ Half of these solve problems that official products now address too. I built the
 ```
                           ╔═══════════════════════════════╗
                           ║     🎨 INTERFACE              ║
-                          ║ studio · remote-term · docshell ║
+                          ║ studio · AgentDeck · docshell   ║
                           ╠═══════════════════════════════╣
                           ║     🏰 ENVIRONMENT             ║
                           ║    cc-empire · repo-insight     ║
@@ -124,7 +124,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
-| [cc-remote-term](https://github.com/AliceLJY/cc-remote-term) | Web-based remote terminal for the CLI. xterm.js + node-pty. iPhone + iPad friendly (any browser). |
+| [AgentDeck](https://github.com/AliceLJY/agentdeck) | Web terminal for Claude Code, Codex, Kimi, and AGY. One tab per CLI, with tmux-backed sessions and browser access from phone, tablet, or desktop. |
 | [docshell](https://github.com/AliceLJY/docshell) | Document-style interface for the CLI. Input and replies are document paragraphs; tool calls become margin comments. No chat bubbles, no terminal. |
 
 **🏰 Environment** — the command center
@@ -219,7 +219,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 | Line | Started as | Became |
 |---|---|---|
 | 🧠 Memory | `memory-lancedb-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo |
-| 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **cc-remote-term** · **telegram-ai-bridge** + **tg-bridge-channel** |
+| 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
 | 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* → **owner-model handoff** + mutual review |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** |
 | ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |

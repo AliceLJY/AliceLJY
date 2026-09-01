@@ -113,10 +113,13 @@ Half of these solve problems that official products now address too. I built the
                           ║     🔧 TOOLS                   ║
                           ║ slidesmith · vision · sogou-wx  ║
                           ╠═══════════════════════════════╣
+                          ║     📱 APPS                    ║
+                          ║        mailuo · tenglu          ║
+                          ╠═══════════════════════════════╣
                           ║     🎭 WHIMSY                  ║
                           ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
-                          60+ repos · 10 layers · 0 for-loops
+                          60+ repos · 11 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
@@ -126,6 +129,7 @@ Half of these solve problems that official products now address too. I built the
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Multiple Claude instances as a coordinated team. Official Teams? Built mine first. |
 | [AgentDeck](https://github.com/AliceLJY/agentdeck) | Web terminal for Claude Code, Codex, Kimi, and AGY. One tab per CLI, with tmux-backed sessions and browser access from phone, tablet, or desktop. |
 | [docshell](https://github.com/AliceLJY/docshell) | Document-style interface for the CLI. Input and replies are document paragraphs; tool calls become margin comments. No chat bubbles, no terminal. |
+| [dsh-thumb](https://github.com/AliceLJY/dsh-thumb) | Phone shell for the DeepSeek Harness web GUI — sidebar becomes an overlay drawer, settings goes full-screen single column. A runtime plugin with zero hardcoded host class hashes. |
 
 **🏰 Environment** — the command center
 
@@ -146,13 +150,14 @@ Half of these solve problems that official products now address too. I built the
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | CC on WeChat via iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge for Docker containers |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | Phone browser → Mac desktop over LAN/Tailscale. Fills AirDrop's gaps: non-Apple phones, or when the target Mac (mine's at home — the mini) isn't physically nearby. PoC on the mini. |
+| [phone-remote](https://github.com/AliceLJY/phone-remote) | Phone browser as a wireless keyboard + CLI launcher for the Mac. One tap opens Claude Code / Codex, then dictate the prompt with the phone's own voice input — works where remote-desktop IME forwarding fails. |
 
 **🧠 Memory** — it forgot my name. I took that personally.
 
 | | |
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | Shared memory MCP. Claude, Codex, Kimi, AGY — all four remember now. |
-| [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 27+ languages, zero deps. Used by RecallNest. |
+| [babel-memory](https://github.com/AliceLJY/babel-memory) | Multilingual fix for BM25 — 22 language codes, zero deps. Used by RecallNest. |
 | hippo-wiki *(private)* | Researched-knowledge vault (Obsidian). Cold reference knowledge — concepts, papers, sources — complementing RecallNest's hot session memory. |
 | hippo-mcp *(private)* | Read-only retrieval server over that vault. The wiki is useless if nobody can call it. |
 
@@ -187,6 +192,7 @@ Half of these solve problems that official products now address too. I built the
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Bidirectional handoff bundles for two coding agents reviewing each other's work. The handoff format behind the trio protocol. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Local CLI room. Humans, Claude Code, Codex — mention-based routing. |
 | [codex-plugin-cc](https://github.com/AliceLJY/codex-plugin-cc) | Call Codex from inside Claude Code — review a diff or hand off a task without leaving the session. |
+| [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | Owner-led tmux rooms for persistent multi-model review. You talk to the owner pane; Codex / Kimi / Claude reviewers watch from read-only panes, each keeping its native session. The mutual-review workflow, engineered. |
 
 **🔧 Tools** — single-purpose, sharp
 
@@ -196,6 +202,13 @@ Half of these solve problems that official products now address too. I built the
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision-to-deck companion: turns visual slide specs into SlideSmith HTML + PPTX. |
 | sogou-wechat-skill *(private)* | Search WeChat public accounts via Sogou, with bounded comment aggregation — paging limits, dedup, and honest completeness labels. |
 | cc-ebook-fetcher *(private)* | Book-wishlist fetcher for macOS. Fail-closed on attribution, delivers into a shared inbox. |
+
+**📱 Apps** — screenshots in, structure out
+
+| | |
+|---|---|
+| [mailuo](https://github.com/AliceLJY/mailuo) | 脉络 — chat screenshots → action cards → contact profiles → relationship insights. A personal CRM with zero manual data entry. Expo RN app; runs fully local with BYOK, or against a self-hosted backend. |
+| [tenglu](https://github.com/AliceLJY/tenglu) | 誊录 — scrolling screen recording → clean Markdown transcript, 100% on-device with zero network permission. It delivers the raw material; mailuo does the reading. |
 
 **🎭 Whimsy** — built because I wanted to
 
@@ -220,7 +233,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 |---|---|---|
 | 🧠 Memory | `memory-lancedb-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo |
 | 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* → **owner-model handoff** + mutual review |
+| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* → **owner-model handoff** + mutual review, now engineered as **mutual-review-room** |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** |
 | ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
 | 📦 Quick-start | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |

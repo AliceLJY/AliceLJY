@@ -115,10 +115,13 @@
                           ║     🔧 工具层                   ║
                           ║ slidesmith · vision · sogou-wx  ║
                           ╠═══════════════════════════════╣
+                          ║     📱 应用层                   ║
+                          ║        mailuo · tenglu          ║
+                          ╠═══════════════════════════════╣
                           ║     🎭 玩票层                   ║
                           ║        copium · cobbler         ║
                           ╚═══════════════════════════════╝
-                          60+ 个仓库 · 10 层架构 · 0 个 for 循环
+                          60+ 个仓库 · 11 层架构 · 0 个 for 循环
 ```
 
 **🎨 界面层** — 点按的地方
@@ -128,6 +131,7 @@
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
 | [AgentDeck](https://github.com/AliceLJY/agentdeck) | Claude Code、Codex、Kimi、AGY 共用的 Web 终端。每个 CLI 一个标签页，tmux 保活，手机、平板和电脑浏览器都能访问。 |
 | [docshell](https://github.com/AliceLJY/docshell) | CLI 的文档式界面。输入和回复都是文档段落，工具调用变成页边批注。没有聊天气泡、没有终端。 |
+| [dsh-thumb](https://github.com/AliceLJY/dsh-thumb) | DeepSeek Harness 网页版的手机壳——侧栏变覆盖式抽屉、设置改全屏单列。运行时插件，零硬编码宿主 class hash。 |
 
 **🏰 环境层** — 指挥中心
 
@@ -148,13 +152,14 @@
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 CC，iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | Docker 容器的 HTTP 任务队列桥 |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机浏览器 → Mac 桌面，走 LAN/Tailscale。补 AirDrop 的盲区：非 Apple 手机，或目标 Mac（我家 mini）不在身边时。PoC，跑在 mini 上。 |
+| [phone-remote](https://github.com/AliceLJY/phone-remote) | 手机浏览器变 Mac 无线键盘 + CLI 启动器。一键打开 Claude Code / Codex，用手机自带的语音输入口述提示词——专治远程桌面打不进语音听写。 |
 
 **🧠 记忆层** — 它忘了我叫什么。我记仇的。
 
 | | |
 |---|---|
 | [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Kimi、AGY——四个端现在谁都不会忘了。 |
-| [babel-memory](https://github.com/AliceLJY/babel-memory) | 27+ 语言 BM25 预处理。RecallNest 在用。 |
+| [babel-memory](https://github.com/AliceLJY/babel-memory) | 22 个语言代码的 BM25 预处理。RecallNest 在用。 |
 | hippo-wiki *(私有)* | 研究知识库（Obsidian）。沉淀冷门参考知识——概念 / 论文 / 信源，与 RecallNest 的热记忆互补。 |
 | hippo-mcp *(私有)* | 架在这个库上的只读检索服务。库再全，召不回来也等于没有。 |
 
@@ -189,6 +194,7 @@
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | 两个 coding agent 互审代码的双向 handoff 包，trio 协议的交接格式。 |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 本地 CLI 聊天室。人类、Claude Code、Codex —— @ 谁谁就回。 |
 | [codex-plugin-cc](https://github.com/AliceLJY/codex-plugin-cc) | 在 Claude Code 里直接喊 Codex——审 diff 或派活，不用切出去。 |
+| [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | owner 带队的 tmux 互审房间——你只跟左窗格的 owner 说话，Codex / Kimi / Claude reviewer 在只读窗格旁观，各自保持原生会话。互审工作流的工程化落地。 |
 
 **🔧 工具层** — 单一目的，刀刀见血
 
@@ -198,6 +204,13 @@
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision 配套：把视觉化的 slide 规范转成 SlideSmith HTML + PPTX。 |
 | sogou-wechat-skill *(私有)* | 走搜狗检索公众号文章，评论有界聚合——分页限额、去重，完整还是部分如实标注。 |
 | cc-ebook-fetcher *(私有)* | macOS 上的书单抓取器。来源存疑就不下载，抓到了投进共享收件箱。 |
+
+**📱 应用层** — 截图进，结构出
+
+| | |
+|---|---|
+| [mailuo](https://github.com/AliceLJY/mailuo) | 脉络——聊天截图 → 行动卡片 → 人脉档案 → 关系洞察。零手动录入的个人 CRM。Expo RN app，BYOK 纯本地跑，或连自托管后端。 |
+| [tenglu](https://github.com/AliceLJY/tenglu) | 誊录——滚动录屏 → 干净的 Markdown 文字记录，100% 本地、零联网权限。它交原料，脉络管解读。 |
 
 **🎭 玩票层** — 纯粹因为想做
 
@@ -222,7 +235,7 @@
 |---|---|---|
 | 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo |
 | 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* → **owner 模型交接** + 互审 |
+| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* → **owner 模型交接** + 互审，工程化成 **mutual-review-room** |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |
 | ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
 | 📦 快速启动 | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |

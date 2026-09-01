@@ -218,7 +218,7 @@
 |---|---|
 | [copium](https://github.com/AliceLJY/copium) | COPIUM 焦虑急诊室——披着赛博朋克皮的焦虑释放 App。慌张进，大笑出。 |
 | [cobbler](https://github.com/AliceLJY/cobbler) | 曾陪我写代码的 Buddy 小机器人，随官方下架"死"过一次，如今复活成 Android 电子宠物。巢跑在 mini，每天发一张「那年今日」卡。 |
-| [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局——以临床试验舞弊为题材的探案游戏，Minis（我在 ChatGPT 侧的 AI）在 ChatGPT Apps 上做的。阅读证物、击破证词，只有完整证据链才能结案。 |
+| [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局——以临床试验舞弊为题材的探案游戏。Codex 起的头，Minis（我在 ChatGPT 侧的 AI）接手改造成游戏，全程在 ChatGPT Apps 上。只有完整证据链才能结案。 |
 
 <details>
 <summary>📜 <b>起点与演进</b>（一个非程序员的 14 个月 · 归档 ≠ 遗忘）</summary>

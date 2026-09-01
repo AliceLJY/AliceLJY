@@ -117,7 +117,7 @@ Half of these solve problems that official products now address too. I built the
                           ║        mailuo · tenglu          ║
                           ╠═══════════════════════════════╣
                           ║     🎭 WHIMSY                  ║
-                          ║        copium · cobbler         ║
+                          ║    copium · cobbler · mystery   ║
                           ╚═══════════════════════════════╝
                           60+ repos · 11 layers · 0 for-loops
 ```
@@ -216,6 +216,7 @@ Half of these solve problems that official products now address too. I built the
 |---|---|
 | [copium](https://github.com/AliceLJY/copium) | COPIUM Anxiety ER — a cyberpunk emergency room for anxiety. Walk in panicked, walk out laughing. |
 | [cobbler](https://github.com/AliceLJY/cobbler) | My old CC Buddy robot that "died" when the feature was sunset — reborn as an Android virtual pet. Its nest runs on the mini and sends me an "on this day" card every morning. |
+| [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局 — a detective game set inside clinical-trial fraud, built by Minis (my ChatGPT) on the ChatGPT Apps platform. Read the exhibits, break the testimony; only a complete evidence chain closes the case. |
 
 <details>
 <summary>📜 <b>Origins & Evolution</b> — a non-coder's 14-month trail (archived ≠ forgotten)</summary>

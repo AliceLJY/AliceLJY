@@ -108,7 +108,7 @@ Half of these solve problems that official products now address too. I built the
                           ╠═══════════════════════════════╣
                           ║     🎯 ORCHESTRATION           ║
                           ║      workflow · agent-room      ║
-                          ║   trio-handoff · codex-plugin   ║
+                          ║          trio-handoff           ║
                           ╠═══════════════════════════════╣
                           ║     🔧 TOOLS                   ║
                           ║ slidesmith · vision · sogou-wx  ║
@@ -191,7 +191,6 @@ Half of these solve problems that official products now address too. I built the
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Bidirectional handoff bundles for two coding agents reviewing each other's work. The handoff format behind the trio protocol. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Local CLI room. Humans, Claude Code, Codex — mention-based routing. |
-| [codex-plugin-cc](https://github.com/AliceLJY/codex-plugin-cc) | Call Codex from inside Claude Code — review a diff or hand off a task without leaving the session. |
 | [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | Owner-led tmux rooms for persistent multi-model review. You talk to the owner pane; Codex / Kimi / Claude reviewers watch from read-only panes, each keeping its native session. The mutual-review workflow, engineered. |
 
 **🔧 Tools** — single-purpose, sharp

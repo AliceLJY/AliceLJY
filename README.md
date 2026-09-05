@@ -1,5 +1,5 @@
 <h3 align="center">Every repo here began as a conversation — first with Claude, now through AI collaboration.</h3>
-<p align="center">Medical bg → cultural sector day job → self-taught AI workflow power user<br/>Can't write a for-loop. 60+ repos anyway. All born from conversations in Chinese.</p>
+<p align="center">Medical bg → cultural sector day job → self-taught AI workflow power user<br/>Can't write a for-loop. 50 public repos anyway. All born from conversations in Chinese.</p>
 <p align="center"><a href="README_CN.md">🇨🇳 中文版</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
@@ -33,7 +33,7 @@
                    │   Anti   │  │LanceDB Test│
                    │ 5.6-sol  │  │  fixture   │
                    └──────────┘  └────────────┘
-              2 bots · 1 E-twin · 60+ repos · 0 for-loops
+              2 bots · 1 E-twin · 50 public repos · 0 for-loops
 ```
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
@@ -85,7 +85,7 @@ Half of these solve problems that official products now address too. I built the
                           ║ studio · AgentDeck · docshell   ║
                           ╠═══════════════════════════════╣
                           ║     🏰 ENVIRONMENT             ║
-                          ║    cc-empire · repo-insight     ║
+                          ║ private harness · repo-insight  ║
                           ║  hooks · rules · methodology    ║
                           ║   vault · prism · tinkering     ║
                           ╠═══════════════════════════════╣
@@ -119,7 +119,7 @@ Half of these solve problems that official products now address too. I built the
                           ║     🎭 WHIMSY                  ║
                           ║    copium · cobbler · mystery   ║
                           ╚═══════════════════════════════╝
-                          60+ repos · 11 layers · 0 for-loops
+                          50 public repos · 11 layers · 0 for-loops
 ```
 
 **🎨 Interface** — where you click things
@@ -135,7 +135,7 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| cc-empire *(private)* | Hooks, rules, methodology, frameworks — the connective tissue of the whole ecosystem |
+| a private harness repo (no longer public) | Hooks, rules, methodology, frameworks — the connective tissue of the whole ecosystem |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | Skill for deep architectural analysis of open-source projects. Why > What philosophy. |
 | Zhaojian / Prism *(private)* | "Verify-truth" skill: see through rhetoric, spot logic holes, turn gut-feel "something's off" into articulable reasons. Born from medical differential-diagnosis thinking. |
 | sync-bridge-vault *(private)* | Disaster-recovery vault for the two-machine sync layer — history and a third copy of rules, memory, skills and research. Mirroring isn't backup. |
@@ -145,9 +145,9 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | CC on Telegram. Subway, bed, lunch break — no excuse not to build. |
+| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Claude Code + Codex (+ Agy + Kimi) on Telegram. Subway, bed, lunch break — no excuse not to build. |
 | [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | Sister bridge built on Claude Agent View background sessions. Where the bridge-side identities behind the bot setup live. |
-| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | CC on WeChat via iLink API |
+| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | Claude Code + Codex on WeChat via iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge for Docker containers |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | Phone browser → Mac desktop over LAN/Tailscale. Fills AirDrop's gaps: non-Apple phones, or when the target Mac (mine's at home — the mini) isn't physically nearby. PoC on the mini. |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | Phone browser as a wireless keyboard + CLI launcher for the Mac. One tap opens Claude Code / Codex, then dictate the prompt with the phone's own voice input — works where remote-desktop IME forwarding fails. |
@@ -188,7 +188,7 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Natural language pipeline: ideation → multi-role review → execution → shipping. No commands. |
+| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Design record: how natural-language workflow orchestration evolved; folded into the trio flow. |
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Bidirectional handoff bundles for two coding agents reviewing each other's work. The handoff format behind the trio protocol. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Local CLI room. Humans, Claude Code, Codex — mention-based routing. |
 | [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | Owner-led tmux rooms for persistent multi-model review. You talk to the owner pane; Codex / Kimi / Claude reviewers watch from read-only panes, each keeping its native session. The mutual-review workflow, engineered. |
@@ -197,7 +197,7 @@ Half of these solve problems that official products now address too. I built the
 
 | | |
 |---|---|
-| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → editable PowerPoint. Local-first, no upload, no limits. |
+| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → editable PowerPoint. Local-first, no upload, supported HTML + CSS. |
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision-to-deck companion: turns visual slide specs into SlideSmith HTML + PPTX. |
 | sogou-wechat-skill *(private)* | Search WeChat public accounts via Sogou, with bounded comment aggregation — paging limits, dedup, and honest completeness labels. |
 | cc-ebook-fetcher *(private)* | Book-wishlist fetcher for macOS. Fail-closed on attribution, delivers into a shared inbox. |
@@ -218,7 +218,7 @@ Half of these solve problems that official products now address too. I built the
 | [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局 — a detective game set inside clinical-trial fraud. Codex started it as an evidence notebook; Minis (my ChatGPT) rebuilt it into the game — all on the ChatGPT Apps platform. Only a complete evidence chain closes a case. |
 
 <details>
-<summary>📜 <b>Origins & Evolution</b> — a non-coder's 14-month trail (archived ≠ forgotten)</summary>
+<summary>📜 <b>Origins & Evolution</b> — a non-coder's trail since 2025-03 (archived ≠ forgotten)</summary>
 
 Nothing here "died." Every starting point below grew into something still running today.
 
@@ -236,7 +236,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 | 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* → **owner-model handoff** + mutual review, now engineered as **mutual-review-room** |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** |
 | ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
-| 📦 Quick-start | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |
+| 📦 Quick-start | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | a private harness repo (no longer public) |
 | ✍️ Content | early experiments | a private content + publishing pipeline |
 
 </details>

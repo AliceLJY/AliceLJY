@@ -1,5 +1,5 @@
 <h3 align="center">这里每一个仓库，都从对话开始——最早是 Claude，现在是多 AI 协作。</h3>
-<p align="center">医学出身 → 文化口工作 → AI 协作重度用户<br/>不会写 for 循环。60+ 个仓库全部诞生于中文对话。</p>
+<p align="center">医学出身 → 文化口工作 → AI 协作重度用户<br/>不会写 for 循环。50 个公开仓库全部诞生于中文对话。</p>
 <p align="center"><a href="README.md">🇬🇧 English</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
 
 ---
@@ -33,7 +33,7 @@
                    │   Anti   │  │LanceDB Test│
                    │ 5.6-sol  │  │  测试夹具  │
                    └──────────┘  └────────────┘
-              2 个 Bot · 1 个 E-twin · 60+ 仓库 · 0 个 for 循环
+              2 个 Bot · 1 个 E-twin · 50 个公开仓库 · 0 个 for 循环
 ```
 
 至今不会手写 for 循环。Claude 表示无所谓。
@@ -87,7 +87,7 @@
                           ║ studio · AgentDeck · docshell   ║
                           ╠═══════════════════════════════╣
                           ║     🏰 环境层                   ║
-                          ║    cc-empire · repo-insight     ║
+                          ║ private harness · repo-insight  ║
                           ║  hooks · rules · methodology    ║
                           ║   vault · prism · tinkering     ║
                           ╠═══════════════════════════════╣
@@ -110,7 +110,7 @@
                           ╠═══════════════════════════════╣
                           ║     🎯 编排层                   ║
                           ║      workflow · agent-room      ║
-                          ║   trio-handoff · codex-plugin   ║
+                          ║          trio-handoff           ║
                           ╠═══════════════════════════════╣
                           ║     🔧 工具层                   ║
                           ║ slidesmith · vision · sogou-wx  ║
@@ -121,7 +121,7 @@
                           ║     🎭 玩票层                   ║
                           ║    copium · cobbler · mystery   ║
                           ╚═══════════════════════════════╝
-                          60+ 个仓库 · 11 层架构 · 0 个 for 循环
+                          50 个公开仓库 · 11 层架构 · 0 个 for 循环
 ```
 
 **🎨 界面层** — 点按的地方
@@ -137,7 +137,7 @@
 
 | | |
 |---|---|
-| cc-empire *(private)* | Hooks、rules、方法论、框架——整个生态的连接组织 |
+| 一个已转私有的 harness 仓 | Hooks、rules、方法论、框架——整个生态的连接组织 |
 | [repo-insight](https://github.com/AliceLJY/repo-insight) | 开源项目深度架构分析 skill，Why > What 哲学 |
 | 照见 / Prism *(私有)* | 验真 skill：看穿话术、识别逻辑漏洞，把"说不出哪里不对劲"翻译成"说得出的一二三"。源自医学的鉴别诊断思维。 |
 | sync-bridge-vault *(私有)* | 双机同步层的容灾仓——规则 / 记忆 / skill / 研究成果的历史与第三副本。镜像不等于备份。 |
@@ -147,9 +147,9 @@
 
 | | |
 |---|---|
-| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 CC。地铁上、床上、午饭间隙——没有理由不在 build。 |
+| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 Claude Code + Codex（+ Agy + Kimi）。地铁上、床上、午饭间隙——没有理由不在 build。 |
 | [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。这套 bot 的桥接身份实际跑在这里。 |
-| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 CC，iLink API |
+| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 Claude Code + Codex，iLink API |
 | [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | Docker 容器的 HTTP 任务队列桥 |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机浏览器 → Mac 桌面，走 LAN/Tailscale。补 AirDrop 的盲区：非 Apple 手机，或目标 Mac（我家 mini）不在身边时。PoC，跑在 mini 上。 |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | 手机浏览器变 Mac 无线键盘 + CLI 启动器。一键打开 Claude Code / Codex，用手机自带的语音输入口述提示词——专治远程桌面打不进语音听写。 |
@@ -190,17 +190,16 @@
 
 | | |
 |---|---|
-| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 自然语言流水线：构思 → 多角色审查 → 执行 → 上线。不需要记命令。 |
+| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 设计记录仓：自然语言 workflow 编排的思路演变，已并入 trio 流程。 |
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | 两个 coding agent 互审代码的双向 handoff 包，trio 协议的交接格式。 |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 本地 CLI 聊天室。人类、Claude Code、Codex —— @ 谁谁就回。 |
-| [codex-plugin-cc](https://github.com/AliceLJY/codex-plugin-cc) | 在 Claude Code 里直接喊 Codex——审 diff 或派活，不用切出去。 |
 | [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | owner 带队的 tmux 互审房间——你只跟左窗格的 owner 说话，Codex / Kimi / Claude reviewer 在只读窗格旁观，各自保持原生会话。互审工作流的工程化落地。 |
 
 **🔧 工具层** — 单一目的，刀刀见血
 
 | | |
 |---|---|
-| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑 PowerPoint。本地优先，零上传，没有限制。 |
+| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑 PowerPoint。本地优先，零上传，支持 HTML + CSS。 |
 | [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision 配套：把视觉化的 slide 规范转成 SlideSmith HTML + PPTX。 |
 | sogou-wechat-skill *(私有)* | 走搜狗检索公众号文章，评论有界聚合——分页限额、去重，完整还是部分如实标注。 |
 | cc-ebook-fetcher *(私有)* | macOS 上的书单抓取器。来源存疑就不下载，抓到了投进共享收件箱。 |
@@ -221,7 +220,7 @@
 | [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局——以临床试验舞弊为题材的探案游戏。Codex 起的头，Minis（我在 ChatGPT 侧的 AI）接手改造成游戏，全程在 ChatGPT Apps 上。只有完整证据链才能结案。 |
 
 <details>
-<summary>📜 <b>起点与演进</b>（一个非程序员的 14 个月 · 归档 ≠ 遗忘）</summary>
+<summary>📜 <b>起点与演进</b>（一个非程序员自 2025-03 起的历程 · 归档 ≠ 遗忘）</summary>
 
 这里没有谁"死了"。下面每个起点，都长成了今天还在跑的东西。
 
@@ -239,7 +238,7 @@
 | 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* → **owner 模型交接** + 互审，工程化成 **mutual-review-room** |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |
 | ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
-| 📦 快速启动 | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | **cc-empire** |
+| 📦 快速启动 | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | 一个已转私有的 harness 仓 |
 | ✍️ 内容 | 早期实验 | 私有的内容 + 发布管线 |
 
 </details>

@@ -26,15 +26,15 @@
 
 **Jul 2026**: The EC2 goes. Keeping a server alive just to run cron stopped making sense. Three become two.
 
+**2026-09-14**: The OpenClaw chapter is retired. Anti and LanceDB Test are shut down, along with the local Docker bot stack. My OpenClaw-related repositories are archived as a record of that work. The daily humanities research task has moved to Grok.
+
 **Now**:
 
 ```
-                   ┌──────────┐  ┌────────────┐
-                   │   Anti   │  │LanceDB Test│
-                   │ 5.6-sol  │  │  fixture   │
-                   └──────────┘  └────────────┘
-              2 bots · 1 E-twin · 50 public repos · 0 for-loops
+       0 Discord bots · E-twin + Telegram bridges · AI collaboration continues
 ```
+
+Telegram bridges, E-twin, and RecallNest remain in use.
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
 
@@ -91,7 +91,7 @@ Half of these solve problems that official products now address too. I built the
                           ╠═══════════════════════════════╣
                           ║     🌉 BRIDGE                  ║
                           ║   telegram · channel · wechat   ║
-                          ║     tunnel · iphone-sensor      ║
+                          ║      phone · iphone-sensor      ║
                           ╠═══════════════════════════════╣
                           ║     🧠 MEMORY                  ║
                           ║ recallnest · babel · hippo-wiki ║
@@ -148,7 +148,6 @@ Half of these solve problems that official products now address too. I built the
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Claude Code + Codex (+ Agy + Kimi) on Telegram. Subway, bed, lunch break — no excuse not to build. |
 | [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | Sister bridge built on Claude Agent View background sessions. Where the bridge-side identities behind the bot setup live. |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | Claude Code + Codex on WeChat via iLink API |
-| [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | HTTP task queue bridge for Docker containers |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | Phone browser → Mac desktop over LAN/Tailscale. Fills AirDrop's gaps: non-Apple phones, or when the target Mac (mine's at home — the mini) isn't physically nearby. PoC on the mini. |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | Phone browser as a wireless keyboard + CLI launcher for the Mac. One tap opens Claude Code / Codex, then dictate the prompt with the phone's own voice input — works where remote-desktop IME forwarding fails. |
 
@@ -220,7 +219,7 @@ Half of these solve problems that official products now address too. I built the
 <details>
 <summary>📜 <b>Origins & Evolution</b> — a non-coder's trail since 2025-03 (archived ≠ forgotten)</summary>
 
-Nothing here "died." Every starting point below grew into something still running today.
+Some of these starting points grew into tools I still use; others have retired. The history stays here, with retirement dates where applicable.
 
 **2025-03 · Day zero** — `grokbot` · `DS-V3-info` · `OpenAI-Autogen-Comparison` · `BlazorGeminiChat`
 A full year before the rest. A non-coder's first "I made a thing." We don't talk about the code — we talk about the nerve it took to start.
@@ -235,7 +234,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 | 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
 | 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* → **owner-model handoff** + mutual review, now engineered as **mutual-review-room** |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** |
-| ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
+| ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Evolved into Hermes + [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel); **this project line retired 2026-09-14**. My related repositories are archived; earlier archive dates remain part of their history. |
 | 📦 Quick-start | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | a private harness repo (no longer public) |
 | ✍️ Content | early experiments | a private content + publishing pipeline |
 

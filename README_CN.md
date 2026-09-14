@@ -26,15 +26,15 @@
 
 **2026年7月**：EC2 退役了。为了跑几个 cron 单养一台服务器，实在不划算。3 个变成 2 个。
 
+**2026-09-14**：OpenClaw 这条线退役了。Anti、LanceDB Test 和本机 Docker bot 环境撤除，我自己的 OpenClaw 相关仓库归档保留。每日人文选材任务转交 Grok。
+
 **现在**：
 
 ```
-                   ┌──────────┐  ┌────────────┐
-                   │   Anti   │  │LanceDB Test│
-                   │ 5.6-sol  │  │  测试夹具  │
-                   └──────────┘  └────────────┘
-              2 个 Bot · 1 个 E-twin · 50 个公开仓库 · 0 个 for 循环
+       0 个 Discord Bot · E-twin + Telegram 桥 · AI 协作继续
 ```
+
+Telegram 桥、E-twin 和 RecallNest 继续使用。
 
 至今不会手写 for 循环。Claude 表示无所谓。
 
@@ -93,7 +93,7 @@
                           ╠═══════════════════════════════╣
                           ║     🌉 桥接层                   ║
                           ║   telegram · channel · wechat   ║
-                          ║     tunnel · iphone-sensor      ║
+                          ║      phone · iphone-sensor      ║
                           ╠═══════════════════════════════╣
                           ║     🧠 记忆层                   ║
                           ║ recallnest · babel · hippo-wiki ║
@@ -150,7 +150,6 @@
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 Claude Code + Codex（+ Agy + Kimi）。地铁上、床上、午饭间隙——没有理由不在 build。 |
 | [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。这套 bot 的桥接身份实际跑在这里。 |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 Claude Code + Codex，iLink API |
-| [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel) | Docker 容器的 HTTP 任务队列桥 |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机浏览器 → Mac 桌面，走 LAN/Tailscale。补 AirDrop 的盲区：非 Apple 手机，或目标 Mac（我家 mini）不在身边时。PoC，跑在 mini 上。 |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | 手机浏览器变 Mac 无线键盘 + CLI 启动器。一键打开 Claude Code / Codex，用手机自带的语音输入口述提示词——专治远程桌面打不进语音听写。 |
 
@@ -222,7 +221,7 @@
 <details>
 <summary>📜 <b>起点与演进</b>（一个非程序员自 2025-03 起的历程 · 归档 ≠ 遗忘）</summary>
 
-这里没有谁"死了"。下面每个起点，都长成了今天还在跑的东西。
+有些起点长成了今天还在用的工具，有些已经退役。历程留在这里，退役的项目注明时间。
 
 **2025-03 · 第 0 天** —— `grokbot` · `DS-V3-info` · `OpenAI-Autogen-Comparison` · `BlazorGeminiChat`
 比其余一切早整整一年。一个不会写代码的人，第一次"我做了个东西"。我们不谈代码——谈的是动手开始的那股劲儿。
@@ -237,7 +236,7 @@
 | 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
 | 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* → **owner 模型交接** + 互审，工程化成 **mutual-review-room** |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |
-| ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Hermes + **openclaw-tunnel** |
+| ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | 后来演进为 Hermes + [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel)；**整条项目线于 2026-09-14 退役**。我的相关仓库已归档，此前归档的项目保留各自历史时间。 |
 | 📦 快速启动 | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | 一个已转私有的 harness 仓 |
 | ✍️ 内容 | 早期实验 | 私有的内容 + 发布管线 |
 

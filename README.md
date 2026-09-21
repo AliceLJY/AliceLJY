@@ -146,7 +146,7 @@ Half of these solve problems that official products now address too. I built the
 | | |
 |---|---|
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Claude Code + Codex (+ Agy + Kimi) on Telegram. Subway, bed, lunch break — no excuse not to build. |
-| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | Sister bridge built on Claude Agent View background sessions. Where the bridge-side identities behind the bot setup live. |
+| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | Sister bridge built on Claude Agent View background sessions. Ran the Claude Code bots from May to September 2026; they've since moved to the official Remote Control. |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | Claude Code + Codex on WeChat via iLink API |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | Phone browser → Mac desktop over LAN/Tailscale. Fills AirDrop's gaps: non-Apple phones, or when the target Mac (mine's at home — the mini) isn't physically nearby. PoC on the mini. |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | Phone browser as a wireless keyboard + CLI launcher for the Mac. One tap opens Claude Code / Codex, then dictate the prompt with the phone's own voice input — works where remote-desktop IME forwarding fails. |

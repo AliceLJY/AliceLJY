@@ -148,7 +148,7 @@ Telegram 桥、E-twin 和 RecallNest 继续使用。
 | | |
 |---|---|
 | [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 Claude Code + Codex（+ Agy + Kimi）。地铁上、床上、午饭间隙——没有理由不在 build。 |
-| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。这套 bot 的桥接身份实际跑在这里。 |
+| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。2026 年 5 月到 9 月，Claude Code 的 bot 跑在这里，之后改走官方远程。 |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 Claude Code + Codex，iLink API |
 | [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机浏览器 → Mac 桌面，走 LAN/Tailscale。补 AirDrop 的盲区：非 Apple 手机，或目标 Mac（我家 mini）不在身边时。PoC，跑在 mini 上。 |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | 手机浏览器变 Mac 无线键盘 + CLI 启动器。一键打开 Claude Code / Codex，用手机自带的语音输入口述提示词——专治远程桌面打不进语音听写。 |

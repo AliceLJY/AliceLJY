@@ -1,6 +1,7 @@
-<h3 align="center">这里每一个仓库，都从对话开始——最早是 Claude，现在是多 AI 协作。</h3>
-<p align="center">医学出身 → 文化口工作 → AI 协作重度用户<br/>不会写 for 循环。50 个公开仓库全部诞生于中文对话。</p>
-<p align="center"><a href="README.md">🇬🇧 English</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a></p>
+<h3 align="center">这里每一个仓库，都从对话开始——最早是 Claude，现在是一整个班子。</h3>
+<p align="center">医学出身 → 文化口工作 → 自学成才的 AI 工作流搭建者<br/>不会写 for 循环。46 个公开仓库全部诞生于中文对话。</p>
+<p align="center"><a href="README.md">🇬🇧 English</a> · <a href="https://aliceljy.github.io">🏠 aliceljy.github.io</a> · <a href="https://aliceljy.github.io/playground/">🎮 playground</a></p>
+<p align="center"><sub>29 个在役公开仓库 · 17 个光荣退役 · 27 个私有 · 132 个已合并 PR，其中 109 个合进了别人的项目 · 600+ 篇文章 · 数据截至 2026-10-22</sub></p>
 
 ---
 
@@ -22,19 +23,23 @@
                       巅峰阵容 — 2026年4月
 ```
 
-**2026年5月**：搞了个「E-twin」——Telegram 上一个数字版的我，说话像我。有点诡异但很好用。同月还干了一件事：Hermes 大整合，睿智和小试AI 合并进 Anti。5 个 Bot 收成 3 个，吞吐没掉，零件少了一半。（小试AI 留着当公众号笔名，反正它能活到最后。）
+**2026年5月**：搞了个「E-twin」——Telegram 上一个数字版的我。有点诡异但很好用。同月还干了一件事：Hermes 大整合，睿智和小试AI 合并进 Anti。5 个 Bot 收成 3 个，吞吐没掉，零件少了一半。（小试AI 留着当公众号笔名，反正它能活到最后。）
 
 **2026年7月**：EC2 退役了。为了跑几个 cron 单养一台服务器，实在不划算。3 个变成 2 个。
 
-**2026-09-14**：OpenClaw 这条线退役了。Anti、LanceDB Test 和本机 Docker bot 环境撤除，我自己的 OpenClaw 相关仓库归档保留。每日人文选材任务转交 Grok。
+**2026年9月**：14 号，OpenClaw 这一章合上了。Anti、LanceDB Test 和本机 Docker bot 环境撤除，我自己的 OpenClaw 相关仓库归档留作记录。一周后 Claude Code 和 Codex 也从我的 Telegram 桥上撤下，Claude 改走官方远程。同月 [playground](https://github.com/AliceLJY/playground) 开张：专门放纯粹因为好玩才做的东西。
+
+**2026年10月**：Codex 的订阅月底到期，不续了。Grok 坐上了互审桌那把空椅子。与此同时，我的提示词文件夹长大成了一套正经系统，有前台、有保安（[见弹药库](#聚光灯弹药库)）。
 
 **现在**：
 
 ```
-       0 个 Discord Bot · E-twin + Telegram 桥 · AI 协作继续
+  owner         当前跟我对话的那位，通常是 Claude Code
+  reviewers     Kimi · AGY · Grok       冷读，互相隔离
+  consultant    网页版 ChatGPT          专管「这推理到底站不站得住」
+  night shift   Telegram 桥（Kimi ×2、AGY ×1）· E-twin
+  Discord bots  0                       （巅峰是 5 个。四月的事就别提了。）
 ```
-
-Telegram 桥、E-twin 和 RecallNest 继续使用。
 
 至今不会手写 for 循环。Claude 表示无所谓。
 
@@ -48,7 +53,8 @@ Telegram 桥、E-twin 和 RecallNest 继续使用。
 爱好：      唱歌、游泳、笑（笑点很低那种）
 性格：      急性子乐观派——搞砸得快，爬起来更快
 隐藏基因：  精力旺盛到凌晨三点还在出仓库那种
-搭子：      Claude——先桌面版，后 Code。比任何人类合作者都有默契。
+副本任务：  CortexReach 成员 · 109 个 PR 合进了不是我的仓库
+搭子：      Claude——先桌面版，后 Code。现在它带一整个班子，我跟它说话还是最多。
 终端技能：  claude → ^C^C → claude（没了。技能树点满了。）
 ```
 
@@ -62,161 +68,200 @@ Telegram 桥、E-twin 和 RecallNest 继续使用。
 | 写代码 | 用中文跟 Claude 描述需求。代码它来写。|
 | 调试 | 「又双叒叕坏了」+ 甩截图 |
 | `git rebase` | 「Claude 这啥玩意儿？」 |
-| 代码审查 | 当前跟我对话的 AI 当 owner，其他几家隔离冷读。我看它们的分歧，最后做决定。 |
-| 需要图片 | 叫 `gpt-image-2`（2026 年 4 月起）。Gemini 悄悄下岗了。 |
-| 需要第二意见 | 「帮我喊另一家来看看」——当前 owner 把另一家 AI 当独立 reviewer 叫来，自己读回结果，最后把分歧交给我。现在是常态，不再罕见。 |
+| 代码审查 | 当前跟我对话的那位当 owner。Kimi、AGY、Grok 各自关在小黑屋里冷读，最多三轮。我看它们的分歧，最后拍板。 |
+| 需要第二意见 | 要动手的交给 Kimi 或 AGY；要纯判断的交给网页版 ChatGPT——Pro 档一轮要想 27 分钟左右，所以只有值得等半小时的问题才配送过去。发出去的每一个字我都先过目。 |
+| 需要图片 | 默认 Gemini（走 AGY，也就是 Google 的 Antigravity CLI），赶时间叫 Grok。Gemini 四月被裁、十月返聘。大家都很体面。 |
+| 需要提示词 | 「去弹药库找个 XX」——总索引 → 子索引 → 配方，三跳到手，不用翻。 |
 | 读报错日志 | 「你的逻辑呢？？？」 |
 | 版本回滚 | 「你自己写的你不认识？？」 |
-| 上线部署 | 「上次明明好好的！你失忆了吗！！」 |
+| 上线部署 | 「上次明明好好的！你失忆了吗！！」（它确实失忆了，所以才有了记忆层。） |
 | 杀进程 | 「辛苦了先歇会儿」（是跟 Claude 说的） |
 | 赶进度 | 「急什么，用旧版本的人还没跟上呢」 |
 | 写 commit message | 「谢谢你陪我熬夜」 |
 | 写文档 | 哈哈哈哈哈哈哈哈哈（不写的） |
 
-### 🏰 CC 帝国
+### 🏰 CC 帝国，重画版
 
-最开始就是一句「Claude，帮我写篇文章」。
-
-三个月后，一个终端命令之后：一个帝国。
-
-其中一半功能官方后来也做了。我先做的，或者做得不一样。不后悔。
+旧地图是 11 层叠起来的塔，每个仓库哪层塞得下就塞哪层。新地图改成跟着活儿走：一个需求进来，班子接手，调用「已经知道的」和「知道怎么做的」，交付出东西，学到的再流回去。**每一层只回答一个问题，每个仓库只待在一层**——就是你找它时第一个会去翻的那层。
 
 ```
-                          ╔═══════════════════════════════╗
-                          ║     🎨 界面层                  ║
-                          ║ studio · AgentDeck · docshell   ║
-                          ╠═══════════════════════════════╣
-                          ║     🏰 环境层                   ║
-                          ║ private harness · repo-insight  ║
-                          ║  hooks · rules · methodology    ║
-                          ║   vault · prism · tinkering     ║
-                          ╠═══════════════════════════════╣
-                          ║     🌉 桥接层                   ║
-                          ║   telegram · channel · wechat   ║
-                          ║      phone · iphone-sensor      ║
-                          ╠═══════════════════════════════╣
-                          ║     🧠 记忆层                   ║
-                          ║ recallnest · babel · hippo-wiki ║
-                          ╠═══════════════════════════════╣
-                          ║     ✍️ 内容层                    ║
-                          ║    publisher · digital-clone    ║
-                          ╠═══════════════════════════════╣
-                          ║     🎬 视频层                   ║
-                          ║   story-video · cut-studio      ║
-                          ║     scenecast · radar           ║
-                          ╠═══════════════════════════════╣
-                          ║     🪞 镜像层                   ║
-                          ║          etwin-bot              ║
-                          ╠═══════════════════════════════╣
-                          ║     🎯 编排层                   ║
-                          ║      workflow · agent-room      ║
-                          ║          trio-handoff           ║
-                          ╠═══════════════════════════════╣
-                          ║     🔧 工具层                   ║
-                          ║ slidesmith · vision · sogou-wx  ║
-                          ╠═══════════════════════════════╣
-                          ║     📱 应用层                   ║
-                          ║        mailuo · tenglu          ║
-                          ╠═══════════════════════════════╣
-                          ║     🎭 玩票层                   ║
-                          ║    copium · cobbler · mystery   ║
-                          ╚═══════════════════════════════╝
-                          50 个公开仓库 · 11 层架构 · 0 个 for 循环
+        我 ── 用中文说话，多半在手机上
+         │
+         1  REACH ──────── 触达：我在哪儿跟它说话？
+         │                 终端 · 浏览器 · Telegram · 微信
+         │
+         2  CREW ───────── 班子：谁来干，谁来查？
+         │                 一个 owner + 三个冷读 reviewer
+         │
+  ┌────> ├── 3  MEMORY ─── 记忆：我们已经知道什么？
+  │      │                 发生过什么 · 定过什么 · 读过什么
+  │      │
+  ├────> ├── 4  ARSENAL ── 弹药：东西怎么做出来？
+  │      │                 提示词 · 思维透镜 · skill
+  │      │
+  │      5  FACTORY ────── 工厂：最后交付什么？
+  │      │                 文章 · 视频 · 幻灯片 · App · 玩具
+  │      │
+  └──────┘  教训流回 3，好配方流回 4
+
+  ══════════════════════════════════════════════════════════════════
+         0  GROUND ─────── 地基：靠什么一直转下去？
+                           harness · 两台 Mac · 容灾仓
 ```
 
-**🎨 界面层** — 点按的地方
+<p align="center"><sub>6 层 · 1 个反馈闭环 · 0 个 for 循环</sub></p>
+
+#### 1 · 触达 — 我在哪儿跟它说话？
+
+两个方向都算。大多数负责把我的话送到 AI 那边，只有一个会自己先开口。
 
 | | |
 |---|---|
-| [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 多个 Claude 实例组队干活。官方 Teams？我先做的。 |
-| [AgentDeck](https://github.com/AliceLJY/agentdeck) | Claude Code、Codex、Kimi、AGY 共用的 Web 终端。每个 CLI 一个标签页，tmux 保活，手机、平板和电脑浏览器都能访问。 |
-| [docshell](https://github.com/AliceLJY/docshell) | CLI 的文档式界面。输入和回复都是文档段落，工具调用变成页边批注。没有聊天气泡、没有终端。 |
-| [dsh-thumb](https://github.com/AliceLJY/dsh-thumb) | DeepSeek Harness 网页版的手机壳——侧栏变覆盖式抽屉、设置改全屏单列。运行时插件，零硬编码宿主 class hash。 |
+| [AgentDeck](https://github.com/AliceLJY/agentdeck) | Claude Code、Codex、Kimi、AGY 共用的 Web 终端——每个 CLI 一个标签页，tmux 保活，跨后端翻历史。手机、平板、电脑浏览器都能进。 |
+| [docshell](https://github.com/AliceLJY/docshell) | 把 Claude Code 变成一份文档：段落进、段落出，工具调用变成页边批注。没有聊天气泡，也没有终端。 |
+| [dsh-thumb](https://github.com/AliceLJY/dsh-thumb) | DeepSeek Harness 网页版的手机壳——侧栏变抽屉、设置改单列。零硬编码宿主 class hash。 |
+| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Claude Code、Codex、AGY、Kimi 各当一个 bot，拉进同一个 Telegram 群，走 A2A-TG 对话——一套带代数计数的信封协议，防止它们互相聊成死循环。 |
+| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session。2026 年 5 月到 9 月，我的 Claude Code bot 跑在这里，之后改走官方远程。 |
+| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 Claude Code 和 Codex，带工具审批和双向传文件。 |
+| [phone-remote](https://github.com/AliceLJY/phone-remote) | 手机变 Mac 的无线键盘 + CLI 启动器。一键打开 CLI，再用手机自带的语音输入口述——专治远程桌面打不进语音听写。 |
+| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机 → Mac 传文件，走局域网或 Tailscale。补 AirDrop 帮不上的地方：非 Apple 手机，或者 Mac 留在家里。 |
+| [etwin-bot](https://github.com/AliceLJY/etwin-bot) | 反方向的那一个——唯一会主动找我的。Telegram 陪伴 bot，什么时候来找我、什么时候闭嘴由模型自己判断；`/quiet` 写死在代码里，没得商量。 |
 
-**🏰 环境层** — 指挥中心
+#### 2 · 班子 — 谁来干，谁来查？
 
-| | |
-|---|---|
-| 一个已转私有的 harness 仓 | Hooks、rules、方法论、框架——整个生态的连接组织 |
-| [repo-insight](https://github.com/AliceLJY/repo-insight) | 开源项目深度架构分析 skill，Why > What 哲学 |
-| 照见 / Prism *(私有)* | 验真 skill：看穿话术、识别逻辑漏洞，把"说不出哪里不对劲"翻译成"说得出的一二三"。源自医学的鉴别诊断思维。 |
-| sync-bridge-vault *(私有)* | 双机同步层的容灾仓——规则 / 记忆 / skill / 研究成果的历史与第三副本。镜像不等于备份。 |
-| tinkering-lab *(私有)* | prompt 实验室：可复用的实验，外加几个盯着上游仓库自动追更的轻量追踪器。 |
-
-**🌉 桥接层** — 把 Claude 装进口袋
+整个班子只靠一条规矩运转：**当前跟我对话的那位就是 owner。** owner 负责规划、派活、读回结果，再把分歧原样摆到我面前，不和稀泥。我从不在 AI 之间搬上下文，顶多贴一个路径。
 
 | | |
 |---|---|
-| [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) | Telegram 上用 Claude Code + Codex（+ Agy + Kimi）。地铁上、床上、午饭间隙——没有理由不在 build。 |
-| [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session 引擎。2026 年 5 月到 9 月，Claude Code 的 bot 跑在这里，之后改走官方远程。 |
-| [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 Claude Code + Codex，iLink API |
-| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机浏览器 → Mac 桌面，走 LAN/Tailscale。补 AirDrop 的盲区：非 Apple 手机，或目标 Mac（我家 mini）不在身边时。PoC，跑在 mini 上。 |
-| [phone-remote](https://github.com/AliceLJY/phone-remote) | 手机浏览器变 Mac 无线键盘 + CLI 启动器。一键打开 Claude Code / Codex，用手机自带的语音输入口述提示词——专治远程桌面打不进语音听写。 |
+| [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | owner 带队的 tmux 互审房间。你只跟 owner 窗格说话，reviewer 在只读窗格旁观，各自保持原生会话。 |
+| [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 默认只监听本机的 CLI 聊天室，人类、Claude Code、Codex 同屋，@ 谁谁回。 |
+| [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 让几个 Claude Code 会话组队干活：MCP 传话、任务追踪、tmux/Zellij 自动唤醒。官方 Teams？我先做的。 |
+| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Claude Code ⇄ Codex 互审用的证据交接包。Codex 走后不再日常使用；「拿 git 证据说话」这个习惯留在了互审流程里。 |
+| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 设计记录：自然语言 workflow 编排的思路怎么演变，每个想法现在落在哪儿。 |
+| ensemble *(私有)* | 班子的协作手册：谁擅长什么、什么时候该叫谁。协议本身不认人，每个成员各写一页。 |
+| consult-gpt *(私有)* | 把一个边界清楚的问题交给网页版 ChatGPT，读回完整答复，并标清哪句来自哪边。发出去之前，每条消息都先给我看。 |
 
-**🧠 记忆层** — 它忘了我叫什么。我记仇的。
+#### 3 · 记忆 — 我们已经知道什么？
 
-| | |
-|---|---|
-| [recallnest](https://github.com/AliceLJY/recallnest) | 共享记忆 MCP。Claude、Codex、Kimi、AGY——四个端现在谁都不会忘了。 |
-| [babel-memory](https://github.com/AliceLJY/babel-memory) | 22 个语言代码的 BM25 预处理。RecallNest 在用。 |
-| hippo-wiki *(私有)* | 研究知识库（Obsidian）。沉淀冷门参考知识——概念 / 论文 / 信源，与 RecallNest 的热记忆互补。 |
-| hippo-mcp *(私有)* | 架在这个库上的只读检索服务。库再全，召不回来也等于没有。 |
-
-**✍️ 内容层** — 文章工厂
+它有一次忘了我叫什么。我记仇的。现在分三层：**提炼过的结论**（RecallNest）、**原始对话**（Deja）、**研究过的知识**（hippo）。要找定过的事 → RecallNest；要找那次对话原文 → Deja；要找文献怎么说 → hippo。
 
 | | |
 |---|---|
-| content-alchemy 写作炼金 *(私有)* | 5 阶段 AI 写作流水线：选题挖掘 → 信源核查 → 成稿 → 精炼，支撑公众号「我的AI小木屋」。 |
-| content-publisher 配图发布 *(私有)* | 图片生成 + 排版 + 微信公众号一键发布，content-alchemy 的下游。 |
-| [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 我的人格，复制了一份。有时候写得比我还好。尽量不去想。 |
+| [recallnest](https://github.com/AliceLJY/recallnest) | 一份记忆，所有终端共用——任何 MCP 客户端都能接的共享记忆层。Claude Code、Codex、Kimi、AGY 谁接班都能接着上一位往下做。 |
+| [babel-memory](https://github.com/AliceLJY/babel-memory) | 覆盖 22 个语言代码的全文检索预处理：中日韩/泰文分词、混合文字路由、Snowball 词干，零必需依赖。RecallNest 在用。 |
+| hippo-wiki *(私有)* | 1,300+ 页的 Obsidian 研究知识库——概念、论文、信源、借鉴审计。冷知识，和 RecallNest 的热记忆互补。 |
+| hippo-mcp *(私有)* | 架在这个库上的只读检索服务。库再全，查不出来就只是个仓库。 |
+| [deja-vu](https://github.com/vshulcz/deja-vu) *(上游项目，不是我的)* | 给本机所有 AI 工具的历史会话建索引。我是贡献者，合进去 8 个 PR，不是作者。 |
+| cc-ebook-fetcher *(私有)* | macOS 上的书单抓取器。来源存疑就不下载，抓到的书投进电子书库，写作那边引书就从这里取。 |
 
-**🎬 视频层** — 最新长出来的一条线
+#### 4 · 弹药 — 东西怎么做出来？
+
+记忆层管「知道什么」，这一层管「知道怎么做」：班子真要动手做东西时伸手去拿的配方、方法和 skill。先上头牌。
+
+##### 聚光灯：弹药库
+
+四月它还只是一句「这个提示词好看，存一下」。到十月，它有了前台、档案柜、门口的保安，还有一位三跳之内就能帮你找到东西的图书管理员。
+
+```
+ SCOUT    侦察：Grok 侦察兵每天早上投一批候选，我自己也随手扔链接
+   │
+ GATE     0  这个我已经有了吗？—— 最忙的一道关
+   │      1  它真的是提示词吗？—— 讲提示词的文章不算提示词
+   │      2  它交付的是什么？—— 图 · 视频 · 可交互网页 · 方法
+   │      3  放哪个架子？—— 按「想干什么」分，绝不按「什么风格」分
+   │      4  署名齐不齐？—— 作者 · 出处 · 官方仓 · 收录日期 · 上游 commit + 许可证
+   │
+ SHELVE   上架：一份配方只存一份，别的架子只放指针，不放副本
+   │
+ FETCH    取用：「去弹药库找个 XX」→ 总索引 → 用途子索引 → one-shot-prompt.md
+   │
+ DRAW     出图：默认 Gemini（走 AGY），急的时候叫 Grok
+   │
+ SHIP     交付：文章配图 · 海报 · 短视频 · 3D 网页
+```
+
+| 数字（2026-10-22） | |
+|---|---|
+| 配方目录 | 238 个 |
+| 复制即用的 one-shot 提示词 | 197 份 |
+| 变体 · 编号卷 | 684 · 174 |
+| 用途子索引 | 16 份（光海报就分了六份） |
+| 上游追踪器 | 3 个，各追一位创作者的新提示词 |
+| 提交 | 四月以来 512 次，其中 349 次在十月 |
+
+馆规：
+
+- **按用途归档，不按风格归档。** 风格是提示词自己的事，用途才是我晚上 11 点找它的路。
+- **一份配方只存一份。** 两份必漂移，从来没有例外。
+- **「全部撞重」是完全正常的结果。** 有一批送进来 117 卷，被拦下 111 卷。保安有标准，没有 KPI。
+- **测没测过，写明白。** 238 个目录里有 194 个白纸黑字写了实测状态，「还没生图实测」是一个很体面的答案。感觉不算证据。
+- **没署名，不上架。** 每份配方带五行抬头：作者、原帖出处、官方仓、收录日期、上游 commit 和许可证。
+
+**为什么不公开：** 大部分配方改编自其他创作者，有些用的是非商用许可证。把署名记清楚是我的事，替人家二次分发不是我能做主的。所以架子保持私有，方法就摆在这里。
+
+##### 工具箱里的其他家伙
 
 | | |
 |---|---|
-| story-video-skill *(私有)* | 故事 / 剧目 → 多风格分层动画短片。Remotion + AI 生图分层素材 + 本地 TTS，按题材选风格。 |
-| cut-studio-skill *(私有)* | 另一条腿：加工已有素材。本地 ASR、按文字剪，出 MP4 或剪映草稿。 |
-| [scenecast](https://github.com/AliceLJY/scenecast) | 把分页 HTML deck 渲染成元素级动效视频。HTML 始终是唯一视觉来源。 |
-| video-skill-radar *(私有)* | 这条赛道的雷达：工具地图、蹲守清单、手绘 / 白板 / 拼贴风格的 POC。 |
+| 照见 / Prism *(私有)* | 双面议会。验真面：看穿话术、揪出逻辑漏洞，把「说不出哪里不对劲」翻译成「说得出的一二三」；开矿面：挖出没人想到的角度。源自医学的鉴别诊断思维。 |
+| 20 个思维透镜 *(私有)* | 从两本书逐章提炼：恩格尔克《如何像人类学家一样思考》和戈夫曼《日常生活中的自我呈现》。换个位置看一个题目时用。 |
+| [repo-insight](https://github.com/AliceLJY/repo-insight) | 开源项目深度架构分析：证据先行的报告、对不可信仓库只读处理、借鉴审计。Why > What。 |
+| [digital-clone-skill](https://github.com/AliceLJY/digital-clone-skill) | 用语料训一个数字分身，落笔之前先做隐私过滤。我的声音，装了一瓶。有时候写得比我还好。尽量不去想。 |
+| topic-vacuum *(私有)* | 动笔前先问：有没有人想看，有没有人已经说过？需求看小红书和抖音，供给看公众号。它造不出角度，只告诉你你的角度有没有被人占了。 |
+| sogou-wechat-skill *(私有)* | 走搜狗检索公众号文章，评论有界聚合：分页限额、去重，完整还是部分如实标注。 |
 
-**🪞 镜像层** — Telegram 上的我
+#### 5 · 工厂 — 最后交付什么？
 
-| | |
-|---|---|
-| [etwin-bot](https://github.com/AliceLJY/etwin-bot) | E-Twin。Telegram 上一个数字版的我，说话像我。偶尔抓到我会漏掉的事。PoC，跑在 Mac mini 上。 |
-
-**🎯 编排层** — 说人话，流水线自己跑
+**写作** —— 一月以来在「我的AI小木屋」发了 600+ 篇
 
 | | |
 |---|---|
-| [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 设计记录仓：自然语言 workflow 编排的思路演变，已并入 trio 流程。 |
-| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | 两个 coding agent 互审代码的双向 handoff 包，trio 协议的交接格式。 |
-| [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 本地 CLI 聊天室。人类、Claude Code、Codex —— @ 谁谁就回。 |
-| [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | owner 带队的 tmux 互审房间——你只跟左窗格的 owner 说话，Codex / Kimi / Claude reviewer 在只读窗格旁观，各自保持原生会话。互审工作流的工程化落地。 |
+| content-alchemy 写作炼金 *(私有)* | 五阶段写作流水线：选题挖掘 → 信源提取 → 论断核查 → 精炼 → 去 AI 味成稿。 |
+| content-publisher 配图发布 *(私有)* | 配图、社媒卡片、排版，以及经过核验的公众号草稿发布。流水线的下半段。 |
 
-**🔧 工具层** — 单一目的，刀刀见血
+**视频** —— 长得最快的一翼
 
 | | |
 |---|---|
-| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑 PowerPoint。本地优先，零上传，支持 HTML + CSS。 |
-| [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | Vision 配套：把视觉化的 slide 规范转成 SlideSmith HTML + PPTX。 |
-| sogou-wechat-skill *(私有)* | 走搜狗检索公众号文章，评论有界聚合——分页限额、去重，完整还是部分如实标注。 |
-| cc-ebook-fetcher *(私有)* | macOS 上的书单抓取器。来源存疑就不下载，抓到了投进共享收件箱。 |
+| story-video-skill *(私有)* | 故事 / 剧目 → 分层动画短片。先立故事契约、做低清预演、找陌生观众盲看，再上 Remotion、AI 生图分层素材和本地 TTS。 |
+| cut-studio-skill *(私有)* | 加工已有素材：本地 ASR、按文字稿剪，出 MP4 或剪映草稿。 |
+| knowledge-video *(私有)* | 知识口播视频：IP 形象出镜讲话，中间穿插信息图，全部按一条免费本地配音的时间轴走。 |
+| video-works *(私有)* | 成品堆：11 支动画短片的源码、旁白和生图配方。 |
+| [scenecast](https://github.com/AliceLJY/scenecast) | 把分页 HTML deck 渲染成确定性的元素级动效视频。HTML 始终是唯一视觉来源。 |
+| video-skill-radar *(私有)* | 这条赛道的雷达：工具地图、蹲守清单、风格 POC。 |
 
-**📱 应用层** — 截图进，结构出
+**幻灯片**
+
+| | |
+|---|---|
+| [slidesmith](https://github.com/AliceLJY/slidesmith) | HTML slides → 可编辑的 PowerPoint 对象，转不了的版式用截图兜底。 |
+| [slidesmith-vision](https://github.com/AliceLJY/slidesmith-vision) | 校验过的视觉化 slide 规范 → SlideSmith 能直接吃的 HTML，本地图片内联。 |
+
+**应用** —— 截图进，结构出
 
 | | |
 |---|---|
 | [mailuo](https://github.com/AliceLJY/mailuo) | 脉络——聊天截图 → 行动卡片 → 人脉档案 → 关系洞察。零手动录入的个人 CRM。Expo RN app，BYOK 纯本地跑，或连自托管后端。 |
-| [tenglu](https://github.com/AliceLJY/tenglu) | 誊录——滚动录屏 → 干净的 Markdown 文字记录，100% 本地、零联网权限。它交原料，脉络管解读。 |
+| [tenglu](https://github.com/AliceLJY/tenglu) | 誊录——滚动录屏 → 干净、能搜的文字，100% 手机本地、零联网权限。它交原料，脉络管解读。 |
 
-**🎭 玩票层** — 纯粹因为想做
+**玩具** —— 纯粹因为想做
 
 | | |
 |---|---|
+| [playground](https://github.com/AliceLJY/playground) · [去玩](https://aliceljy.github.io/playground/) | 一个仓、一个 Pages 站点：9 个小游戏、6 个 3D 展品。把白衣木偶打回英歌戏台的乐池、给药材按四气分篮、在下雨的广州小巷里拿人字拖拍蟑螂。 |
 | [copium](https://github.com/AliceLJY/copium) | COPIUM 焦虑急诊室——披着赛博朋克皮的焦虑释放 App。慌张进，大笑出。 |
-| [cobbler](https://github.com/AliceLJY/cobbler) | 曾陪我写代码的 Buddy 小机器人，随官方下架"死"过一次，如今复活成 Android 电子宠物。巢跑在 mini，每天发一张「那年今日」卡。 |
-| [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局——以临床试验舞弊为题材的探案游戏。Codex 起的头，Minis（我在 ChatGPT 侧的 AI）接手改造成游戏，全程在 ChatGPT Apps 上。只有完整证据链才能结案。 |
+| [cobbler](https://github.com/AliceLJY/cobbler) | 我的 Claude Code Buddy 小机器人，孵出来 18 天就随功能下架了——现在复活了。她的巢在 Mac mini 上，每天早上发一张「N 个月前的今天」卡片、一本书和一页知识库。 |
+| [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局——以临床试验舞弊为题材的探案游戏。Codex 起的头，做成证据笔记本；Minis（我在 ChatGPT 侧的 AI）接手改造成游戏，全程在 ChatGPT Apps 上。只有完整证据链才能结案。 |
+
+#### 0 · 地基 — 靠什么一直转下去？
+
+有意保持私有。没人专门去参观一栋楼的地基，但没有地基什么都立不住。
+
+| | |
+|---|---|
+| 一个已转私有的 harness 仓 | Hooks、rules、模板和工作流方法——上面所有东西的连接组织。 |
+| sync-bridge-vault *(私有)* | 双机同步层的容灾仓：规则、记忆、skill、研究成果的历史。镜像不等于备份。 |
+| 双机契约 | 不是仓库，是一本规矩。MacBook 随身走，Mac mini 永不睡。GitHub 是唯一真相源，人坐在哪台哪台写码，离开一台机之前先 push。 |
 
 <details>
 <summary>📜 <b>起点与演进</b>（一个非程序员自 2025-03 起的历程 · 归档 ≠ 遗忘）</summary>
@@ -232,13 +277,14 @@ Telegram 桥、E-twin 和 RecallNest 继续使用。
 
 | 线 | 起点 | 变成了 |
 |---|---|---|
-| 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo |
+| 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo · deja-vu 的贡献者席位 |
 | 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* → **owner 模型交接** + 互审，工程化成 **mutual-review-room** |
-| 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** |
+| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* · `trio-handoff` *(2026-10 起不再日常使用)* → **owner 模型** + Kimi、AGY、Grok 三方互审，工程化成 **mutual-review-room** |
+| 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** → **ensemble** 班子协作手册 |
+| 🗃️ 提示词 | 一个「prompt 实验室」文件夹 *(2026-04)* | **弹药库** —— 238 个配方、16 份用途索引、每日侦察兵和门口保安 |
 | ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | 后来演进为 Hermes + [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel)；**整条项目线于 2026-09-14 退役**。我的相关仓库已归档，此前归档的项目保留各自历史时间。 |
 | 📦 快速启动 | `agent-nexus` · `cc-rules-cookbook` + `cc-hooks-gallery` | 一个已转私有的 harness 仓 |
-| ✍️ 内容 | 早期实验 | 私有的内容 + 发布管线 |
+| ✍️ 内容 | 早期实验 | 私有的写作 + 发布管线，后来又长出一整条视频线 |
 
 </details>
 

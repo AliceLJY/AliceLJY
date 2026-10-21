@@ -29,7 +29,7 @@
 
 **Sep 2026**: The OpenClaw chapter closes on the 14th. Anti, LanceDB Test and the local Docker bot stack shut down; my OpenClaw repos are archived as a record. A week later Claude Code and Codex leave my Telegram bridges, and Claude moves to the official Remote Control. Same month, the [playground](https://github.com/AliceLJY/playground) opens: a repo for things built purely for fun.
 
-**Oct 2026**: Codex's subscription runs out at month-end and I'm not renewing. Grok takes the empty chair at the review table. Meanwhile my prompt folder grows up into an actual system with a front desk and a bouncer ([see the Arsenal](#spotlight-the-prompt-arsenal)).
+**Oct 2026**: Grok pulls up a chair at the review table. Meanwhile my prompt folder grows up into an actual system with a front desk and a bouncer ([see the Arsenal](#spotlight-the-prompt-arsenal)).
 
 **Now**:
 
@@ -136,7 +136,7 @@ One rule runs the whole crew: **whoever I'm talking to is the owner.** The owner
 | [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | Owner-led tmux rooms for persistent multi-model review. You talk to the owner pane; reviewers watch from read-only panes, each in its native session. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Loopback-first local chat room for humans, Claude Code and Codex, with @-mention routing. |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Several Claude Code sessions working as a team: MCP messaging, task tracking, tmux/Zellij auto-wake. Official Teams? Built mine first. |
-| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Evidence-rich handoff bundles for Claude Code ⇄ Codex review. Out of daily use since Codex left; the "show me the git evidence" habit lives on in mutual review. |
+| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Evidence-rich handoff bundles for Claude Code ⇄ Codex review. Resting since October, when reviews moved to the mutual-review flow; its "show me the git evidence" habit went along. |
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Design record: how natural-language workflow orchestration evolved, and where each idea lives now. |
 | ensemble *(private)* | The crew playbook: who's good at what, and when to call whom. The protocol doesn't care who's in the room — each member gets one page. |
 | consult-gpt *(private)* | Sends one well-scoped question to ChatGPT on the web, reads the whole answer back, and labels which part came from where. Every outgoing message is shown to me first. |

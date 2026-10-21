@@ -29,7 +29,7 @@
 
 **2026年9月**：14 号，OpenClaw 这一章合上了。Anti、LanceDB Test 和本机 Docker bot 环境撤除，我自己的 OpenClaw 相关仓库归档留作记录。一周后 Claude Code 和 Codex 也从我的 Telegram 桥上撤下，Claude 改走官方远程。同月 [playground](https://github.com/AliceLJY/playground) 开张：专门放纯粹因为好玩才做的东西。
 
-**2026年10月**：Codex 的订阅月底到期，不续了。Grok 坐上了互审桌那把空椅子。与此同时，我的提示词文件夹长大成了一套正经系统，有前台、有保安（[见弹药库](#聚光灯弹药库)）。
+**2026年10月**：Grok 也搬了把椅子，坐上了互审桌。与此同时，我的提示词文件夹长大成了一套正经系统，有前台、有保安（[见弹药库](#聚光灯弹药库)）。
 
 **现在**：
 
@@ -136,7 +136,7 @@
 | [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | owner 带队的 tmux 互审房间。你只跟 owner 窗格说话，reviewer 在只读窗格旁观，各自保持原生会话。 |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 默认只监听本机的 CLI 聊天室，人类、Claude Code、Codex 同屋，@ 谁谁回。 |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 让几个 Claude Code 会话组队干活：MCP 传话、任务追踪、tmux/Zellij 自动唤醒。官方 Teams？我先做的。 |
-| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Claude Code ⇄ Codex 互审用的证据交接包。Codex 走后不再日常使用；「拿 git 证据说话」这个习惯留在了互审流程里。 |
+| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Claude Code ⇄ Codex 互审用的证据交接包。10 月起互审改走 mutual-review 流程，它先歇着；「拿 git 证据说话」这个习惯跟着带过去了。 |
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 设计记录：自然语言 workflow 编排的思路怎么演变，每个想法现在落在哪儿。 |
 | ensemble *(私有)* | 班子的协作手册：谁擅长什么、什么时候该叫谁。协议本身不认人，每个成员各写一页。 |
 | consult-gpt *(私有)* | 把一个边界清楚的问题交给网页版 ChatGPT，读回完整答复，并标清哪句来自哪边。发出去之前，每条消息都先给我看。 |

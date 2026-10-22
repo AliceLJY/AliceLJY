@@ -124,7 +124,7 @@ Both directions count. Most of these carry my words to the AI; one of them start
 | [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | Sister bridge built on Claude Agent View background sessions. Carried my Claude Code bots from May to September 2026; they've since moved to the official Remote Control. |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | Claude Code and Codex on WeChat, with tool approval and two-way file relay. |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | Phone as a wireless keyboard + CLI launcher for the Mac. One tap opens a CLI, then dictate with the phone's own voice input — works where remote-desktop IME forwarding fails. |
-| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | Phone → Mac file drop over LAN or Tailscale, for when AirDrop can't help: a non-Apple phone, or a Mac that's sitting at home. |
+| [phone-drop](https://github.com/AliceLJY/phone-drop) | Phone → Mac file drop over LAN or Tailscale, for when AirDrop can't help: a non-Apple phone, or a Mac that's sitting at home. |
 | [etwin-bot](https://github.com/AliceLJY/etwin-bot) | The reverse direction — the only one that messages me first. A Telegram companion where the model decides when to ping and when to stay quiet, and `/quiet` is enforced in code. No negotiation. |
 
 #### 2 · CREW — who does it, and who checks it?

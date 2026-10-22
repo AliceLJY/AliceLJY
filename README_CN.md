@@ -124,7 +124,7 @@
 | [tg-bridge-channel](https://github.com/AliceLJY/tg-bridge-channel) | 姊妹桥，基于 Claude Agent View 后台 session。2026 年 5 月到 9 月，我的 Claude Code bot 跑在这里，之后改走官方远程。 |
 | [wechat-ai-bridge](https://github.com/AliceLJY/wechat-ai-bridge) | 微信上用 Claude Code 和 Codex，带工具审批和双向传文件。 |
 | [phone-remote](https://github.com/AliceLJY/phone-remote) | 手机变 Mac 的无线键盘 + CLI 启动器。一键打开 CLI，再用手机自带的语音输入口述——专治远程桌面打不进语音听写。 |
-| [iphone-sensor-bridge-poc](https://github.com/AliceLJY/iphone-sensor-bridge-poc) | 手机 → Mac 传文件，走局域网或 Tailscale。补 AirDrop 帮不上的地方：非 Apple 手机，或者 Mac 留在家里。 |
+| [phone-drop](https://github.com/AliceLJY/phone-drop) | 手机 → Mac 传文件，走局域网或 Tailscale。补 AirDrop 帮不上的地方：非 Apple 手机，或者 Mac 留在家里。 |
 | [etwin-bot](https://github.com/AliceLJY/etwin-bot) | 反方向的那一个——唯一会主动找我的。Telegram 陪伴 bot，什么时候来找我、什么时候闭嘴由模型自己判断；`/quiet` 写死在代码里，没得商量。 |
 
 #### 2 · 班子 — 谁来干，谁来查？

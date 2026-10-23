@@ -29,13 +29,13 @@
 
 **Sep 2026**: The OpenClaw chapter closes on the 14th. Anti, LanceDB Test and the local Docker bot stack shut down; my OpenClaw repos are archived as a record. A week later Claude Code and Codex leave my Telegram bridges, and Claude moves to the official Remote Control. Same month, the [playground](https://github.com/AliceLJY/playground) opens: a repo for things built purely for fun.
 
-**Oct 2026**: Grok pulls up a chair at the review table. Meanwhile my prompt folder grows up into an actual system with a front desk and a bouncer ([see the Arsenal](#spotlight-the-prompt-arsenal)).
+**Oct 2026**: Grok pulls up a chair at the review table. Codex nearly left in the middle of the month, then stayed: reviews, code and images go back on its desk. Meanwhile my prompt folder grows up into an actual system with a front desk and a bouncer ([see the Arsenal](#spotlight-the-prompt-arsenal)).
 
 **Now**:
 
 ```
   owner         whoever I'm talking to, usually Claude Code
-  reviewers     Kimi · AGY · Grok       cold reads, kept apart from each other
+  reviewers     Codex · Kimi · AGY · Grok   cold reads, kept apart from each other
   consultant    ChatGPT on the web      for "is this reasoning actually sound?"
   night shift   Telegram bridges (Kimi ×2, AGY ×1) · E-twin
   Discord bots  0                       (peak was 5. we don't talk about April.)
@@ -68,9 +68,9 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | Write code | Describe what I want in Chinese. Claude writes it. |
 | Debug | "It broke again" + paste the error |
 | `git rebase` | "Claude, what does this even mean?" |
-| Code review | Whoever I'm talking to owns the task. Kimi, AGY and Grok read it cold, in separate rooms, three rounds max. I read the disagreements and decide. |
-| Need a second opinion | Hands-on work goes to Kimi or AGY. Pure judgement goes to ChatGPT on the web — Pro mode thinks for about 27 minutes, so only questions worth half an hour get to go. I read every outgoing message before it's sent. |
-| Need an image | Gemini via AGY (Google's Antigravity CLI) by default, Grok when I'm in a hurry. Gemini was laid off in April and rehired in October. No hard feelings. |
+| Code review | Whoever I'm talking to owns the task. Codex, Kimi, AGY and Grok read it cold, in separate rooms, three rounds max. I read the disagreements and decide. |
+| Need a second opinion | Hands-on work goes to Codex first, then Kimi or AGY. Pure judgement goes to ChatGPT on the web — Pro mode thinks for about 27 minutes, so only questions worth half an hour get to go. I read every outgoing message before it's sent. |
+| Need an image | Codex (GPT image) by default; Gemini via AGY (Google's Antigravity CLI) as the backup, Grok when I'm in a hurry. Gemini was laid off in April, rehired in October, and is now on the bench again. No hard feelings. |
 | Need a prompt | "去弹药库找个 XX" — index → sub-index → recipe. Three hops, no scrolling. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |
@@ -91,7 +91,7 @@ The old map stacked 11 floors like a tower, and every repo got filed wherever it
          │                 terminal · browser · Telegram · WeChat
          │
          2  CREW ───────── who does it, and who checks it?
-         │                 one owner + three cold-reading reviewers
+         │                 one owner + four cold-reading reviewers
          │
   ┌────> ├── 3  MEMORY ─── what do we already know?
   │      │                 history · decisions · research
@@ -136,7 +136,7 @@ One rule runs the whole crew: **whoever I'm talking to is the owner.** The owner
 | [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | Owner-led tmux rooms for persistent multi-model review. You talk to the owner pane; reviewers watch from read-only panes, each in its native session. |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | Loopback-first local chat room for humans, Claude Code and Codex, with @-mention routing. |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | Several Claude Code sessions working as a team: MCP messaging, task tracking, tmux/Zellij auto-wake. Official Teams? Built mine first. |
-| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Evidence-rich handoff bundles for Claude Code ⇄ Codex review. Resting since October, when reviews moved to the mutual-review flow; its "show me the git evidence" habit went along. |
+| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Evidence-rich handoff bundles for Claude Code ⇄ Codex review. Rested for a week in October while Codex was off the roster; back in use now, alongside the mutual-review flow. |
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Design record: how natural-language workflow orchestration evolved, and where each idea lives now. |
 | ensemble *(private)* | The crew playbook: who's good at what, and when to call whom. The protocol doesn't care who's in the room — each member gets one page. |
 | consult-gpt *(private)* | Sends one well-scoped question to ChatGPT on the web, reads the whole answer back, and labels which part came from where. Every outgoing message is shown to me first. |
@@ -175,7 +175,7 @@ It started in April as "save this prompt, it's pretty." By October it had a fron
    │
  FETCH    "find me an XX" → index → purpose sub-index → one-shot-prompt.md
    │
- DRAW     Gemini via AGY by default, Grok when it's urgent
+ DRAW     Codex by default, Gemini via AGY as backup, Grok when it's urgent
    │
  SHIP     article art · posters · short videos · 3D pages
 ```
@@ -279,7 +279,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 |---|---|---|
 | 🧠 Memory | `memory-lancedb-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo · a contributor seat at deja-vu |
 | 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* · `trio-handoff` *(out of daily use Oct 2026)* → **owner model** + mutual review with Kimi, AGY and Grok, engineered as **mutual-review-room** |
+| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* · `trio-handoff` *(paused a week in Oct 2026, back in use)* → **owner model** + mutual review with Codex, Kimi, AGY and Grok, engineered as **mutual-review-room** |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** → **ensemble**, the crew playbook |
 | 🗃️ Prompts | a "prompt lab" folder *(Apr 2026)* | **the Arsenal** — 238 recipes, 16 purpose indexes, a daily scout and a bouncer |
 | ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Evolved into Hermes + [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel); **this project line retired 2026-09-14**. My related repositories are archived; earlier archive dates remain part of their history. |

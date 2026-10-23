@@ -29,13 +29,13 @@
 
 **2026年9月**：14 号，OpenClaw 这一章合上了。Anti、LanceDB Test 和本机 Docker bot 环境撤除，我自己的 OpenClaw 相关仓库归档留作记录。一周后 Claude Code 和 Codex 也从我的 Telegram 桥上撤下，Claude 改走官方远程。同月 [playground](https://github.com/AliceLJY/playground) 开张：专门放纯粹因为好玩才做的东西。
 
-**2026年10月**：Grok 也搬了把椅子，坐上了互审桌。与此同时，我的提示词文件夹长大成了一套正经系统，有前台、有保安（[见弹药库](#聚光灯弹药库)）。
+**2026年10月**：Grok 也搬了把椅子，坐上了互审桌。Codex 月中差点走人，最后留下了：审稿、写码、画图又回到它桌上。与此同时，我的提示词文件夹长大成了一套正经系统，有前台、有保安（[见弹药库](#聚光灯弹药库)）。
 
 **现在**：
 
 ```
   owner         当前跟我对话的那位，通常是 Claude Code
-  reviewers     Kimi · AGY · Grok       冷读，互相隔离
+  reviewers     Codex · Kimi · AGY · Grok   冷读，互相隔离
   consultant    网页版 ChatGPT          专管「这推理到底站不站得住」
   night shift   Telegram 桥（Kimi ×2、AGY ×1）· E-twin
   Discord bots  0                       （巅峰是 5 个。四月的事就别提了。）
@@ -68,9 +68,9 @@
 | 写代码 | 用中文跟 Claude 描述需求。代码它来写。|
 | 调试 | 「又双叒叕坏了」+ 甩截图 |
 | `git rebase` | 「Claude 这啥玩意儿？」 |
-| 代码审查 | 当前跟我对话的那位当 owner。Kimi、AGY、Grok 各自关在小黑屋里冷读，最多三轮。我看它们的分歧，最后拍板。 |
-| 需要第二意见 | 要动手的交给 Kimi 或 AGY；要纯判断的交给网页版 ChatGPT——Pro 档一轮要想 27 分钟左右，所以只有值得等半小时的问题才配送过去。发出去的每一个字我都先过目。 |
-| 需要图片 | 默认 Gemini（走 AGY，也就是 Google 的 Antigravity CLI），赶时间叫 Grok。Gemini 四月被裁、十月返聘。大家都很体面。 |
+| 代码审查 | 当前跟我对话的那位当 owner。Codex、Kimi、AGY、Grok 各自关在小黑屋里冷读，最多三轮。我看它们的分歧，最后拍板。 |
+| 需要第二意见 | 要动手的先交 Codex，其次 Kimi 或 AGY；要纯判断的交给网页版 ChatGPT——Pro 档一轮要想 27 分钟左右，所以只有值得等半小时的问题才配送过去。发出去的每一个字我都先过目。 |
+| 需要图片 | 默认 Codex（GPT 出图），Gemini（走 AGY，也就是 Google 的 Antigravity CLI）兜底，赶时间叫 Grok。Gemini 四月被裁、十月返聘、现在又坐回替补席。大家都很体面。 |
 | 需要提示词 | 「去弹药库找个 XX」——总索引 → 子索引 → 配方，三跳到手，不用翻。 |
 | 读报错日志 | 「你的逻辑呢？？？」 |
 | 版本回滚 | 「你自己写的你不认识？？」 |
@@ -91,7 +91,7 @@
          │                 终端 · 浏览器 · Telegram · 微信
          │
          2  CREW ───────── 班子：谁来干，谁来查？
-         │                 一个 owner + 三个冷读 reviewer
+         │                 一个 owner + 四个冷读 reviewer
          │
   ┌────> ├── 3  MEMORY ─── 记忆：我们已经知道什么？
   │      │                 发生过什么 · 定过什么 · 读过什么
@@ -136,7 +136,7 @@
 | [mutual-review-room](https://github.com/AliceLJY/mutual-review-room) | owner 带队的 tmux 互审房间。你只跟 owner 窗格说话，reviewer 在只读窗格旁观，各自保持原生会话。 |
 | [agent-room-cli](https://github.com/AliceLJY/agent-room-cli) | 默认只监听本机的 CLI 聊天室，人类、Claude Code、Codex 同屋，@ 谁谁回。 |
 | [claude-code-studio](https://github.com/AliceLJY/claude-code-studio) | 让几个 Claude Code 会话组队干活：MCP 传话、任务追踪、tmux/Zellij 自动唤醒。官方 Teams？我先做的。 |
-| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Claude Code ⇄ Codex 互审用的证据交接包。10 月起互审改走 mutual-review 流程，它先歇着；「拿 git 证据说话」这个习惯跟着带过去了。 |
+| [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Claude Code ⇄ Codex 互审用的证据交接包。10 月 Codex 离队那一周它歇过，现在跟 mutual-review 流程一起照常用。 |
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 设计记录：自然语言 workflow 编排的思路怎么演变，每个想法现在落在哪儿。 |
 | ensemble *(私有)* | 班子的协作手册：谁擅长什么、什么时候该叫谁。协议本身不认人，每个成员各写一页。 |
 | consult-gpt *(私有)* | 把一个边界清楚的问题交给网页版 ChatGPT，读回完整答复，并标清哪句来自哪边。发出去之前，每条消息都先给我看。 |
@@ -175,7 +175,7 @@
    │
  FETCH    取用：「去弹药库找个 XX」→ 总索引 → 用途子索引 → one-shot-prompt.md
    │
- DRAW     出图：默认 Gemini（走 AGY），急的时候叫 Grok
+ DRAW     出图：默认 Codex，Gemini（走 AGY）兜底，急的时候叫 Grok
    │
  SHIP     交付：文章配图 · 海报 · 短视频 · 3D 网页
 ```
@@ -279,7 +279,7 @@
 |---|---|---|
 | 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo · deja-vu 的贡献者席位 |
 | 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* · `trio-handoff` *(2026-10 起不再日常使用)* → **owner 模型** + Kimi、AGY、Grok 三方互审，工程化成 **mutual-review-room** |
+| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* · `trio-handoff` *(2026-10 停过一周，已恢复)* → **owner 模型** + Codex、Kimi、AGY、Grok 四方互审，工程化成 **mutual-review-room** |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** → **ensemble** 班子协作手册 |
 | 🗃️ 提示词 | 一个「prompt 实验室」文件夹 *(2026-04)* | **弹药库** —— 238 个配方、16 份用途索引、每日侦察兵和门口保安 |
 | ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | 后来演进为 Hermes + [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel)；**整条项目线于 2026-09-14 退役**。我的相关仓库已归档，此前归档的项目保留各自历史时间。 |

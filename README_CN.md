@@ -19,64 +19,49 @@
 
 ---
 
-### 怎么就一发不可收拾了
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/escalated-zh-dark.svg">
+  <img src="assets/headings/escalated-zh-light.svg" alt="怎么就一发不可收拾了" width="100%">
+</picture>
 
-| 时间 | 发生了什么 |
-|:--|:--|
-| **2026.01** | 「Claude，帮我写篇公众号文章。」*（Claude 桌面版）* |
-| **2026.02** | 「那就做一个 Bot 吧……」*（还在桌面版）* |
-| **2026.03** | 在终端输了 `claude`。Claude Code 时代开始。回不去了。 |
-| **2026.04** | Codex 入场。现在有两个了，它俩互相 review 代码，我在旁边围观。月底阵容达到巅峰，5 个 Bot 同时在跑：AntiBot · 睿智 · AWS-bot · 小试AI · LanceDB Test。 |
-| **2026.05** | 搞了个「E-twin」——Telegram 上一个数字版的我。有点诡异但很好用。接着是 Hermes 大整合：睿智和小试AI 合并进 Anti，5 个 Bot 收成 3 个，吞吐没掉，零件少了一半。（小试AI 留着当公众号笔名，反正它能活到最后。） |
-| **2026.07** | EC2 退役了。为了跑几个 cron 单养一台服务器，实在不划算。3 个变成 2 个。 |
-| **2026.09** | 14 号，OpenClaw 这一章合上了，我自己的 OpenClaw 相关仓库归档留作记录。一周后 Claude Code 和 Codex 也从 Telegram 桥上撤下，改走官方远程。同月 [playground](https://github.com/AliceLJY/playground) 开张：专门放纯粹因为好玩才做的东西。 |
-| **2026.10** | Grok 也搬了把椅子，坐上了互审桌。Codex 月中差点走人，最后留下了。我的提示词文件夹长大成了一套正经系统，有前台、有保安（[见弹药库](#聚光灯弹药库)）。 |
-| **2026.11** | Codex 一个月的批量出图把 VPN 月流量吃光了，画图改走网页版 ChatGPT——这也成了它唯一的活儿，纯判断交给 AGY。Grok 的订阅十二月到期，已经在悄悄收拾椅子了。 |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-zh-dark.svg">
+  <img src="assets/timeline-zh-light.svg" alt="怎么就一发不可收拾了" width="100%">
+</picture>
 
-**现在**：
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/now-zh-dark.svg">
+  <img src="assets/headings/now-zh-light.svg" alt="现在谁在当班" width="100%">
+</picture>
 
 <img src="assets/now-zh.svg" alt="现在谁在当班：owner——当前跟我对话的那位，通常是 Claude Code；reviewers——Kimi、AGY、Codex；代码审查——Kimi 加新开的 Claude 子 agent；纯判断——AGY；出图——网页版 ChatGPT，Gemini 兜底；夜班——Telegram 桥和 E-twin；Discord bot——0" width="100%">
 
 至今不会手写 for 循环。Claude 表示无所谓。
 
-### 本人
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/human-zh-dark.svg">
+  <img src="assets/headings/human-zh-light.svg" alt="本人：角色卡" width="100%">
+</picture>
 
-```
-职业：      不会写代码但仓库比很多程序员还多的人
-超能力：    死磕（墙不倒我不走，墙倒了换一面继续）
-弱点：      社恐 + 口头表达困难 + for 循环
-燃料：      高蛋白选手（肥肉不行，我有底线的）
-爱好：      唱歌、游泳、笑（笑点很低那种）
-性格：      急性子乐观派——搞砸得快，爬起来更快
-隐藏基因：  精力旺盛到凌晨三点还在出仓库那种
-副本任务：  CortexReach 成员 · 100 多个 PR 合进了不是我的仓库
-搭子：      Claude——先桌面版，后 Code。现在它带一整个班子，我跟它说话还是最多。
-终端技能：  claude → ^C^C → claude（没了。技能树点满了。）
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/human-zh-dark.svg">
+  <img src="assets/human-zh-light.svg" alt="本人：角色卡" width="100%">
+</picture>
 
-保持乐观、幽默、纯真、幸运、好奇、活力。然后一头扎进去死磕。
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/stack-zh-dark.svg">
+  <img src="assets/headings/stack-zh-light.svg" alt="「技术栈」" width="100%">
+</picture>
 
-### 「技术栈」
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-zh-dark.svg">
+  <img src="assets/stack-zh-light.svg" alt="「技术栈」" width="100%">
+</picture>
 
-| 正经程序员 | 我 |
-|---|---|
-| 打开终端 | 输入 `claude`。这就是我的 IDE、Shell 和全部开发环境。|
-| 写代码 | 用中文跟 Claude 描述需求。代码它来写。|
-| 调试 | 「又双叒叕坏了」+ 甩截图 |
-| `git rebase` | 「Claude 这啥玩意儿？」 |
-| 代码审查 | 当前跟我对话的那位当 owner。代码交给 Kimi 和几个新开的 Claude 子 agent 盲审；方案和文章交给 Kimi、AGY、Codex，各自关在小黑屋里冷读，最多三轮。我看它们的分歧，最后拍板。 |
-| 需要第二意见 | 要动手的先交 Kimi，Codex 有额度时也接，Kimi 额度用完由 AGY 顶上；要纯判断的交给 AGY。网页版 ChatGPT 已经不当顾问了，现在只画画。 |
-| 需要图片 | 默认网页版 ChatGPT，网页版 Gemini 兜底。以前是 Codex 画，直到它的批量出图把 VPN 流量吃光。Gemini 四月被裁、十月返聘、坐过替补席，现在又回来当候补。大家都很体面。 |
-| 需要提示词 | 「去弹药库找个 XX」——总索引 → 子索引 → 配方，三跳到手，不用翻。 |
-| 读报错日志 | 「你的逻辑呢？？？」 |
-| 版本回滚 | 「你自己写的你不认识？？」 |
-| 上线部署 | 「上次明明好好的！你失忆了吗！！」（它确实失忆了，所以才有了记忆层。） |
-| 杀进程 | 「辛苦了先歇会儿」（是跟 Claude 说的） |
-| 赶进度 | 「急什么，用旧版本的人还没跟上呢」 |
-| 写 commit message | 「谢谢你陪我熬夜」 |
-| 写文档 | 哈哈哈哈哈哈哈哈哈（不写的） |
-
-### 做着玩的
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/fun-zh-dark.svg">
+  <img src="assets/headings/fun-zh-light.svg" alt="做着玩的" width="100%">
+</picture>
 
 没人要求做这些，这正是重点。[playground](https://aliceljy.github.io/playground/) 里还有一整架，这里先放六个。
 
@@ -95,7 +80,10 @@
 </tr>
 </table>
 
-### 🏰 CC 帝国，重画版
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/empire-zh-dark.svg">
+  <img src="assets/headings/empire-zh-light.svg" alt="CC 帝国，重画版" width="100%">
+</picture>
 
 旧地图是 11 层叠起来的塔，每个仓库哪层塞得下就塞哪层。新地图改成跟着活儿走：一个需求进来，班子接手，调用「已经知道的」和「知道怎么做的」，交付出东西，学到的再流回去。**每一层只回答一个问题，每个仓库只待在一层**——就是你找它时第一个会去翻的那层。
 
@@ -239,44 +227,30 @@
 
 </details>
 
-### 聚光灯：弹药库
+<a name="聚光灯弹药库"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/arsenal-zh-dark.svg">
+  <img src="assets/headings/arsenal-zh-light.svg" alt="聚光灯：弹药库" width="100%">
+</picture>
 
 四月它还只是一句「这个提示词好看，存一下」。到十月，它有了前台、档案柜、门口的保安，还有一位三跳之内就能帮你找到东西的图书管理员。
 
-```
- SCOUT    侦察：侦察兵投一批候选，我自己也随手扔链接
-   │
- GATE     0  这个我已经有了吗？—— 最忙的一道关
-   │      1  它真的是提示词吗？—— 讲提示词的文章不算提示词
-   │      2  它交付的是什么？—— 图 · 视频 · 可交互网页 · 方法
-   │      3  放哪个架子？—— 按「想干什么」分，绝不按「什么风格」分
-   │      4  署名齐不齐？—— 作者 · 出处 · 官方仓 · 收录日期 · 上游 commit + 许可证
-   │
- SHELVE   上架：一份配方只存一份，别的架子只放指针，不放副本
-   │
- FETCH    取用：「去弹药库找个 XX」→ 总索引 → 用途子索引 → one-shot-prompt.md
-   │
- DRAW     出图：默认网页版 ChatGPT，Gemini 兜底
-   │
- SHIP     交付：文章配图 · 海报 · 短视频 · 3D 网页
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-flow-zh-dark.svg">
+  <img src="assets/arsenal-flow-zh-light.svg" alt="侦察、把关五道、上架、取用、出图、交付" width="100%">
+</picture>
 
-| 数字（2026-10-22） | |
-|---|---|
-| 配方目录 | 238 个 |
-| 复制即用的 one-shot 提示词 | 197 份 |
-| 变体 · 编号卷 | 684 · 174 |
-| 用途子索引 | 16 份（光海报就分了六份） |
-| 上游追踪器 | 3 个，各追一位创作者的新提示词 |
-| 提交 | 四月以来 512 次，其中 349 次在十月 |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-numbers-zh-dark.svg">
+  <img src="assets/arsenal-numbers-zh-light.svg" alt="弹药库的数字" width="100%">
+</picture>
 
 馆规：
 
-- **按用途归档，不按风格归档。** 风格是提示词自己的事，用途才是我晚上 11 点找它的路。
-- **一份配方只存一份。** 两份必漂移，从来没有例外。
-- **「全部撞重」是完全正常的结果。** 有一批送进来 117 卷，被拦下 111 卷。保安有标准，没有 KPI。
-- **测没测过，写明白。** 238 个目录里有 194 个白纸黑字写了实测状态，「还没生图实测」是一个很体面的答案。感觉不算证据。
-- **没署名，不上架。** 每份配方带五行抬头：作者、原帖出处、官方仓、收录日期、上游 commit 和许可证。
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-rules-zh-dark.svg">
+  <img src="assets/arsenal-rules-zh-light.svg" alt="弹药库五条馆规" width="100%">
+</picture>
 
 **为什么不公开：** 大部分配方改编自其他创作者，有些用的是非商用许可证。把署名记清楚是我的事，替人家二次分发不是我能做主的。所以架子保持私有，方法就摆在这里。
 

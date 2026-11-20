@@ -1,0 +1,173 @@
+{
+  "stats": {
+    "public_active": 28,
+    "public_retired": 18,
+    "merged_prs": 157,
+    "merged_prs_elsewhere": 111,
+    "playground_games": 27,
+    "playground_exhibits": 19,
+    "playground_behind": 6,
+    "playground_tools": 1,
+    "for_loops": 0,
+    "as_of": "2026-11-21"
+  },
+  "now": [
+    [
+      "owner",
+      "whoever I'm talking to, usually Claude Code",
+      "当前跟我对话的那位，通常是 Claude Code"
+    ],
+    [
+      "reviewers",
+      "Kimi · AGY · Codex — cold reads, kept apart",
+      "Kimi · AGY · Codex——冷读，互相隔离"
+    ],
+    [
+      "code review",
+      "Kimi + fresh Claude subagents, blind",
+      "Kimi + 新开的 Claude 子 agent，盲审"
+    ],
+    [
+      "judgement",
+      "AGY — \"is this reasoning actually sound?\"",
+      "AGY——「这推理到底站不站得住」"
+    ],
+    [
+      "images",
+      "ChatGPT on the web · Gemini as backup",
+      "网页版 ChatGPT · Gemini 兜底"
+    ],
+    [
+      "night shift",
+      "Telegram bridges (Kimi ×2, AGY ×1) · E-twin",
+      "Telegram 桥（Kimi ×2、AGY ×1）· E-twin"
+    ],
+    [
+      "discord bots",
+      "0  (peak was 5. we don't talk about April.)",
+      "0（巅峰是 5 个。四月的事就别提了。）"
+    ]
+  ],
+  "showcase": [
+    {
+      "slug": "qilou-rain",
+      "kind": [
+        "GAME",
+        "小游戏"
+      ],
+      "en": "Qilou Rain",
+      "zh": "骑楼雨夜",
+      "url": "https://aliceljy.github.io/playground/qilou-rain/"
+    },
+    {
+      "slug": "suisui",
+      "kind": [
+        "GAME",
+        "小游戏"
+      ],
+      "en": "Shatter Your Worries",
+      "zh": "碎碎平安",
+      "url": "https://aliceljy.github.io/playground/suisui/"
+    },
+    {
+      "slug": "thirteen-hongs",
+      "kind": [
+        "3D EXHIBIT",
+        "3D 展页"
+      ],
+      "en": "Thirteen Hongs, c. 1805",
+      "zh": "十三行江岸",
+      "url": "https://aliceljy.github.io/playground/thirteen-hongs/"
+    },
+    {
+      "slug": "sacred-heart-cathedral",
+      "kind": [
+        "3D EXHIBIT",
+        "3D 展页"
+      ],
+      "en": "Sacred Heart Cathedral",
+      "zh": "石室圣心大教堂",
+      "url": "https://aliceljy.github.io/playground/sacred-heart-cathedral/"
+    },
+    {
+      "slug": "sky-citadel",
+      "kind": [
+        "3D EXHIBIT",
+        "3D 展页"
+      ],
+      "en": "Sky Citadel",
+      "zh": "浮空之城",
+      "url": "https://aliceljy.github.io/playground/sky-citadel/"
+    },
+    {
+      "slug": "snowline-cabin",
+      "kind": [
+        "3D EXHIBIT",
+        "3D 展页"
+      ],
+      "en": "Cabin Above the Snowline",
+      "zh": "雪线之上的小木屋",
+      "url": "https://aliceljy.github.io/playground/snowline-cabin/"
+    }
+  ],
+  "empire": {
+    "me": [
+      "me — talking in Chinese, mostly from a phone",
+      "我——用中文说话，多半在手机上"
+    ],
+    "layers": [
+      [
+        "1",
+        "REACH",
+        "where do I talk to it?",
+        "terminal · browser · Telegram · WeChat",
+        "触达：我在哪儿跟它说话？",
+        "终端 · 浏览器 · Telegram · 微信"
+      ],
+      [
+        "2",
+        "CREW",
+        "who does it, and who checks it?",
+        "one owner + cold-reading reviewers",
+        "班子：谁来干，谁来查？",
+        "一个 owner + 几个冷读 reviewer"
+      ],
+      [
+        "3",
+        "MEMORY",
+        "what do we already know?",
+        "history · decisions · research",
+        "记忆：我们已经知道什么？",
+        "发生过什么 · 定过什么 · 读过什么"
+      ],
+      [
+        "4",
+        "ARSENAL",
+        "how do we make things?",
+        "prompts · thinking lenses · skills",
+        "弹药：东西怎么做出来？",
+        "提示词 · 思维透镜 · skill"
+      ],
+      [
+        "5",
+        "FACTORY",
+        "what actually ships?",
+        "articles · videos · slides · apps · toys",
+        "工厂：最后交付什么？",
+        "文章 · 视频 · 幻灯片 · App · 玩具"
+      ],
+      [
+        "0",
+        "GROUND",
+        "what keeps it all running?",
+        "harness · two Macs · disaster-recovery vault",
+        "地基：靠什么一直转下去？",
+        "harness · 两台 Mac · 容灾仓"
+      ]
+    ],
+    "loop": [
+      "lessons flow back into 3 · good recipes into 4",
+      "教训流回 3 · 好配方流回 4"
+    ]
+  }
+}

@@ -12,13 +12,10 @@
   <a href="#wechat"><img src="https://img.shields.io/badge/公众号-我的AI小木屋-F97316?style=for-the-badge" alt="公众号" /></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/公开仓库-28_在役_·_18_退役-8B5CF6?style=flat-square" alt="公开仓库" />
-  <img src="https://img.shields.io/badge/已合并_PR-155_·_110_个合进别人的项目-3B82F6?style=flat-square" alt="已合并 PR" />
-  <img src="https://img.shields.io/badge/文章-600+-F97316?style=flat-square" alt="文章" />
-  <img src="https://img.shields.io/badge/手写_for_循环-0-111111?style=flat-square" alt="手写 for 循环：0" />
-  <br/><sub>数据截至 2026-11-03 · 另有 27 个私有仓库</sub>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-zh-dark.svg">
+  <img src="assets/stats-zh-light.svg" alt="实时数字：公开仓库、已合并 PR、playground 作品、手写 for 循环" width="100%">
+</picture>
 
 ---
 
@@ -34,16 +31,11 @@
 | **2026.07** | EC2 退役了。为了跑几个 cron 单养一台服务器，实在不划算。3 个变成 2 个。 |
 | **2026.09** | 14 号，OpenClaw 这一章合上了，我自己的 OpenClaw 相关仓库归档留作记录。一周后 Claude Code 和 Codex 也从 Telegram 桥上撤下，改走官方远程。同月 [playground](https://github.com/AliceLJY/playground) 开张：专门放纯粹因为好玩才做的东西。 |
 | **2026.10** | Grok 也搬了把椅子，坐上了互审桌。Codex 月中差点走人，最后留下了。我的提示词文件夹长大成了一套正经系统，有前台、有保安（[见弹药库](#聚光灯弹药库)）。 |
+| **2026.11** | Codex 一个月的批量出图把 VPN 月流量吃光了，画图改走网页版 ChatGPT——这也成了它唯一的活儿，纯判断交给 AGY。Grok 的订阅十二月到期，已经在悄悄收拾椅子了。 |
 
 **现在**：
 
-```
-  owner         当前跟我对话的那位，通常是 Claude Code
-  reviewers     Codex · Kimi · AGY · Grok   冷读，互相隔离
-  consultant    网页版 ChatGPT          专管「这推理到底站不站得住」
-  night shift   Telegram 桥（Kimi ×2、AGY ×1）· E-twin
-  Discord bots  0                       （巅峰是 5 个。四月的事就别提了。）
-```
+<img src="assets/now-zh.svg" alt="现在谁在当班：owner——当前跟我对话的那位，通常是 Claude Code；reviewers——Kimi、AGY、Codex；代码审查——Kimi 加新开的 Claude 子 agent；纯判断——AGY；出图——网页版 ChatGPT，Gemini 兜底；夜班——Telegram 桥和 E-twin；Discord bot——0" width="100%">
 
 至今不会手写 for 循环。Claude 表示无所谓。
 
@@ -57,7 +49,7 @@
 爱好：      唱歌、游泳、笑（笑点很低那种）
 性格：      急性子乐观派——搞砸得快，爬起来更快
 隐藏基因：  精力旺盛到凌晨三点还在出仓库那种
-副本任务：  CortexReach 成员 · 110 个 PR 合进了不是我的仓库
+副本任务：  CortexReach 成员 · 100 多个 PR 合进了不是我的仓库
 搭子：      Claude——先桌面版，后 Code。现在它带一整个班子，我跟它说话还是最多。
 终端技能：  claude → ^C^C → claude（没了。技能树点满了。）
 ```
@@ -72,9 +64,9 @@
 | 写代码 | 用中文跟 Claude 描述需求。代码它来写。|
 | 调试 | 「又双叒叕坏了」+ 甩截图 |
 | `git rebase` | 「Claude 这啥玩意儿？」 |
-| 代码审查 | 当前跟我对话的那位当 owner。Codex、Kimi、AGY、Grok 各自关在小黑屋里冷读，最多三轮。我看它们的分歧，最后拍板。 |
-| 需要第二意见 | 要动手的先交 Codex，其次 Kimi 或 AGY；要纯判断的交给网页版 ChatGPT——Pro 档一轮要想 27 分钟左右，所以只有值得等半小时的问题才配送过去。发出去的每一个字我都先过目。 |
-| 需要图片 | 默认 Codex（GPT 出图），Gemini（走 AGY，也就是 Google 的 Antigravity CLI）兜底，赶时间叫 Grok。Gemini 四月被裁、十月返聘、现在又坐回替补席。大家都很体面。 |
+| 代码审查 | 当前跟我对话的那位当 owner。代码交给 Kimi 和几个新开的 Claude 子 agent 盲审；方案和文章交给 Kimi、AGY、Codex，各自关在小黑屋里冷读，最多三轮。我看它们的分歧，最后拍板。 |
+| 需要第二意见 | 要动手的先交 Kimi，Codex 有额度时也接，Kimi 额度用完由 AGY 顶上；要纯判断的交给 AGY。网页版 ChatGPT 已经不当顾问了，现在只画画。 |
+| 需要图片 | 默认网页版 ChatGPT，网页版 Gemini 兜底。以前是 Codex 画，直到它的批量出图把 VPN 流量吃光。Gemini 四月被裁、十月返聘、坐过替补席，现在又回来当候补。大家都很体面。 |
 | 需要提示词 | 「去弹药库找个 XX」——总索引 → 子索引 → 配方，三跳到手，不用翻。 |
 | 读报错日志 | 「你的逻辑呢？？？」 |
 | 版本回滚 | 「你自己写的你不认识？？」 |
@@ -84,34 +76,33 @@
 | 写 commit message | 「谢谢你陪我熬夜」 |
 | 写文档 | 哈哈哈哈哈哈哈哈哈（不写的） |
 
+### 做着玩的
+
+没人要求做这些，这正是重点。[playground](https://aliceljy.github.io/playground/) 里还有一整架，这里先放六个。
+
+<table>
+<tr>
+<td width="50%"><a href="https://aliceljy.github.io/playground/qilou-rain/"><img src="assets/showcase/qilou-rain-zh.svg" alt="骑楼雨夜" width="100%"></a></td>
+<td width="50%"><a href="https://aliceljy.github.io/playground/suisui/"><img src="assets/showcase/suisui-zh.svg" alt="碎碎平安" width="100%"></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://aliceljy.github.io/playground/thirteen-hongs/"><img src="assets/showcase/thirteen-hongs-zh.svg" alt="十三行江岸" width="100%"></a></td>
+<td width="50%"><a href="https://aliceljy.github.io/playground/sacred-heart-cathedral/"><img src="assets/showcase/sacred-heart-cathedral-zh.svg" alt="石室圣心大教堂" width="100%"></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://aliceljy.github.io/playground/sky-citadel/"><img src="assets/showcase/sky-citadel-zh.svg" alt="浮空之城" width="100%"></a></td>
+<td width="50%"><a href="https://aliceljy.github.io/playground/snowline-cabin/"><img src="assets/showcase/snowline-cabin-zh.svg" alt="雪线之上的小木屋" width="100%"></a></td>
+</tr>
+</table>
+
 ### 🏰 CC 帝国，重画版
 
 旧地图是 11 层叠起来的塔，每个仓库哪层塞得下就塞哪层。新地图改成跟着活儿走：一个需求进来，班子接手，调用「已经知道的」和「知道怎么做的」，交付出东西，学到的再流回去。**每一层只回答一个问题，每个仓库只待在一层**——就是你找它时第一个会去翻的那层。
 
-```
-        我 ── 用中文说话，多半在手机上
-         │
-         1  REACH ──────── 触达：我在哪儿跟它说话？
-         │                 终端 · 浏览器 · Telegram · 微信
-         │
-         2  CREW ───────── 班子：谁来干，谁来查？
-         │                 一个 owner + 四个冷读 reviewer
-         │
-  ┌────> ├── 3  MEMORY ─── 记忆：我们已经知道什么？
-  │      │                 发生过什么 · 定过什么 · 读过什么
-  │      │
-  ├────> ├── 4  ARSENAL ── 弹药：东西怎么做出来？
-  │      │                 提示词 · 思维透镜 · skill
-  │      │
-  │      5  FACTORY ────── 工厂：最后交付什么？
-  │      │                 文章 · 视频 · 幻灯片 · App · 玩具
-  │      │
-  └──────┘  教训流回 3，好配方流回 4
-
-  ══════════════════════════════════════════════════════════════════
-         0  GROUND ─────── 地基：靠什么一直转下去？
-                           harness · 两台 Mac · 容灾仓
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/empire-zh-dark.svg">
+  <img src="assets/empire-zh-light.svg" alt="CC 帝国六层：1 触达、2 班子、3 记忆、4 弹药、5 工厂，教训流回记忆、好配方流回弹药；底下是 0 地基" width="100%">
+</picture>
 
 <p align="center"><sub>6 层 · 1 个反馈闭环 · 0 个 for 循环 · 点开每一层看详情</sub></p>
 
@@ -149,7 +140,7 @@
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Claude Code ⇄ Codex 互审用的证据交接包。10 月 Codex 离队那一周它歇过，现在跟 mutual-review 流程一起照常用。 |
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | 设计记录：自然语言 workflow 编排的思路怎么演变，每个想法现在落在哪儿。 |
 | ensemble *(私有)* | 班子的协作手册：谁擅长什么、什么时候该叫谁。协议本身不认人，每个成员各写一页。 |
-| consult-gpt *(私有)* | 把一个边界清楚的问题交给网页版 ChatGPT，读回完整答复，并标清哪句来自哪边。发出去之前，每条消息都先给我看。 |
+| consult-gpt *(私有)* | 驱动网页版 ChatGPT。现在主要当画图台：提示词进，图片出。我点名的时候它也还能把问题送过去，发出去的每个字我都先过目。 |
 
 </details>
 
@@ -191,7 +182,7 @@
 <summary><b>5 · 工厂 — 最后交付什么？</b></summary>
 
 
-**写作** —— 一月以来在「我的AI小木屋」发了 600+ 篇
+**写作** —— 一月以来「我的AI小木屋」的每一篇
 
 | | |
 |---|---|
@@ -227,7 +218,7 @@
 
 | | |
 |---|---|
-| [playground](https://github.com/AliceLJY/playground) · [去玩](https://aliceljy.github.io/playground/) | 一个仓、一个 Pages 站点：9 个小游戏、6 个 3D 展品。把白衣木偶打回英歌戏台的乐池、给药材按四气分篮、在下雨的广州小巷里拿人字拖拍蟑螂。 |
+| [playground](https://github.com/AliceLJY/playground) · [去玩](https://aliceljy.github.io/playground/) | 一个仓、一个 Pages 站点：小游戏、3D 展页和 AI 幕后回放，已经 50 多件，还在加。把白衣木偶打回英歌戏台的乐池、给药材按四气分篮、在下雨的广州小巷里拿人字拖拍蟑螂。 |
 | [copium](https://github.com/AliceLJY/copium) | COPIUM 焦虑急诊室——披着赛博朋克皮的焦虑释放 App。慌张进，大笑出。 |
 | [cobbler](https://github.com/AliceLJY/cobbler) | 我的 Claude Code Buddy 小机器人，孵出来 18 天就随功能下架了——现在复活了。她的巢在 Mac mini 上，每天早上发一张「N 个月前的今天」卡片、一本书和一页知识库。 |
 | [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局——以临床试验舞弊为题材的探案游戏。Codex 起的头，做成证据笔记本；Minis（我在 ChatGPT 侧的 AI）接手改造成游戏，全程在 ChatGPT Apps 上。只有完整证据链才能结案。 |
@@ -253,7 +244,7 @@
 四月它还只是一句「这个提示词好看，存一下」。到十月，它有了前台、档案柜、门口的保安，还有一位三跳之内就能帮你找到东西的图书管理员。
 
 ```
- SCOUT    侦察：Grok 侦察兵每天早上投一批候选，我自己也随手扔链接
+ SCOUT    侦察：侦察兵投一批候选，我自己也随手扔链接
    │
  GATE     0  这个我已经有了吗？—— 最忙的一道关
    │      1  它真的是提示词吗？—— 讲提示词的文章不算提示词
@@ -265,7 +256,7 @@
    │
  FETCH    取用：「去弹药库找个 XX」→ 总索引 → 用途子索引 → one-shot-prompt.md
    │
- DRAW     出图：默认 Codex，Gemini（走 AGY）兜底，急的时候叫 Grok
+ DRAW     出图：默认网页版 ChatGPT，Gemini 兜底
    │
  SHIP     交付：文章配图 · 海报 · 短视频 · 3D 网页
 ```
@@ -306,7 +297,7 @@
 |---|---|---|
 | 🧠 记忆 | `memory-lancedb-pro` | **recallnest** —— 我自己的；从一个念头起步，后来走了自己的路 · + babel-memory · hippo · deja-vu 的贡献者席位 |
 | 🌉 远控 | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* · `trio-handoff` *(2026-10 停过一周，已恢复)* → **owner 模型** + Codex、Kimi、AGY、Grok 四方互审，工程化成 **mutual-review-room** |
+| 🤝 多 agent | `claude-code-studio` —— "让几个 CC 互相聊起来"的念头 | `agent-room-cli` · `duo` *(2026-06 退役)* · `trio-handoff` *(2026-10 停过一周，已恢复)* → **owner 模型** + Kimi、AGY、Codex 互审（Grok 客串过一季），工程化成 **mutual-review-room** |
 | 🎯 工作流 | `workflow-orchestrator` + 3 个 pipeline skill | **/trio** → **ensemble** 班子协作手册 |
 | 🗃️ 提示词 | 一个「prompt 实验室」文件夹 *(2026-04)* | **弹药库** —— 238 个配方、16 份用途索引、每日侦察兵和门口保安 |
 | ☁️ OpenClaw 时代 | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | 后来演进为 Hermes + [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel)；**整条项目线于 2026-09-14 退役**。我的相关仓库已归档，此前归档的项目保留各自历史时间。 |

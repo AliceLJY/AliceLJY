@@ -12,13 +12,10 @@
   <a href="#wechat"><img src="https://img.shields.io/badge/WeChat-我的AI小木屋-F97316?style=for-the-badge" alt="WeChat" /></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/public_repos-28_active_·_18_retired-8B5CF6?style=flat-square" alt="public repos" />
-  <img src="https://img.shields.io/badge/merged_PRs-155_·_110_in_others'_projects-3B82F6?style=flat-square" alt="merged PRs" />
-  <img src="https://img.shields.io/badge/articles-600+-F97316?style=flat-square" alt="articles" />
-  <img src="https://img.shields.io/badge/for--loops_written-0-111111?style=flat-square" alt="for-loops written: 0" />
-  <br/><sub>numbers as of 2026-11-03 · plus 27 private repos</sub>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-en-dark.svg">
+  <img src="assets/stats-en-light.svg" alt="Live numbers: public repos, merged pull requests, playground pieces, for-loops written" width="100%">
+</picture>
 
 ---
 
@@ -34,16 +31,11 @@
 | **Jul&nbsp;2026** | The EC2 goes. Keeping a server alive just to run cron stopped making sense. Three become two. |
 | **Sep&nbsp;2026** | The OpenClaw chapter closes on the 14th; my OpenClaw repos are archived as a record. A week later Claude Code and Codex leave my Telegram bridges for the official Remote Control. Same month, the [playground](https://github.com/AliceLJY/playground) opens: things built purely for fun. |
 | **Oct&nbsp;2026** | Grok pulls up a chair at the review table. Codex nearly left mid-month, then stayed. My prompt folder grows up into a real system with a front desk and a bouncer ([see the Arsenal](#spotlight-the-prompt-arsenal)). |
+| **Nov&nbsp;2026** | A month of Codex batch images eats the VPN's monthly traffic, so pictures move to ChatGPT on the web — which is now its only job; judgement calls go to AGY. Grok's subscription runs out in December, so it's quietly packing up its chair. |
 
 **Now**:
 
-```
-  owner         whoever I'm talking to, usually Claude Code
-  reviewers     Codex · Kimi · AGY · Grok   cold reads, kept apart from each other
-  consultant    ChatGPT on the web      for "is this reasoning actually sound?"
-  night shift   Telegram bridges (Kimi ×2, AGY ×1) · E-twin
-  Discord bots  0                       (peak was 5. we don't talk about April.)
-```
+<img src="assets/now-en.svg" alt="Who is on shift: owner — whoever I'm talking to, usually Claude Code; reviewers — Kimi, AGY, Codex; code review — Kimi plus fresh Claude subagents; judgement — AGY; images — ChatGPT on the web, Gemini as backup; night shift — Telegram bridges and E-twin; Discord bots — 0" width="100%">
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
 
@@ -57,7 +49,7 @@ Fuel:          High-protein everything. (No fat, I have standards.)
 Hobbies:       Singing, swimming, laughing (at everything, really)
 Temperament:   Impatient optimist — breaks things fast, bounces back faster
 Hidden gene:   Whatever makes you mass-produce repos at 3am and still function
-Side quest:    CortexReach member · 110 PRs merged into repos that aren't mine
+Side quest:    CortexReach member · 100+ PRs merged into repos that aren't mine
 Partner:       Claude — Desktop first, then Code. It runs a crew now; I still talk to it most.
 Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed out.)
 ```
@@ -72,9 +64,9 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | Write code | Describe what I want in Chinese. Claude writes it. |
 | Debug | "It broke again" + paste the error |
 | `git rebase` | "Claude, what does this even mean?" |
-| Code review | Whoever I'm talking to owns the task. Codex, Kimi, AGY and Grok read it cold, in separate rooms, three rounds max. I read the disagreements and decide. |
-| Need a second opinion | Hands-on work goes to Codex first, then Kimi or AGY. Pure judgement goes to ChatGPT on the web — Pro mode thinks for about 27 minutes, so only questions worth half an hour get to go. I read every outgoing message before it's sent. |
-| Need an image | Codex (GPT image) by default; Gemini via AGY (Google's Antigravity CLI) as the backup, Grok when I'm in a hurry. Gemini was laid off in April, rehired in October, and is now on the bench again. No hard feelings. |
+| Code review | Whoever I'm talking to owns the task. Code goes to Kimi and a few fresh Claude subagents, read blind. Plans and writing go to Kimi, AGY and Codex, each in a separate room, three rounds max. I read the disagreements and decide. |
+| Need a second opinion | Hands-on work goes to Kimi first, Codex when its quota allows, AGY when Kimi's runs dry. Pure judgement goes to AGY. ChatGPT on the web has retired from consulting — it only draws now. |
+| Need an image | ChatGPT on the web by default, Gemini on the web as backup. Codex used to draw, until its batches ate the VPN. Gemini was laid off in April, rehired in October, benched, and is now back as the understudy. No hard feelings. |
 | Need a prompt | "去弹药库找个 XX" — index → sub-index → recipe. Three hops, no scrolling. |
 | Read error logs | "WHERE IS YOUR LOGIC??" |
 | Rollback | "You wrote this yourself and you don't recognize it??" |
@@ -84,34 +76,33 @@ Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't 
 | Write commit msg | "Thanks for staying up late with me" |
 | Write docs | hahahahahaha (no) |
 
+### Built for fun
+
+Nobody asked for these, which is the point. The [playground](https://aliceljy.github.io/playground/) has a whole shelf of them; here are six.
+
+<table>
+<tr>
+<td width="50%"><a href="https://aliceljy.github.io/playground/qilou-rain/"><img src="assets/showcase/qilou-rain-en.svg" alt="Qilou Rain" width="100%"></a></td>
+<td width="50%"><a href="https://aliceljy.github.io/playground/suisui/"><img src="assets/showcase/suisui-en.svg" alt="Shatter Your Worries" width="100%"></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://aliceljy.github.io/playground/thirteen-hongs/"><img src="assets/showcase/thirteen-hongs-en.svg" alt="Thirteen Hongs" width="100%"></a></td>
+<td width="50%"><a href="https://aliceljy.github.io/playground/sacred-heart-cathedral/"><img src="assets/showcase/sacred-heart-cathedral-en.svg" alt="Sacred Heart Cathedral" width="100%"></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://aliceljy.github.io/playground/sky-citadel/"><img src="assets/showcase/sky-citadel-en.svg" alt="Sky Citadel" width="100%"></a></td>
+<td width="50%"><a href="https://aliceljy.github.io/playground/snowline-cabin/"><img src="assets/showcase/snowline-cabin-en.svg" alt="Cabin Above the Snowline" width="100%"></a></td>
+</tr>
+</table>
+
 ### 🏰 The CC Empire, redrawn
 
 The old map stacked 11 floors like a tower, and every repo got filed wherever it fit. The new map follows the work instead. A request comes in, the crew picks it up, draws on what it knows and on what it knows how to make, ships something, and whatever we learned flows back in. **Every layer answers exactly one question, and every repo sits on exactly one layer** — the one you'd check first when looking for it.
 
-```
-        me ── talking in Chinese, mostly from a phone
-         │
-         1  REACH ──────── where do I talk to it?
-         │                 terminal · browser · Telegram · WeChat
-         │
-         2  CREW ───────── who does it, and who checks it?
-         │                 one owner + four cold-reading reviewers
-         │
-  ┌────> ├── 3  MEMORY ─── what do we already know?
-  │      │                 history · decisions · research
-  │      │
-  ├────> ├── 4  ARSENAL ── how do we make things?
-  │      │                 prompts · thinking lenses · skills
-  │      │
-  │      5  FACTORY ────── what actually ships?
-  │      │                 articles · videos · slides · apps · toys
-  │      │
-  └──────┘  lessons flow back into 3, good recipes into 4
-
-  ══════════════════════════════════════════════════════════════════
-         0  GROUND ─────── what keeps it all running?
-                           harness · two Macs · disaster-recovery vault
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/empire-en-dark.svg">
+  <img src="assets/empire-en-light.svg" alt="The CC Empire in six layers: 1 Reach, 2 Crew, 3 Memory, 4 Arsenal, 5 Factory, with lessons flowing back into Memory and recipes into Arsenal; 0 Ground underneath" width="100%">
+</picture>
 
 <p align="center"><sub>6 layers · 1 feedback loop · 0 for-loops · tap a layer to open it</sub></p>
 
@@ -149,7 +140,7 @@ One rule runs the whole crew: **whoever I'm talking to is the owner.** The owner
 | [trio-handoff](https://github.com/AliceLJY/trio-handoff) | Evidence-rich handoff bundles for Claude Code ⇄ Codex review. Rested for a week in October while Codex was off the roster; back in use now, alongside the mutual-review flow. |
 | [workflow-orchestrator](https://github.com/AliceLJY/workflow-orchestrator) | Design record: how natural-language workflow orchestration evolved, and where each idea lives now. |
 | ensemble *(private)* | The crew playbook: who's good at what, and when to call whom. The protocol doesn't care who's in the room — each member gets one page. |
-| consult-gpt *(private)* | Sends one well-scoped question to ChatGPT on the web, reads the whole answer back, and labels which part came from where. Every outgoing message is shown to me first. |
+| consult-gpt *(private)* | Drives ChatGPT on the web. These days it's mostly the drawing desk: prompt in, picture out. It can still carry a question over when I ask, and I read every word before it goes. |
 
 </details>
 
@@ -191,7 +182,7 @@ Memory is know-*what*. This layer is know-*how*: recipes, methods and skills the
 <summary><b>5 · FACTORY — what actually ships?</b></summary>
 
 
-**Writing** — 600+ articles on 我的AI小木屋 since January
+**Writing** — 我的AI小木屋, every article since January
 
 | | |
 |---|---|
@@ -227,7 +218,7 @@ Memory is know-*what*. This layer is know-*how*: recipes, methods and skills the
 
 | | |
 |---|---|
-| [playground](https://github.com/AliceLJY/playground) · [play](https://aliceljy.github.io/playground/) | One repo, one Pages site: 9 games and 6 3D exhibits. Bat a white-robed puppet back into a Yingge orchestra pit, sort herbs by their four natures, swat cockroaches with a flip-flop in a rainy Guangzhou alley. |
+| [playground](https://github.com/AliceLJY/playground) · [play](https://aliceljy.github.io/playground/) | One repo, one Pages site: games, 3D exhibits and behind-the-scenes replays, 50+ pieces and counting. Bat a white-robed puppet back into a Yingge orchestra pit, sort herbs by their four natures, swat cockroaches with a flip-flop in a rainy Guangzhou alley. |
 | [copium](https://github.com/AliceLJY/copium) | COPIUM Anxiety ER — a cyberpunk emergency room for anxiety. Walk in panicked, walk out laughing. |
 | [cobbler](https://github.com/AliceLJY/cobbler) | My Claude Code Buddy robot, discontinued 18 days after she hatched — resurrected. Her nest on the Mac mini sends a "this day N months ago" card, a book and a wiki page every morning. |
 | [drug-mystery-desk](https://github.com/AliceLJY/drug-mystery-desk) | 药研悬案局 — a detective game set inside clinical-trial fraud. Codex started it as an evidence notebook; Minis (my ChatGPT) rebuilt it into the game, all on the ChatGPT Apps platform. Only a complete evidence chain closes a case. |
@@ -253,7 +244,7 @@ Private on purpose. Nobody visits a building for its foundations, but nothing st
 It started in April as "save this prompt, it's pretty." By October it had a front desk, a filing system, a bouncer, and a librarian who answers in three hops.
 
 ```
- SCOUT    a Grok-powered scout drops candidates every morning; I toss in links too
+ SCOUT    a scout drops candidates; I toss in links too
    │
  GATE     0  do I already have it?        ← the busiest checkpoint
    │      1  is it actually a prompt?     an article about prompts is not a prompt
@@ -265,7 +256,7 @@ It started in April as "save this prompt, it's pretty." By October it had a fron
    │
  FETCH    "find me an XX" → index → purpose sub-index → one-shot-prompt.md
    │
- DRAW     Codex by default, Gemini via AGY as backup, Grok when it's urgent
+ DRAW     ChatGPT on the web by default, Gemini as backup
    │
  SHIP     article art · posters · short videos · 3D pages
 ```
@@ -306,7 +297,7 @@ A full year before the rest. A non-coder's first "I made a thing." We don't talk
 |---|---|---|
 | 🧠 Memory | `memory-lancedb-pro` | **recallnest** — mine; sparked by an idea, then went its own way · + babel-memory · hippo · a contributor seat at deja-vu |
 | 🌉 Remote | `cc-shell` → `cc-genius` · `telegram-cli-bridge` | **AgentDeck** · **telegram-ai-bridge** + **tg-bridge-channel** |
-| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* · `trio-handoff` *(paused a week in Oct 2026, back in use)* → **owner model** + mutual review with Codex, Kimi, AGY and Grok, engineered as **mutual-review-room** |
+| 🤝 Multi-agent | `claude-code-studio` — the "let a few CCs talk to each other" spark | `agent-room-cli` · `duo` *(retired Jun 2026)* · `trio-handoff` *(paused a week in Oct 2026, back in use)* → **owner model** + mutual review with Kimi, AGY and Codex (Grok sat in for a season), engineered as **mutual-review-room** |
 | 🎯 Workflow | `workflow-orchestrator` + 3 pipeline skills | **/trio** → **ensemble**, the crew playbook |
 | 🗃️ Prompts | a "prompt lab" folder *(Apr 2026)* | **the Arsenal** — 238 recipes, 16 purpose indexes, a daily scout and a bouncer |
 | ☁️ OpenClaw era | `openclaw-worker` · `cli-bridge` · `a2a-gateway` · `cli-pipeline` · `mas-guide` | Evolved into Hermes + [openclaw-tunnel](https://github.com/AliceLJY/openclaw-tunnel); **this project line retired 2026-09-14**. My related repositories are archived; earlier archive dates remain part of their history. |

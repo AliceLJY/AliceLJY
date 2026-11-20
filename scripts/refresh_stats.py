@@ -5,7 +5,8 @@
 
 Counts:
   public repos   owned, not forks; archived ones count as retired
-  merged PRs     authored by AliceLJY; "elsewhere" = in repos not owned by AliceLJY
+  merged PRs     authored by AliceLJY, in public repos only (the Action token cannot see
+                 private ones, and anyone can verify a public count); "elsewhere" = not owned by AliceLJY
   playground     cards per shelf on the playground front page
 
 Any failed request raises, so the Action run turns red and the old numbers stay.
@@ -34,7 +35,7 @@ def get(url, raw=False):
 
 
 def merged(query):
-    q = urllib.parse.quote(f"is:pr author:{USER} is:merged {query}".strip())
+    q = urllib.parse.quote(f"is:pr is:public author:{USER} is:merged {query}".strip())
     return get(f"{API}/search/issues?q={q}&per_page=1")["total_count"]
 
 

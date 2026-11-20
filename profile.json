@@ -2,14 +2,14 @@
   "stats": {
     "public_active": 28,
     "public_retired": 18,
-    "merged_prs": 157,
-    "merged_prs_elsewhere": 111,
+    "merged_prs": 147,
+    "merged_prs_elsewhere": 104,
     "playground_games": 27,
     "playground_exhibits": 19,
     "playground_behind": 6,
     "playground_tools": 1,
     "for_loops": 0,
-    "as_of": "2026-11-21"
+    "as_of": "2026-11-20"
   },
   "now": [
     [

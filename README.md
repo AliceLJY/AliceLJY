@@ -19,64 +19,49 @@
 
 ---
 
-### How it escalated
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/escalated-en-dark.svg">
+  <img src="assets/headings/escalated-en-light.svg" alt="How it escalated" width="100%">
+</picture>
 
-| When | What happened |
-|:--|:--|
-| **Jan&nbsp;2026** | "Hey Claude, help me write a WeChat article." *(Claude Desktop)* |
-| **Feb&nbsp;2026** | "OK maybe just one bot..." *(still on Desktop)* |
-| **Mar&nbsp;2026** | Typed `claude` in terminal. Claude Code era begins. No turning back. |
-| **Apr&nbsp;2026** | Codex shows up. Now there are two of them, reviewing each other's code while I watch. By month-end the roster peaks at five bots: AntiBot · 睿智 · AWS-bot · 小试AI · LanceDB Test. |
-| **May&nbsp;2026** | An "E-twin" — a digital me on Telegram. Eerie but useful. Then the Hermes consolidation: 睿智 and 小试AI merge into Anti. Five bots become three, same throughput, half the moving parts. (小试AI stays on as a pen name. It'll outlive us all anyway.) |
-| **Jul&nbsp;2026** | The EC2 goes. Keeping a server alive just to run cron stopped making sense. Three become two. |
-| **Sep&nbsp;2026** | The OpenClaw chapter closes on the 14th; my OpenClaw repos are archived as a record. A week later Claude Code and Codex leave my Telegram bridges for the official Remote Control. Same month, the [playground](https://github.com/AliceLJY/playground) opens: things built purely for fun. |
-| **Oct&nbsp;2026** | Grok pulls up a chair at the review table. Codex nearly left mid-month, then stayed. My prompt folder grows up into a real system with a front desk and a bouncer ([see the Arsenal](#spotlight-the-prompt-arsenal)). |
-| **Nov&nbsp;2026** | A month of Codex batch images eats the VPN's monthly traffic, so pictures move to ChatGPT on the web — which is now its only job; judgement calls go to AGY. Grok's subscription runs out in December, so it's quietly packing up its chair. |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/timeline-en-dark.svg">
+  <img src="assets/timeline-en-light.svg" alt="How it escalated" width="100%">
+</picture>
 
-**Now**:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/now-en-dark.svg">
+  <img src="assets/headings/now-en-light.svg" alt="Who's on shift right now" width="100%">
+</picture>
 
 <img src="assets/now-en.svg" alt="Who is on shift: owner — whoever I'm talking to, usually Claude Code; reviewers — Kimi, AGY, Codex; code review — Kimi plus fresh Claude subagents; judgement — AGY; images — ChatGPT on the web, Gemini as backup; night shift — Telegram bridges and E-twin; Discord bots — 0" width="100%">
 
 I still can't write a for-loop from memory. Claude doesn't seem to mind.
 
-### The human behind the bots
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/human-en-dark.svg">
+  <img src="assets/headings/human-en-light.svg" alt="The human behind the bots: a character sheet" width="100%">
+</picture>
 
-```
-Class:         Non-coder with suspiciously many repos
-Superpower:    死磕 — will bang head against wall until wall breaks
-Weakness:      Social situations, verbal expression, for-loops
-Fuel:          High-protein everything. (No fat, I have standards.)
-Hobbies:       Singing, swimming, laughing (at everything, really)
-Temperament:   Impatient optimist — breaks things fast, bounces back faster
-Hidden gene:   Whatever makes you mass-produce repos at 3am and still function
-Side quest:    CortexReach member · 100+ PRs merged into repos that aren't mine
-Partner:       Claude — Desktop first, then Code. It runs a crew now; I still talk to it most.
-Terminal:      claude → ^C^C → claude (that's it. the full skill tree. maxed out.)
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/human-en-dark.svg">
+  <img src="assets/human-en-light.svg" alt="The human behind the bots: a character sheet" width="100%">
+</picture>
 
-Stay optimistic, funny, curious, and a little bit lucky. Then dive in and don't stop.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/stack-en-dark.svg">
+  <img src="assets/headings/stack-en-light.svg" alt="The tech stack of someone who can't code" width="100%">
+</picture>
 
-### The "tech stack" of someone who can't code
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-en-dark.svg">
+  <img src="assets/stack-en-light.svg" alt="The tech stack of someone who can't code" width="100%">
+</picture>
 
-| The sensible approach | What I actually did |
-|---|---|
-| Open terminal | Type `claude`. That's also my IDE, my shell, and my entire dev environment. |
-| Write code | Describe what I want in Chinese. Claude writes it. |
-| Debug | "It broke again" + paste the error |
-| `git rebase` | "Claude, what does this even mean?" |
-| Code review | Whoever I'm talking to owns the task. Code goes to Kimi and a few fresh Claude subagents, read blind. Plans and writing go to Kimi, AGY and Codex, each in a separate room, three rounds max. I read the disagreements and decide. |
-| Need a second opinion | Hands-on work goes to Kimi first, Codex when its quota allows, AGY when Kimi's runs dry. Pure judgement goes to AGY. ChatGPT on the web has retired from consulting — it only draws now. |
-| Need an image | ChatGPT on the web by default, Gemini on the web as backup. Codex used to draw, until its batches ate the VPN. Gemini was laid off in April, rehired in October, benched, and is now back as the understudy. No hard feelings. |
-| Need a prompt | "去弹药库找个 XX" — index → sub-index → recipe. Three hops, no scrolling. |
-| Read error logs | "WHERE IS YOUR LOGIC??" |
-| Rollback | "You wrote this yourself and you don't recognize it??" |
-| Deploy | "It was JUST working! Did you lose your memory?!" (It did. Hence the memory layer.) |
-| Kill a process | "Good job, take a rest" (yes, I'm talking to Claude) |
-| Rush to ship | "Slow down — people on old versions haven't caught up yet" |
-| Write commit msg | "Thanks for staying up late with me" |
-| Write docs | hahahahahaha (no) |
-
-### Built for fun
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/fun-en-dark.svg">
+  <img src="assets/headings/fun-en-light.svg" alt="Built for fun" width="100%">
+</picture>
 
 Nobody asked for these, which is the point. The [playground](https://aliceljy.github.io/playground/) has a whole shelf of them; here are six.
 
@@ -95,7 +80,10 @@ Nobody asked for these, which is the point. The [playground](https://aliceljy.gi
 </tr>
 </table>
 
-### 🏰 The CC Empire, redrawn
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/empire-en-dark.svg">
+  <img src="assets/headings/empire-en-light.svg" alt="The CC Empire, redrawn" width="100%">
+</picture>
 
 The old map stacked 11 floors like a tower, and every repo got filed wherever it fit. The new map follows the work instead. A request comes in, the crew picks it up, draws on what it knows and on what it knows how to make, ships something, and whatever we learned flows back in. **Every layer answers exactly one question, and every repo sits on exactly one layer** — the one you'd check first when looking for it.
 
@@ -239,44 +227,30 @@ Private on purpose. Nobody visits a building for its foundations, but nothing st
 
 </details>
 
-### Spotlight: the prompt arsenal
+<a name="spotlight-the-prompt-arsenal"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/headings/arsenal-en-dark.svg">
+  <img src="assets/headings/arsenal-en-light.svg" alt="Spotlight: the prompt arsenal" width="100%">
+</picture>
 
 It started in April as "save this prompt, it's pretty." By October it had a front desk, a filing system, a bouncer, and a librarian who answers in three hops.
 
-```
- SCOUT    a scout drops candidates; I toss in links too
-   │
- GATE     0  do I already have it?        ← the busiest checkpoint
-   │      1  is it actually a prompt?     an article about prompts is not a prompt
-   │      2  what does it deliver?        image · video · interactive page · method
-   │      3  which shelf?                 by what you want to do, never by style
-   │      4  are the credits complete?    author · source · repo · date · commit + license
-   │
- SHELVE   one recipe, one copy; other shelves get a pointer, not a duplicate
-   │
- FETCH    "find me an XX" → index → purpose sub-index → one-shot-prompt.md
-   │
- DRAW     ChatGPT on the web by default, Gemini as backup
-   │
- SHIP     article art · posters · short videos · 3D pages
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-flow-en-dark.svg">
+  <img src="assets/arsenal-flow-en-light.svg" alt="Scout, gate with five checks, shelve, fetch, draw, ship" width="100%">
+</picture>
 
-| By the numbers (2026-10-22) | |
-|---|---|
-| Recipe folders | 238 |
-| Copy-paste-ready one-shot prompts | 197 |
-| Variants · numbered volumes | 684 · 174 |
-| Purpose indexes | 16 (posters alone get six) |
-| Upstream trackers | 3, each following one creator's new prompt releases |
-| Commits | 512 since April, 349 of them this October |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-numbers-en-dark.svg">
+  <img src="assets/arsenal-numbers-en-light.svg" alt="The arsenal by the numbers" width="100%">
+</picture>
 
 House rules:
 
-- **File by purpose, not by style.** Style is the prompt's own business; purpose is how I'll look for it at 11 p.m.
-- **One recipe, one copy.** Two copies drift. They always drift.
-- **"All duplicates" is a perfectly good result.** One batch: 117 volumes in, 111 bounced. The bouncer has standards and no quota.
-- **Tested or not, say so.** 194 of the 238 folders state their test status in writing, and "not test-generated yet" is a perfectly respectable answer. Vibes are not evidence.
-- **No credits, no shelf.** Every recipe carries five header lines: author, source post, official repo, date collected, upstream commit and license.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-rules-en-dark.svg">
+  <img src="assets/arsenal-rules-en-light.svg" alt="Five house rules of the arsenal" width="100%">
+</picture>
 
 **Why it's private:** most recipes are adapted from other creators, some under non-commercial licences. Keeping their credit straight is my job; redistributing their work isn't my call. So the shelf stays private, and the method is right here.
 
